@@ -6,6 +6,9 @@
 
 - [Why it is important to write “using namespace std” in C++ program?](https://www.geeksforgeeks.org/why-it-is-important-to-write-using-namespace-std-in-cpp-program/)
 - [Access modifiers in C++](https://www.geeksforgeeks.org/access-modifiers-in-c/)
+- [Pointers in C++](https://www.javatpoint.com/cpp-pointers)
+- [Arrow Operator](https://www.geeksforgeeks.org/arrow-operator-in-c-c-with-examples/)
+
 
 #Functions
 
