@@ -29,6 +29,6 @@
 - For T1(2) We get the result as 155(15 * 5+ 20 * 4) when it should have been 130 (10 * 5 + 20 * 4)
 
 
-- Non-Repeatable Reads
-- Phantom Reads
-- Lost Updates 
+#### Non-Repeatable Reads
+#### Phantom Reads
+#### Lost Updates 
