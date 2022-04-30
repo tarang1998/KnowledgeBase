@@ -92,6 +92,7 @@
 - Solves all the isolation-read phenomenon but might be costly, but might be slow
 
 
+### DBMS Isolation Implementation
 - Each DBMS Implements Isolation Levels Differently
 - Pessimistic approach : Row level locks, table locks , page locks to avoid lost updates. This could be costly 
 - Optimistic approach : No locks, just track if things changed and fail the transaction if so 
@@ -99,5 +100,22 @@
 - Postgress implements RR as a snapshot 
 - That is why you dont get phantom reads with postgress in repeatable reads
 - Serializable are usually implemented with optimistic concurrency control, you can implement it pessimistically with SELECT FOR UPDATE
+
+
+## Consistency
+
+### Consistency In Data
+- Defined by the user(The DataBase Administrator)
+- Comes down to enforcing referential integrity
+- Atomicity ensures consistency in data
+- Isolation could also result inconsistency
+
+
+### Consistency In Read
+- If a transaction commited a change will the new transaction immediately see the change. If not then that could lead to inconsistency
+- Affects the system as a whole, incase of a master, replica architecture. If changes are made to the master but the changes haven't been propogated to the replicas and before that a read occurs from the replica. Inconsistent data is read in this case.
+- Relational and NoSQL Databases suffer from this
+- Eventual Consistency can be reached after some time 
+
 
 
