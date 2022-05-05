@@ -4,6 +4,17 @@
 
 - [Merge Sort Algorithm](https://www.programiz.com/dsa/merge-sort)
 
+## Complexity
+
+- Time Complexity
+
+  - Best Case Complexity: O(n\*log n)
+  - Worst Case Complexity: O(n\*log n)
+  - Average Case Complexity: O(n\*log n)
+
+- Space Complexity
+  - The space complexity of merge sort is O(n).
+
 ## Problems
 
 ### Counting Inversions
