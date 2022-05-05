@@ -6,4 +6,7 @@
 
 ## Problems
 
-- [Counting Inversions](https://www.hackerrank.com/challenges/ctci-merge-sort/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting), Solution :
+### Counting Inversions
+
+- [Question](https://www.hackerrank.com/challenges/ctci-merge-sort/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting)
+- [Solutions](CompetitiveProgramming/Sorting/MergeSort-CountingInversions/mergeSortCountingInversions.py)
