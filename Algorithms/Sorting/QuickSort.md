@@ -1,4 +1,4 @@
-# Merge Sort
+# Quick Sort
 
 ## Resources
 
@@ -17,5 +17,3 @@
 - Stability : No
 
 ## Problems
-
-### Counting Inversions
