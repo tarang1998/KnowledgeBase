@@ -13,7 +13,10 @@
   - Average Case Complexity: O(n\*log n)
 
 - Space Complexity
+
   - The space complexity of merge sort is O(n).
+
+- Stability : Yes
 
 ## Problems
 
