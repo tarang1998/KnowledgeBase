@@ -45,6 +45,24 @@ MergeSort(A, p, r):
 
 ![Merge Sort In Action](https://cdn.programiz.com/cdn/farfuture/m8XujxD0B6qF81Hq-q30SP4nmJlMuaHdYNkKIyNt-hk/mtime:1586425921/sites/tutorial2program/files/merge-sort-in-action---merge-step-simple.png)
 
+#### The merge Step of Merge Sort
+
+- Every recursive algorithm is dependent on a base case and the ability to combine the results from base cases. Merge sort is no different. The most important part of the merge sort algorithm is, you guessed it, merge step.
+
+- The merge step is the solution to the simple problem of merging two sorted lists(arrays) to build one large sorted list(array).
+
+- The algorithm maintains three pointers, one for each of the two arrays and one for maintaining the current index of the final sorted array.
+
+```
+Have we reached the end of any of the arrays?
+    No:
+        Compare current elements of both arrays
+        Copy smaller element into sorted array
+        Move pointer of element containing smaller element
+    Yes:
+        Copy all remaining elements of non-empty array
+```
+
 ## Complexity
 
 - Time Complexity
