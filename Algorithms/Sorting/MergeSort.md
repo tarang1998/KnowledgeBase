@@ -63,6 +63,8 @@ Have we reached the end of any of the arrays?
         Copy all remaining elements of non-empty array
 ```
 
+![Merge Step](https://cdn.programiz.com/cdn/farfuture/QgWYSTEJPw6dD8z1dlTcZI-SBWqa8UhVJWvleCsiFA0/mtime:1586425928/sites/tutorial2program/files/merge-two-sorted-arrays.png)
+
 ## Complexity
 
 - Time Complexity
