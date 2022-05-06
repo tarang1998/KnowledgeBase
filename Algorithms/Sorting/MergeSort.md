@@ -23,6 +23,26 @@
 
 - When the conquer step reaches the base step and we get two sorted subarrays A[p..q] and A[q+1, r] for array A[p..r], we combine the results by creating a sorted array A[p..r] from two sorted subarrays A[p..q] and A[q+1, r].
 
+### MergeSort Algorithm
+
+- The MergeSort function repeatedly divides the array into two halves until we reach a stage where we try to perform MergeSort on a subarray of size 1 i.e. p == r.
+
+- After that, the merge function comes into play and combines the sorted arrays into larger arrays until the whole array is merged.
+
+```
+MergeSort(A, p, r):
+    if p > r
+        return
+    q = (p+r)/2
+    mergeSort(A, p, q)
+    mergeSort(A, q+1, r)
+    merge(A, p, q, r)
+```
+
+- To sort an entire array, we need to call MergeSort(A, 0, length(A)-1).
+
+- As shown in the image below, the merge sort algorithm recursively divides the array into halves until we reach the base case of array with 1 element. After that, the merge function picks up the sorted sub-arrays and merges them to gradually sort the entire array.
+
 ## Complexity
 
 - Time Complexity
