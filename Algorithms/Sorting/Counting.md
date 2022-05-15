@@ -40,8 +40,8 @@ countingSort(array, size)
 
 Counting sort is used when:
 
-there are smaller integers with multiple counts.
-linear complexity is the need.
+- There are smaller integers with multiple counts.
+- Linear complexity is the need.
 
 ## Articles
 
@@ -62,9 +62,9 @@ There are mainly four main loops. (Finding the greatest value can be done outsid
 
 Overall complexity = O(max)+O(size)+O(max)+O(size) = O(max+size)
 
-Worst Case Complexity: O(n+k)
-Best Case Complexity: O(n+k)
-Average Case Complexity: O(n+k)
+- Worst Case Complexity: O(n+k)
+- Best Case Complexity: O(n+k)
+- Average Case Complexity: O(n+k)
 
 In all the above cases, the complexity is the same because no matter how the elements are placed in the array, the algorithm goes through n+k times.
 
