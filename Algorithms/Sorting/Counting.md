@@ -53,11 +53,13 @@ linear complexity is the need.
 
 There are mainly four main loops. (Finding the greatest value can be done outside the function.)
 
-for-loop time of counting
-1st O(max)
-2nd O(size)
-3rd O(max)
-4th O(size)
+#### for-loop time of counting
+
+- 1st O(max)
+- 2nd O(size)
+- 3rd O(max)
+- 4th O(size)
+
 Overall complexity = O(max)+O(size)+O(max)+O(size) = O(max+size)
 
 Worst Case Complexity: O(n+k)
