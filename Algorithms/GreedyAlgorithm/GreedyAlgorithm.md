@@ -10,11 +10,11 @@ However, we can determine if the algorithm can be used with any problem if the p
 
 1. Greedy Choice Property
 
-- If an optimal solution to the problem can be found by choosing the best choice at each step without reconsidering the previous steps once chosen, the problem can be solved using a greedy approach. This property is called greedy choice property.
+   - If an optimal solution to the problem can be found by choosing the best choice at each step without reconsidering the previous steps once chosen, the problem can be solved using a greedy approach. This property is called greedy choice property.
 
 2. Optimal Substructure
 
-- If the optimal overall solution to the problem corresponds to the optimal solution to its subproblems, then the problem can be solved using a greedy approach. This property is called optimal substructure.
+   - If the optimal overall solution to the problem corresponds to the optimal solution to its subproblems, then the problem can be solved using a greedy approach. This property is called optimal substructure.
 
 ## Advantages of Greedy Approach
 
@@ -25,23 +25,23 @@ However, we can determine if the algorithm can be used with any problem if the p
 
 - As mentioned earlier, the greedy algorithm doesn't always produce the optimal solution. This is the major disadvantage of the algorithm
 
-For example, suppose we want to find the longest path in the graph below from root to leaf. Let's use the greedy algorithm here.
+- For example, suppose we want to find the longest path in the graph below from root to leaf. Let's use the greedy algorithm here.
 
 ![Apply greedy approach to this tree to find the longest route](/Algorithms/GreedyAlgorithm/Images/greedyApproachGraph.webp)
 
-### Greedy Approach
+- ### Greedy Approach
 
-1. Let's start with the root node 20. The weight of the right child is 3 and the weight of the left child is 2.
+  - Let's start with the root node 20. The weight of the right child is 3 and the weight of the left child is 2.
 
-2. Our problem is to find the largest path. And, the optimal solution at the moment is 3. So, the greedy algorithm will choose 3.
+  - Our problem is to find the largest path. And, the optimal solution at the moment is 3. So, the greedy algorithm will choose 3.
 
-3. Finally the weight of an only child of 3 is 1. This gives us our final result 20 + 3 + 1 = 24.
+  - Finally the weight of an only child of 3 is 1. This gives us our final result 20 + 3 + 1 = 24.
 
-However, it is not the optimal solution. There is another path that carries more weight (20 + 2 + 10 = 32) as shown in the image below.
+  - However, it is not the optimal solution. There is another path that carries more weight (20 + 2 + 10 = 32) as shown in the image below.
 
 ![Longest Path](/Algorithms/GreedyAlgorithm/Images/greedyApproachGraphLongestPath.webp)
 
-Therefore, greedy algorithms do not always give an optimal/feasible solution.
+- Therefore, greedy algorithms do not always give an optimal/feasible solution.
 
 ## Greedy Algorithm
 
