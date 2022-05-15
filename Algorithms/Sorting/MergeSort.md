@@ -67,17 +67,17 @@ Have we reached the end of any of the arrays?
 
 ## Complexity
 
-- Time Complexity
+### Time Complexity
 
-  - Best Case Complexity: O(n\*log n)
-  - Worst Case Complexity: O(n\*log n)
-  - Average Case Complexity: O(n\*log n)
+- Best Case Complexity: O(n\*log n)
+- Worst Case Complexity: O(n\*log n)
+- Average Case Complexity: O(n\*log n)
 
-- Space Complexity
+### Space Complexity
 
-  - The space complexity of merge sort is O(n).
+- The space complexity of merge sort is O(n).
 
-- Stability : Yes
+### Stability : Yes
 
 ## Problems
 

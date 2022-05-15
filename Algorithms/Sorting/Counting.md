@@ -43,22 +43,18 @@ Counting sort is used when:
 - There are smaller integers with multiple counts.
 - Linear complexity is the need.
 
-## Articles
-
-- [Counting Sort Algorithm](https://www.programiz.com/dsa/counting-sort)
-
 ## Complexity
 
 ### Time Complexity
 
 There are mainly four main loops. (Finding the greatest value can be done outside the function.)
 
-#### for-loop time of counting
+#### for-loop and time of counting
 
-- 1st O(max)
-- 2nd O(size)
-- 3rd O(max)
-- 4th O(size)
+- 1st : O(max)
+- 2nd : O(size)
+- 3rd : O(max)
+- 4th : O(size)
 
 Overall complexity = O(max)+O(size)+O(max)+O(size) = O(max+size)
 
@@ -84,3 +80,7 @@ Yes
 
 - [Question](https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting)
 - [Solutions](../../CompetitiveProgramming/Sorting/FraudulentActivityNotification/mergeSortCountingInversions.py)
+
+## Articles
+
+- [Counting Sort Algorithm](https://www.programiz.com/dsa/counting-sort)
