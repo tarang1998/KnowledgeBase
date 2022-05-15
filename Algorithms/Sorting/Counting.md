@@ -36,10 +36,49 @@ countingSort(array, size)
     decrease count of each element restored by 1
 ```
 
+### Counting Sort Applications
+
+Counting sort is used when:
+
+there are smaller integers with multiple counts.
+linear complexity is the need.
+
 ## Articles
 
 - [Counting Sort Algorithm](https://www.programiz.com/dsa/counting-sort)
 
 ## Complexity
 
+### Time Complexity
+
+There are mainly four main loops. (Finding the greatest value can be done outside the function.)
+
+for-loop time of counting
+1st O(max)
+2nd O(size)
+3rd O(max)
+4th O(size)
+Overall complexity = O(max)+O(size)+O(max)+O(size) = O(max+size)
+
+Worst Case Complexity: O(n+k)
+Best Case Complexity: O(n+k)
+Average Case Complexity: O(n+k)
+
+In all the above cases, the complexity is the same because no matter how the elements are placed in the array, the algorithm goes through n+k times.
+
+There is no comparison between any elements, so it is better than comparison based sorting techniques. But, it is bad if the integers are very large because the array of that size should be made.
+
+### Space Complexity
+
+The space complexity of Counting Sort is O(max). Larger the range of elements, larger is the space complexity.
+
+### Stability
+
+Yes
+
 ## Problems
+
+### Fraudulent Activity Notification
+
+- [Question](https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting)
+- [Solutions](../../CompetitiveProgramming/Sorting/FraudulentActivityNotification/mergeSortCountingInversions.py)

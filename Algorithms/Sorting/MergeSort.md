@@ -84,7 +84,7 @@ Have we reached the end of any of the arrays?
 ### Counting Inversions
 
 - [Question](https://www.hackerrank.com/challenges/ctci-merge-sort/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting)
-- [Solutions](../../CompetitiveProgramming%20/Sorting/MergeSort-CountingInversions/mergeSortCountingInversions.py)
+- [Solutions](../../CompetitiveProgramming/Sorting/MergeSort-CountingInversions/mergeSortCountingInversions.py)
 
 ## Articles
 
