@@ -81,5 +81,5 @@ However, we can determine if the algorithm can be used with any problem if the p
 
 ### Luck Balance
 
-- [Question](hackerrank.com/challenges/luck-balance/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)
+- [Question](https://www.hackerrank.com/challenges/luck-balance/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)
 - [Solution](/CompetitiveProgramming/GreedyAlgorithms/LuckBalance/LuckBalance.py)
