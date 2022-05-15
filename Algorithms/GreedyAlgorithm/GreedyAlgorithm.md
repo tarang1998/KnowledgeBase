@@ -76,3 +76,10 @@ However, we can determine if the algorithm can be used with any problem if the p
 - In the third iteration, solution-set = {5, 5, 5} and sum = 15.
 - In the fourth iteration, solution-set = {5, 5, 5, 2} and sum = 17. (We cannot select 5 here because if we do so, sum 20 which is greater than 18. So, we select the 2nd largest item which is 2.)
 - Similarly, in the fifth iteration, select 1. Now sum = 18 and solution-set = {5, 5, 5, 2, 1}
+
+## Problems
+
+### Luck Balance
+
+- [Question](hackerrank.com/challenges/luck-balance/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)
+- [Solution](/CompetitiveProgramming/GreedyAlgorithms/LuckBalance/LuckBalance.py)
