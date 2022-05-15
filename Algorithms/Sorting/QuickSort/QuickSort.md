@@ -50,15 +50,15 @@
 
 ### Divide Subarrays
 
-Pivot elements are again chosen for the left and the right sub-parts separately. And, step 2 is repeated.
+- Pivot elements are again chosen for the left and the right sub-parts separately. And, step 2 is repeated.
 
-Quick Sort Steps
-Select pivot element of in each half and put at correct place using recursion
+![Select pivot element of in each half and put at correct place using recursion](/Algorithms/Sorting/QuickSort/Images/quickSort9.webp)
 
-The subarrays are divided until each subarray is formed of a single element. At this point, the array is already sorted.
+- The subarrays are divided until each subarray is formed of a single element. At this point, the array is already sorted.
 
-Quick Sort Algorithm
+## Quick Sort Algorithm
 
+```
 quickSort(array, leftmostIndex, rightmostIndex)
 if (leftmostIndex < rightmostIndex)
 pivotIndex <- partition(array,leftmostIndex, rightmostIndex)
@@ -74,21 +74,55 @@ swap element[i] and element[storeIndex]
 storeIndex++
 swap pivotElement and element[storeIndex+1]
 return storeIndex + 1
-Visual Illustration of Quicksort Algorithm
-You can understand the working of quicksort algorithm with the help of the illustrations below.
+```
 
-Quick Sort Steps
-Sorting the elements on the left of pivot using recursion
-Quick Sort Steps
-Sorting the elements on the right of pivot using recursion
+### Visual Illustration of Quicksort Algorithm
+
+![Sorting the elements on the left of pivot using recursion](/Algorithms/Sorting/QuickSort/Images/quickSort10.webp)
+
+![Sorting the elements on the right of pivot using recursion](/Algorithms/Sorting/QuickSort/Images/quickSort11.webp)
 
 ## Complexity
 
+    2. Space Complexity
+
+The space complexity for quicksort is O(log n).
+
+Quicksort Applications
+Quicksort algorithm is used when
+
+the programming language is good for recursion
+time complexity matters
+space complexity matters
+
 ### Time Complexity
+
+- Worst Case Complexity : O(n2)
+
+  - It occurs when the pivot element picked is either the greatest or the smallest element.
+
+  - This condition leads to the case in which the pivot element lies in an extreme end of the sorted array. One sub-array is always empty and another sub-array contains n - 1 elements. Thus, quicksort is called only on this sub-array.
+
+- However, the quicksort algorithm has better performance for scattered pivots.
+
+- Best Case Complexity : O(n\*log n)
+
+  - It occurs when the pivot element is always the middle element or near to the middle element.
+
+- Average Case Complexity : O(n\*log n)
+  - It occurs when the above conditions do not occur.
 
 ### Space Complexity
 
-### Stability
+- The space complexity for quicksort is O(log n).
+
+## Quicksort Applications
+
+- Quicksort algorithm is used when
+
+  - The programming language is good for recursion
+  - Time complexity matters
+  - Space complexity matters
 
 ## Articles
 
