@@ -68,10 +68,10 @@ quickSort(array, pivotIndex, rightmostIndex)
 partition(array, leftmostIndex, rightmostIndex)
 set rightmostIndex as pivotIndex
 storeIndex <- leftmostIndex - 1
-for i <- leftmostIndex + 1 to rightmostIndex
+for i <- leftmostIndex to rightmostIndex
 if element[i] < pivotElement
-swap element[i] and element[storeIndex]
 storeIndex++
+swap element[i] and element[storeIndex]
 swap pivotElement and element[storeIndex+1]
 return storeIndex + 1
 ```
@@ -115,4 +115,5 @@ return storeIndex + 1
 
 ## Articles
 
-- [Counting Sort Algorithm](https://www.programiz.com/dsa/counting-sort)
+- [Quick Sort Algorithm](https://www.programiz.com/dsa/quick-sort)
+- [Quick Sort](https://www.geeksforgeeks.org/quick-sort/)
