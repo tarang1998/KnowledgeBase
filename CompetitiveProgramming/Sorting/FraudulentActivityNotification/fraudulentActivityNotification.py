@@ -63,8 +63,10 @@ def activityNotifications(expenditure, d):
     noOfNotifications = 0
     
     #Array to store count of elements from 0 - 200
+    #Given Question Constraint :  
     count = [0]*201
     
+    #Finding the occurences of the element from : [0,d]
     for i in range(0,d):
         count[expenditure[i]] += 1
         
@@ -76,6 +78,7 @@ def activityNotifications(expenditure, d):
         if(expenditure[i]>= twiceOfMedian):
             noOfNotifications +=1
             
+        #updating the count array
         count[expenditure[i]]+=1
         count[expenditure[i-d]]-=1
         
