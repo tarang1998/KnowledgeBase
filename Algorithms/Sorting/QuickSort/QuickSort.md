@@ -1,6 +1,6 @@
 # Quick Sort
 
-- Quicksort is a sorting algorithm based on the divide and conquer approach where an array is divided into subarrays by selecting a pivot element (element selected from the array).
+- Like Merge Sort Quicksort is a sorting algorithm based on the divide and conquer approach where an array is divided into subarrays by selecting a pivot element (element selected from the array).
 
 - While dividing the array, the pivot element should be positioned in such a way that elements less than pivot are kept on the left side and elements greater than pivot are on the right side of the pivot.
 
@@ -12,7 +12,12 @@
 
 ### Select the Pivot Element
 
-- There are different variations of quicksort where the pivot element is selected from different positions. Here, we will be selecting the rightmost element of the array as the pivot element.
+- There are different variations of quicksort where the pivot element is selected from different positions.
+  - Pick first element as pivot.
+  - Pick last element as pivot.
+  - Pick a random element as pivot.
+  - Pick median as pivot.
+- Here, we will be selecting the rightmost element of the array as the pivot element.
 
 ![Select a pivot element](/Algorithms/Sorting/QuickSort/Images/quickSort1.webp)
 
