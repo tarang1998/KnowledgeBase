@@ -83,3 +83,8 @@ However, we can determine if the algorithm can be used with any problem if the p
 
 - [Question](https://www.hackerrank.com/challenges/luck-balance/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)
 - [Solution](/CompetitiveProgramming/GreedyAlgorithms/LuckBalance/LuckBalance.py)
+
+### Greedy Flourist
+
+- [Question](https://www.hackerrank.com/challenges/greedy-florist/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)
+- [Solution](/CompetitiveProgramming/GreedyAlgorithms/GreedyFlorist/GreedyFlorist.py)
