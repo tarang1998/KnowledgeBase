@@ -106,3 +106,8 @@ Dynamic programming, on the other hand, finds the optimal solution to subproblem
 - [Question](https://www.hackerrank.com/challenges/max-array-sum/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dynamic-programming)
 - [Answer](/CompetitiveProgramming/DynamicProgramming/MaxArraySum/MaxArraySum.py)
 - [Reference Article](https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
+
+### Candies
+
+- [Question](https://www.hackerrank.com/challenges/candies/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dynamic-programming)
+- [Answer](/CompetitiveProgramming/DynamicProgramming/Candies/Candies.py)

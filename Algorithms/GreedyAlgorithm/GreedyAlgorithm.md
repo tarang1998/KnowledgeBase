@@ -88,3 +88,8 @@ However, we can determine if the algorithm can be used with any problem if the p
 
 - [Question](https://www.hackerrank.com/challenges/greedy-florist/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)
 - [Solution](/CompetitiveProgramming/GreedyAlgorithms/GreedyFlorist/GreedyFlorist.py)
+
+### N-Meetings In A Room
+
+- [Question](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1)
+- [Solution](/CompetitiveProgramming/GreedyAlgorithms/NMeetingsInARoom/NMeetingInARoom.py)

@@ -35,6 +35,36 @@ def maxSubsetSum(arr):
         maxSubsetMatrix.append([sumIfElementNotIncluded,sumIfElementIncluded])
     
     return max(maxSubsetMatrix[n-1][0],maxSubsetMatrix[n-1][1])
+
+
+def maxSubsetWithSpaceOptimization(arr):
+    
+    n = len(arr)
+    
+   
+    if (n == 1):
+        
+        if (arr[0] < 0):
+            return 0 
+        
+        return arr[0]
+    
+    elementExcludedSum = 0
+    
+    elementIncludedSum = arr[0]
+    
+    for i in range(1,n):
+        
+        elementExcludedNewSum = max(elementExcludedSum,elementIncludedSum)
+        
+        elementIncludedNewSum = elementExcludedSum + arr[i]
+        
+        elementExcludedSum = elementExcludedNewSum
+        
+        elementIncludedSum = elementIncludedNewSum
+    
+    return max(elementExcludedSum,elementIncludedSum)
+    
     
     
     
