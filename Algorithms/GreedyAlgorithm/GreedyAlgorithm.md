@@ -93,3 +93,14 @@ However, we can determine if the algorithm can be used with any problem if the p
 
 - [Question](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1)
 - [Solution](/CompetitiveProgramming/GreedyAlgorithms/NMeetingsInARoom/NMeetingInARoom.py)
+
+### Minimum Platforms
+
+- [Question](https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1#)
+- [Solution](/CompetitiveProgramming/GreedyAlgorithms/MinimumPlatforms/MinimumPlatforms.py)
+
+### Job Sequencing Problem
+
+- [Question](https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#)
+- [Solution](/CompetitiveProgramming/GreedyAlgorithms/JobSequencingProblem/JobSequencingProblem.py)
+- [Refer](https://www.geeksforgeeks.org/job-sequencing-problem/)
