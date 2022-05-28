@@ -103,9 +103,16 @@ However, we can determine if the algorithm can be used with any problem if the p
 
 - [Question](https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#)
 - [Solution](/CompetitiveProgramming/GreedyAlgorithms/JobSequencingProblem/JobSequencingProblem.py)
-- [Refer](https://www.geeksforgeeks.org/job-sequencing-problem/)
+- [Reference](https://www.geeksforgeeks.org/job-sequencing-problem/)
 
 ### Fractional Knapsack
 
 - [Question](https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1)
 - [Solution](/CompetitiveProgramming/GreedyAlgorithms/FractionalKnapsack/FractionalKnapsack.py)
+- [Reference](https://www.geeksforgeeks.org/fractional-knapsack-problem/)
+
+### FindMinimumNoOfCoins
+
+- [Question](https://www.codingninjas.com/codestudio/problems/975277?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website&leftPanelTab=1)
+- [Solution](/CompetitiveProgramming/GreedyAlgorithms/FindMinimumNoOfCoins/FindMinimumNoOfCoins.py)
+- [Reference](https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/)

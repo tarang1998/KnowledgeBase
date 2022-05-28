@@ -97,8 +97,6 @@ Dynamic programming, on the other hand, finds the optimal solution to subproblem
 
 ## Articles
 
-- [Dynamic Programming](https://github.com/tarang1998/KnowledgeBase/blob/main/Algorithms/DynamicProgramming/DynamicProgramming.md)
-
 ## Problems
 
 ### MaxArraySum
