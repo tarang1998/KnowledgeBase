@@ -116,3 +116,8 @@ However, we can determine if the algorithm can be used with any problem if the p
 - [Question](https://www.codingninjas.com/codestudio/problems/975277?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website&leftPanelTab=1)
 - [Solution](/CompetitiveProgramming/GreedyAlgorithms/FindMinimumNoOfCoins/FindMinimumNoOfCoins.py)
 - [Reference](https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/)
+
+### Maximum Area of Piece Of Cake After Horizontal and Vertical Cuts
+
+- [Question](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
+- [Answer](/CompetitiveProgramming/GreedyAlgorithms/MaxAreaOfPieceOfCake/MaxAreaOfPieceOfCake.py)
