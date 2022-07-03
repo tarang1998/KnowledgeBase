@@ -109,3 +109,8 @@ Dynamic programming, on the other hand, finds the optimal solution to subproblem
 
 - [Question](https://www.hackerrank.com/challenges/candies/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dynamic-programming)
 - [Answer](/CompetitiveProgramming/DynamicProgramming/Candies/Candies.py)
+
+### Wiggle Subsequence
+
+- [Question](https://leetcode.com/problems/wiggle-subsequence/submissions/)
+- [Answer](/CompetitiveProgramming/DynamicProgramming/WiggleSubsequence/wiggleSubsequence.py)
