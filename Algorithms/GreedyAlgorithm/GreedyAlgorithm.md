@@ -121,3 +121,8 @@ However, we can determine if the algorithm can be used with any problem if the p
 
 - [Question](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
 - [Answer](/CompetitiveProgramming/GreedyAlgorithms/MaxAreaOfPieceOfCake/MaxAreaOfPieceOfCake.py)
+
+## Candy
+
+- [Question](https://leetcode.com/problems/candy/)
+- [Answer](/CompetitiveProgramming/GreedyAlgorithms/Candy/Candy.py)
