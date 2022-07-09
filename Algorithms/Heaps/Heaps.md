@@ -10,9 +10,7 @@
 
 ### Jump Game 6
 
-```
-Array,Dynamic Programming, Queue, Sliding Window, Heap(Priority Queue), Monotonic Queue
-```
+> Array,Dynamic Programming, Queue, Sliding Window, Heap(Priority Queue), Monotonic Queue
 
 - [Question](https://leetcode.com/problems/jump-game-vi/)
 - [Answer](/CompetitiveProgramming/Heaps/jumpGame6.py)
