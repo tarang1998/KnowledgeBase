@@ -21,3 +21,10 @@
 
 - [Question](https://leetcode.com/problems/wiggle-subsequence/submissions/)
 - [Answer](/CompetitiveProgramming/DynamicProgramming/WiggleSubsequence/wiggleSubsequence.py)
+
+### Paint House 3
+
+> Arrays
+
+- [Question](https://leetcode.com/problems/paint-house-iii/)
+- [Answer](/CompetitiveProgramming/DynamicProgramming/paintHouse3.py)
