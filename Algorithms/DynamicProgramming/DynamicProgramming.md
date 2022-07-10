@@ -28,3 +28,8 @@
 
 - [Question](https://leetcode.com/problems/paint-house-iii/)
 - [Answer](/CompetitiveProgramming/DynamicProgramming/paintHouse3.py)
+
+### Min Cost Climbing Stairs
+
+- [Question](https://leetcode.com/problems/min-cost-climbing-stairs/submissions/)
+- [Solution](/CompetitiveProgramming/DynamicProgramming/minCostClimbingStairs.py)
