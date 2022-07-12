@@ -17,3 +17,10 @@
 
 - [Question](https://leetcode.com/problems/sudoku-solver/)
 - [Answer](/CompetitiveProgramming/RecursionAndBackTracking/SudokuSolver/SudokuSolver.py)
+
+### MatchSticks To Squares
+
+> Dynamic Programming
+
+- [Question](https://leetcode.com/problems/matchsticks-to-square/)
+- [Solution](/CompetitiveProgramming/RecursionAndBackTracking/matchSticksToSquare.py)

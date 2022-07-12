@@ -1,15 +1,31 @@
 class Solution:
     
-    def checkIfDigitIsPresentInColumn(self,digit,row,board):
+    def checkIfDigitIsPresentInColumn(self,digit,column,board):
         columnDigits = []
         
         for i in range(0,9):
-            columnDigits.append(board[row][i])
-            
+            columnDigits.append(board[i][column])
+                        
         if(str(digit) in columnDigits):
             return True
         else:
             return False
+        
+    def isValid(self,board,row,column,value):
+        
+        for i in range(0,9):
+            
+            if(board[row][i] == value):
+                return False
+            
+            if(board[i][column] == value):
+                return False
+            
+            if(board[3*(row//3) + (i//3)][3*(column//3) + int(i%3)] == value):
+                return False
+            
+        return True
+    
         
     def checkIfDigitIsPresentInBlock(self,digit,row,column,board):
         
@@ -42,18 +58,23 @@ class Solution:
         if(board[row][column] == "." ):
             
             for k in range(1,10):
-                                                        
+                
+                """
                 #check if the digit is present in the row
-                if(k in board[row]):
+                if(str(k) in board[row]):
                     continue
                 
                 #check if the digit is present in the column
-                if(self.checkIfDigitIsPresentInColumn(k,row,board)):
+                if(self.checkIfDigitIsPresentInColumn(k,column,board)):
                     continue
                 
 
                 #check if the digit is present in its block
                 if(self.checkIfDigitIsPresentInBlock(k,row,column,board)):
+                    continue
+                """
+                
+                if(not self.isValid(board,row,column,str(k))):
                     continue
                      
                 #add the digit to the board 
@@ -91,12 +112,7 @@ class Solution:
                 
             return result
             
-            
-            
-            
-        
-        
-            
+
     
     
     def solveSudoku(self, board):
