@@ -8,8 +8,3 @@
 
 - [Question](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 - [Solution](/CompetitiveProgramming/BinarySearch/binarySearch.py)
-
-### Binary Tree Level Order Traversal
-
-- [Question](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-- [Solution](/CompetitiveProgramming//BinarySearch/binaryTreeLevelOrderTraversal.py)
