@@ -19,6 +19,11 @@
 - [Problem](https://leetcode.com/problems/binary-tree-postorder-traversal/submissions/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/postorderTraversal.py)
 
+### Construct Binary Tree From Preorder and Inorder Traversal
+
+- [Problem](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/)
+- [Solution](/CompetitiveProgramming/BinaryTrees/constructBinaryTreeFromPreorderAndInOrderTraversal.py)
+
 ### Binary Tree Right Slide View
 
 - [Problem](https://leetcode.com/problems/binary-tree-right-side-view/)
