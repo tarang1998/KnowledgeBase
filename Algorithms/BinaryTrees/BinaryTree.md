@@ -19,6 +19,11 @@
 - [Problem](https://leetcode.com/problems/binary-tree-postorder-traversal/submissions/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/postorderTraversal.py)
 
+### Bottom View of a Binary Tree
+
+- [Problem](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
+- [Solution](/CompetitiveProgramming/BinaryTrees/bottomViewOfABinaryTree.py)
+
 ### Construct Binary Tree From Preorder and Inorder Traversal
 
 - [Problem](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/)
