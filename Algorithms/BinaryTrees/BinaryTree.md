@@ -34,6 +34,11 @@
 - [Problem](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1)
 - [Solution](/CompetitiveProgramming/BinaryTrees/topViewOfBinaryTree.py)
 
+### PreOrder PostOrder Inorder in a single Traversal
+
+- [Problem](https://www.codingninjas.com/codestudio/problems/981269)
+- [Solution](/CompetitiveProgramming/BinaryTrees/preOrderPostOrderInOrderInASingleTraversal.py)
+
 ### Construct Binary Tree From Preorder and Inorder Traversal
 
 - [Problem](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/)
