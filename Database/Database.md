@@ -117,5 +117,6 @@
 - Relational and NoSQL Databases suffer from this
 - Eventual Consistency can be reached after some time 
 
-
+## Durability
+- Changes made by the committed transaction must be persisted in a durable non-volatile storage
 
