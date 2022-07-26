@@ -17,7 +17,12 @@
 ### Postorder Traversal
 
 - [Problem](https://leetcode.com/problems/binary-tree-postorder-traversal/submissions/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/postorderTraversal.py)
+- [Soluthttps://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1ion](/CompetitiveProgramming/BinaryTrees/postorderTraversal.py)
+
+### Left View of a Binary Tree
+
+- [Problem](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1)
+- [Solution](/CompetitiveProgramming/BinaryTrees/leftViewOfBinaryTree.py)
 
 ### Bottom View of a Binary Tree
 
