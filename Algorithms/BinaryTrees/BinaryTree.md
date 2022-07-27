@@ -73,3 +73,8 @@
 
 - [Question](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/maxDepthOfABinaryTree.py)
+
+### Flatten Binary Tree To A Linked List
+
+- [Question](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+- [Solution](/CompetitiveProgramming/BinaryTrees/flattenBinaryTreeToALinkedList.py)
