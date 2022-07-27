@@ -63,3 +63,8 @@
 
 - [Question](https://www.interviewbit.com/problems/path-to-given-node/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/pathToGivenNode.py)
+
+### Maximum Width of a Binary Tree
+
+- [Question](https://leetcode.com/problems/maximum-width-of-binary-tree/submissions/)
+- [Solution](/CompetitiveProgramming/BinaryTrees/maxWidthOfABinaryTree.py)
