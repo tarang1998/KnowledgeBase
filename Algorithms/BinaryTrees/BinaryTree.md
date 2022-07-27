@@ -68,3 +68,8 @@
 
 - [Question](https://leetcode.com/problems/maximum-width-of-binary-tree/submissions/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/maxWidthOfABinaryTree.py)
+
+### Maximum Depth of a Binary Tree
+
+- [Question](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [Solution](/CompetitiveProgramming/BinaryTrees/maxDepthOfABinaryTree.py)
