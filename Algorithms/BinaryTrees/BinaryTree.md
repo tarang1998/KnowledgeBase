@@ -88,3 +88,8 @@
 
 - [Question](https://leetcode.com/problems/balanced-binary-tree/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/balancedBinaryTree.py)
+
+### Lowest Commom Ancestor Of a Binary Tree
+
+- [Question](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [Solution](/CompetitiveProgramming/BinaryTrees/lowestCommonAncestorOfABinaryTree.py)
