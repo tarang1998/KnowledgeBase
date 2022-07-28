@@ -83,3 +83,8 @@
 
 - [Question](https://leetcode.com/problems/diameter-of-binary-tree/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/diameterOfABinaryTree.py)
+
+### Balanced Binary Tree
+
+- [Question](https://leetcode.com/problems/balanced-binary-tree/)
+- [Solution](/CompetitiveProgramming/BinaryTrees/balancedBinaryTree.py)
