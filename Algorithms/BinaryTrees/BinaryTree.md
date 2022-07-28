@@ -93,3 +93,8 @@
 
 - [Question](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/lowestCommonAncestorOfABinaryTree.py)
+
+### Same Tree
+
+- [Question](https://leetcode.com/problems/same-tree/)
+- [Solution](/CompetitiveProgramming/BinaryTrees/sameTree.py)
