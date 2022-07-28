@@ -4,7 +4,9 @@
 
 ## Problems
 
-### [Inorder Traveral](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+### Inorder Traveral
+
+- [Problem](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/inorderTraveral.py)
 
 ### Preorder Traversal
@@ -76,3 +78,8 @@
 
 - [Question](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/flattenBinaryTreeToALinkedList.py)
+
+### Diameter of a binary Tree
+
+- [Question](https://leetcode.com/problems/diameter-of-binary-tree/)
+- [Solution](/CompetitiveProgramming/BinaryTrees/diameterOfABinaryTree.py)
