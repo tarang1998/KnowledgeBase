@@ -4,20 +4,18 @@
 
 ## Problems
 
-### Inorder Traveral
-
-- [Problem](https://leetcode.com/problems/binary-tree-inorder-traversal/submissions/)
+### [Inorder Traveral](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/inorderTraveral.py)
 
 ### Preorder Traversal
 
-- [Problem](https://leetcode.com/problems/binary-tree-preorder-traversal/submissions/)
+- [Problem](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/preorderTraversal.py)
 
 ### Postorder Traversal
 
-- [Problem](https://leetcode.com/problems/binary-tree-postorder-traversal/submissions/)
-- [Soluthttps://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1ion](/CompetitiveProgramming/BinaryTrees/postorderTraversal.py)
+- [Problem](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+- [Solutio](/CompetitiveProgramming/BinaryTrees/postorderTraversal.py)
 
 ### PreOrder PostOrder Inorder in a single Traversal
 
