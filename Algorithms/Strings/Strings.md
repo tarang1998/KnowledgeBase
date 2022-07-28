@@ -12,3 +12,8 @@
 
 - [Question](https://leetcode.com/problems/reverse-words-in-a-string/)
 - [Solution](/CompetitiveProgramming/Strings/reverseWordsInAString.py)
+
+### Valid Anagrams
+
+- [Question](https://leetcode.com/problems/valid-anagram/)
+- [Solution](/CompetitiveProgramming/Strings/validAnagrams.py)
