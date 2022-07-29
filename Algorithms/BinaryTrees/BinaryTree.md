@@ -98,3 +98,8 @@
 
 - [Question](https://leetcode.com/problems/same-tree/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/sameTree.py)
+
+### Binary Tree Max Path Sum
+
+- [Question](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+- [Solution](/CompetitiveProgramming/BinaryTrees/binaryTreeMaxPathSum.py)
