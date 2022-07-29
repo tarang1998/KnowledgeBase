@@ -54,6 +54,11 @@
 - [Problem](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/constructBinaryTreeFromPreorderAndInOrderTraversal.py)
 
+### Construct Binary Tree From Inorder and Postorder Travers
+
+- [Problem](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+- [Solution](/CompetitiveProgramming/BinaryTrees/constructBinaryTreeFromInorderAndPostOrderTraversal.py)
+
 ### Binary Tree Level Order Traversal
 
 - [Question](https://leetcode.com/problems/binary-tree-level-order-traversal/)
