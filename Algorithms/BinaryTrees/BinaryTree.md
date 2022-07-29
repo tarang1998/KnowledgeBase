@@ -103,3 +103,8 @@
 
 - [Question](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/binaryTreeMaxPathSum.py)
+
+### Binary Tree ZigZag level order traversal
+
+- [Question](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+- [Solution](/CompetitiveProgramming/BinaryTrees/zigzagLevelOrderTraversal.py)
