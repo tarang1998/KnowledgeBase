@@ -24,3 +24,8 @@
 
 - [Question](https://leetcode.com/problems/find-and-replace-pattern/)
 - [Solution](/CompetitiveProgramming/Strings/findAndReplacePatterns.py)
+
+### Word Subsets 
+
+- [Question](https://leetcode.com/problems/word-subsets/)
+- [Solution](/CompetitiveProgramming/Strings/wordSubsets.py)
