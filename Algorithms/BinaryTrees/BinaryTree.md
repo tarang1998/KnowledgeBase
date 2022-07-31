@@ -113,3 +113,8 @@
 
 - [Question](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/zigzagLevelOrderTraversal.py)
+
+### Range Sum Query - Mutable
+
+- [Question](https://leetcode.com/problems/range-sum-query-mutable/)
+- [Solution]()
