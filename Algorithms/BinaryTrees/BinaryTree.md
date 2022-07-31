@@ -1,6 +1,13 @@
 # Binary Tree
 
+## Concepts
+
 - [Tree Traversals (Inorder, Preorder and Postorder)](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
+
+- [Segment Tree - 1](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
+
+- [Binary Indexed Tree](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
+
 
 ## Problems
 
@@ -116,5 +123,9 @@
 
 ### Range Sum Query - Mutable
 
+> Binary Indexed Tree, Segment Tree
+
+- [Segment Tree - 1](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
+- [Binary Indexed Tree](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
 - [Question](https://leetcode.com/problems/range-sum-query-mutable/)
-- [Solution]()
+- [Solution](/CompetitiveProgramming/BinaryTrees/rangeSumQuery.py)
