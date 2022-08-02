@@ -21,3 +21,10 @@
 - [Concept](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 - [Problem](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
 - [Solution](/CompetitiveProgramming/Graph/breadthFirstSearch.py)
+
+### Course Scheduling 
+
+> Depth First Search, Breadth First Search, Graph, Topological Sort 
+
+- [Problem](https://leetcode.com/problems/course-schedule/submissions/)
+- [Solution - Detecting a cycle in a directed Graph using DFS](/CompetitiveProgramming/Graph/courseScheduling-1.py)
