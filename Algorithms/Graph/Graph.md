@@ -22,6 +22,15 @@
 - [Problem](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
 - [Solution](/CompetitiveProgramming/Graph/breadthFirstSearch.py)
 
+### Detecting a cycle in an Undirected Graph using BFS
+
+- [Solution](/CompetitiveProgramming/Graph/undirectedGraphCycleDetectionWithBFS.py)
+
+### Detecting a cycle in an Undirected Graph using DFS
+
+- [Solution](/CompetitiveProgramming/Graph/undirectedGraphCycleDetectionWithDFS.py)
+
+
 ### Course Scheduling 
 
 > Depth First Search, Breadth First Search, Graph, Topological Sort 
