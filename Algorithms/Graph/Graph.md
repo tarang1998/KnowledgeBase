@@ -8,8 +8,9 @@
 
 ## Problems 
 
-### [Clone Graph](https://leetcode.com/problems/clone-graph/submissions/), 
-- [Clone Graph Python Solution](/CompetitiveProgramming/Graph/cloneGraph.py)
+### [Clone Graph]
+- [Problem](https://leetcode.com/problems/clone-graph/submissions/), 
+- [Python Solution](/CompetitiveProgramming/Graph/cloneGraph.py)
 
 
 ### Depth First Search
