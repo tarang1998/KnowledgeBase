@@ -46,3 +46,4 @@
 > Expected Time Complexity : O(V+E) , Expected Space Complexity : O(V)
 - [Topological Sorting Problem](https://practice.geeksforgeeks.org/problems/topological-sort/1)
 - [Python Solution - Topological Sort using DFS](/CompetitiveProgramming/Graph/topologicalSortUsingDFS.py)
+- [Python Solution - Topological Sort using BFS](/CompetitiveProgramming/Graph/topologicalSortUsingBFS.py)

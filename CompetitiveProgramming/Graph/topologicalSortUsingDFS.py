@@ -35,7 +35,6 @@ class Solution:
         
 
         for node in range(V):
-            https://practice.geeksforgeeks.org/problems/topological-sort/1
             if(node not in self.visited):
                 
                 self.parseGraph(node,adj)
