@@ -3,6 +3,8 @@
 ## Concepts
 
 - [Breadth First Search](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+- [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
+
 
 ## Problems 
 
@@ -37,3 +39,9 @@
 
 - [Problem](https://leetcode.com/problems/course-schedule/submissions/)
 - [Solution - Detecting a cycle in a directed Graph using DFS](/CompetitiveProgramming/Graph/courseScheduling-1.py)
+
+### Topological Sorting 
+
+- [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
+- [Topological Sorting Problem](https://practice.geeksforgeeks.org/problems/topological-sort/1)
+- [Solution]()
