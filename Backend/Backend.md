@@ -11,9 +11,12 @@
 ### Videos
 
 - [What is a microservice architecture and it's advantages?](https://www.youtube.com/watch?v=qYhRvH9tJKw)
-    - Disadvantages of monolith
+
+    - Disadvantages of a monolith architecture 
         - A new member in the team needs to have more context of the entire system as the system is tightly coupled
         - Deployments are complicated
         - Testing the application is tougher
         - Single Point Of Failure
-        
+
+    - Advantages of a microservice architecture
+        - Parallel development is easy as services are loosely coupled
