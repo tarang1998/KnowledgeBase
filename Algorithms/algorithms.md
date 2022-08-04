@@ -1,5 +1,5 @@
  
-# Algorithm And Data Structures 
+# Algorithms And Data Structures 
 
 - [Mathematics]()
 - [Arrays]()
@@ -17,3 +17,7 @@
 - [Dynamic Programming](/Algorithms/DynamicProgramming/DynamicProgramming.md)
 - [Trie]()
 - [Miscellaneous](/Algorithms/Miscellaneous/Miscellaneous.md)
+
+## Resources 
+
+- [Strivers SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)

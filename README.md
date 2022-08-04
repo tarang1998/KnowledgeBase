@@ -5,5 +5,7 @@ This repository is a currated collection of resources related to computer Scienc
 ## Content 
 
 - [Algorithms And Data Structures](/Algorithms/algorithms.md)
+- [Object Oriented Programming](/OOPS/oops.md)
+- [System Design](/SystemDesign/systemDesign.md)
 
  
