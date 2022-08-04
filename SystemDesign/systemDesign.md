@@ -4,6 +4,8 @@
 
 - [Difference between High Level Design and Low Level Design](https://www.geeksforgeeks.org/difference-between-high-level-design-and-low-level-design/)
 
+- [Grokking the Object Oriented Design Interview](https://github.com/tssovi/grokking-the-object-oriented-design-interview)
+
 ## Videos 
 
 - [System Design Basics Playlist](https://www.youtube.com/watch?v=xpDnVSmNFX0&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
@@ -13,7 +15,8 @@
         - In horizontal scaling the no of servers are increased
     - Horizontal Scaling 
         - Load Balancing is Required 
-        - Network Calls (RPC)
+        - Network Calls (RPC) are involved 
     - Vertical Scaling 
         - Chances for a single point of failure
         - Inter process communication
+        - Limited by hardware 

@@ -20,4 +20,14 @@
 
     - Advantages of a microservice architecture
         - Parallel development is easy as services are loosely coupled
-        
+
+
+
+## Distributed Systems
+
+- [Distributed Systems](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
+
+
+## Projects 
+
+- [Node.js / Express Course - Build 4 Projects](https://www.youtube.com/watch?v=qwfE7fSVaZM)
