@@ -20,3 +20,4 @@
 
     - Advantages of a microservice architecture
         - Parallel development is easy as services are loosely coupled
+        
