@@ -34,6 +34,12 @@
 - [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 - [Journey to HTTP/2](https://kamranahmed.info/blog/2016/08/13/http-in-depth)
 
+## APIs
+
+### Videos
+
+- [What is an API and how do you design it?](https://www.youtube.com/watch?v=_YlYuNMTCc8)
+
 
 
 ## Distributed Systems
