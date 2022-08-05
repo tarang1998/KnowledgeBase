@@ -39,7 +39,17 @@
 ### Videos
 
 - [What is an API and how do you design it?](https://www.youtube.com/watch?v=_YlYuNMTCc8)
+    - An API shouldnt have any side effects 
+        - It should do exactly the task the API name stands for and nothing else
+        - The API should be atomic
+    - API response
+        - Pagination
+        - Fragmentation
 
+## Languages 
+
+- [TypeScript](/Backend/Languages/typeScript.md)
+- [JavaScript](/Backend/Languages/javascript.md)
 
 
 ## Distributed Systems
