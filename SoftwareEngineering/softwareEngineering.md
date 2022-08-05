@@ -9,3 +9,4 @@
 ## Videos
 
 - [Design Patterns](https://www.youtube.com/watch?v=NU_1StN5Tkk)
+- [5 Design Patterns Every Engineer Should Know](https://www.youtube.com/watch?v=FLmBqI3IKMA)

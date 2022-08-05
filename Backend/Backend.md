@@ -28,6 +28,9 @@
 - [Microservices interview questions and answers](https://www.youtube.com/watch?v=G0waumbpK48)
 - [Microservice vs serverless](https://www.youtube.com/watch?v=xQtyEK5yZFQ)
 
+## HTTP
+
+- [What is HTTP](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
 
 
 
@@ -42,3 +45,7 @@
 - [Learning Microservices With Express.js & MongoDB](https://www.youtube.com/watch?v=gF8IYisXByw&list=PLDmvslp_VR0xZGhJHMjy5dozCDJYZK6W-)
 - [Node JS Microservices Course](https://www.youtube.com/watch?v=UxoklNY7L30&list=PLIGDNOJWiL182j1bD_nQm-SxARR5s977O&index=1)
 - [NodeJS Monolithic to Microservice](https://www.youtube.com/watch?v=EXDkgjU8DDU)
+
+## RoadMaps
+
+- [Backend Developer RoadMap](https://roadmap.sh/backend)
