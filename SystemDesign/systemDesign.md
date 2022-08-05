@@ -13,10 +13,20 @@
     - Horizontal and Vertical Scaling 
         - In the vertical scaling approach the computational power of the server is increased
         - In horizontal scaling the no of servers are increased
-    - Horizontal Scaling 
-        - Load Balancing is Required 
-        - Network Calls (RPC) are involved 
-    - Vertical Scaling 
-        - Chances for a single point of failure
-        - Inter process communication
-        - Limited by hardware 
+
+        - Horizontal Scaling 
+            - Load Balancing is Required 
+            - Network Calls (RPC) are involved 
+
+        - Vertical Scaling 
+            - Chances for a single point of failure
+            - Inter process communication
+            - Limited by hardware 
+
+
+    - [Load Balancing](https://www.youtube.com/watch?v=K0Ta65OqQkY&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=3)
+
+    - [Consistent Hashing](https://www.youtube.com/watch?v=zaRkONvyGr8&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=4)
+
+    - [Messaging queue / Task Queue](https://www.youtube.com/watch?v=oUJbuFMyBDk&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=5)
+ 
