@@ -9,5 +9,6 @@ This repository is a currated collection of resources related to computer Scienc
 - [System Design](/SystemDesign/systemDesign.md)
 - [Backend](/Backend/Backend.md)
 - [Software Engineering](/SoftwareEngineering/softwareEngineering.md)
+- [CS Fundamentals](/CSFundamentals/fundamentals.md)
 
  

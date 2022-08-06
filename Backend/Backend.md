@@ -48,8 +48,14 @@
 
 ## Languages 
 
+- Fact : Whatsapp needs only 50 engineers for its 900M users because Erlang is used to implement its concurrency needs. Facebook uses Haskell in its anti-spam system.
+
 - [TypeScript](/Backend/Languages/typeScript.md)
 - [JavaScript](/Backend/Languages/javascript.md)
+- [Erlang]()
+- [Ruby]()
+- [Go]()
+- [Python]()
 
 
 ## Distributed Systems
