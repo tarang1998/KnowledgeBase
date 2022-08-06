@@ -12,10 +12,11 @@
 # Node.js
 
 - Node.js is not a programming language. Rather, it’s a runtime environment that’s used to run JavaScript outside the browser.
+- Global variables in Node ?
 
 - Node.js is a single-threaded, open-source, cross-platform runtime environment for building fast and scalable server-side and networking applications. 
 
-- It runs on the V8 JavaScript runtime engine, and it uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.
+- It runs on the Chrome's V8 JavaScript runtime engine, and it uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.
 
 - It is a asynchronous, event driven javascript runtime designed to build scalable network applications.
 
@@ -39,3 +40,5 @@
 
 - [About Node.js](https://nodejs.org/en/about/)
 - [What Is Node.js and Why You Should Use It ](https://kinsta.com/knowledgebase/what-is-node-js/)
+- [Fundamentals of Node.js and Express](https://www.youtube.com/watch?v=Oe421EPjeBE)
+- [Node.js / Express Course - Build 4 Projects](https://www.youtube.com/watch?v=qwfE7fSVaZM)

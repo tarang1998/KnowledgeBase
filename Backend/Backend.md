@@ -63,9 +63,9 @@
 - [Distributed Systems](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
 
 
-## Projects 
+## Projects     
 
-- [Node.js / Express Course - Build 4 Projects](https://www.youtube.com/watch?v=qwfE7fSVaZM)
+
 - [Learning Microservices With Express.js & MongoDB](https://www.youtube.com/watch?v=gF8IYisXByw&list=PLDmvslp_VR0xZGhJHMjy5dozCDJYZK6W-)
 - [Node JS Microservices Course](https://www.youtube.com/watch?v=UxoklNY7L30&list=PLIGDNOJWiL182j1bD_nQm-SxARR5s977O&index=1)
 - [NodeJS Monolithic to Microservice](https://www.youtube.com/watch?v=EXDkgjU8DDU)
