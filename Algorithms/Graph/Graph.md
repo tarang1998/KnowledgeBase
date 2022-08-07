@@ -4,6 +4,7 @@
 
 - [Breadth First Search](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 - [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
+- [Check Whether the given Graph is Bipartite or not ](https://www.geeksforgeeks.org/bipartite-graph/)
 
 
 ## Problems 
@@ -52,3 +53,10 @@
 
 - [Problem](https://leetcode.com/problems/number-of-islands/)
 - [Python Solution](/CompetitiveProgramming/Graph/noOfIslands.py)
+
+### Is Graph Bipartite
+
+- [Check Whether the given Graph is Bipartite or not ](https://www.geeksforgeeks.org/bipartite-graph/)
+- [Problem](https://leetcode.com/problems/is-graph-bipartite/)
+- [Solution using BFS approach](/CompetitiveProgramming/Graph/checkIfGraphIsBipartitebfs.py)
+- [Solution using DFS approach](/CompetitiveProgramming/Graph/checkIfGraphIsBipartiteDFS.py)
