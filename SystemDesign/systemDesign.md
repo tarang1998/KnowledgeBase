@@ -22,6 +22,18 @@
 - [What is Database Sharding, Logical and Physical Shards, Dynamic vs Algorithmic Sharding](https://www.youtube.com/watch?v=YCb-tDQWrXk)
 - [What is database sharding](https://www.youtube.com/watch?v=5faMjKuB9bc&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=7)
 
+
+### API Rate Limiter
+
+- 429 is the error code that is used which indicated that too may request were made
+- [What are the different API rate limiting methods needed while designing large scale systems & why?](https://www.youtube.com/watch?v=YSW3UE5AFD4)
+- [System Design Interview - Rate Limiting (local and distributed)](https://www.youtube.com/watch?v=FU4WlwfS3G0)
+
+## System Designs Questions
+
+- [UBER System Design](https://medium.com/@narengowda/uber-system-design-8b2bc95e2cfe)
+- [UBER System design | OLA system design | uber architecture | amazon interview question](https://www.youtube.com/watch?v=umWABit-wbk)
+
 ## Articles
 
 - [Difference between High Level Design and Low Level Design](https://www.geeksforgeeks.org/difference-between-high-level-design-and-low-level-design/)
