@@ -1,5 +1,12 @@
 # System Design
 
+## Concepts 
+
+### Database Sharding
+
+- [What is Database Sharding, Logical and Physical Shards, Dynamic vs Algorithmic Sharding](https://www.youtube.com/watch?v=YCb-tDQWrXk)
+- [What is database sharding](https://www.youtube.com/watch?v=5faMjKuB9bc&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=7)
+
 ## Articles
 
 - [Difference between High Level Design and Low Level Design](https://www.geeksforgeeks.org/difference-between-high-level-design-and-low-level-design/)
