@@ -1,5 +1,13 @@
 # Software Engineering
 
+## Clean Code 
+
+- [Clean Code Explained – A Practical Introduction to Clean Coding for Beginners](https://www.freecodecamp.org/news/clean-coding-for-beginners/)
+
+## Clean Architecture 
+
+- [A quick introduction to clean architecture](https://www.freecodecamp.org/news/a-quick-introduction-to-clean-architecture-990c014448d2/)
+
 ## Functional Programming 
 
 - Functional programming is all about building functions for immutable variables.
@@ -27,14 +35,18 @@
 
 - [A brief introduction to Metaprogramming in JavaScript](https://medium.com/jspoint/a-brief-introduction-to-metaprogramming-in-javascript-88d13ed407b5)
 
+## Design Patterns 
+
+- [Software Design Patterns](https://www.geeksforgeeks.org/software-design-patterns/)
+- [Design Patterns](https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm)
+
+
 
 ## Articles
 
 - [Test Driven Development](https://www.geeksforgeeks.org/test-driven-development-tdd/)
 - [Behaviour Driven Development](https://www.geeksforgeeks.org/behavioral-driven-development-bdd-in-software-engineering/?ref=rp)
 - [Difference between TDD and BDD](https://www.geeksforgeeks.org/difference-between-bdd-vs-tdd-in-software-engineering/?ref=rp)
-
-- [Design Patterns](https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm)
 
 - [Polyglot Programming](https://medium.com/@guestposts_92864/what-is-a-polyglot-programmer-and-why-you-should-become-one-e5629bf720c2)
 

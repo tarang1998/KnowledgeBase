@@ -48,6 +48,7 @@
 - [Difference between High Level Design and Low Level Design](https://www.geeksforgeeks.org/difference-between-high-level-design-and-low-level-design/)
 
 - [Grokking the Object Oriented Design Interview](https://github.com/tssovi/grokking-the-object-oriented-design-interview)
+- [Why should I learn system design?](https://www.educative.io/blog/complete-guide-to-system-design)
 
 ## Videos 
 

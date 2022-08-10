@@ -8,7 +8,7 @@
 - [Microservice Architecture](https://microservices.io/patterns/microservices.html)
 - [Introduction to Monolithic Architecture and MicroServices Architecture](https://medium.com/koderlabs/introduction-to-monolithic-architecture-and-microservices-architecture-b211a5955c63)
 
-- [Writing Microservices with google cloud functions](https://medium.com/billie-finanzratgeber/w riting-microservices-with-google-cloud-functions-231205d1a94)
+- [Writing Microservices with google cloud functions](https://medium.com/billie-finanzratgeber/writing-microservices-with-google-cloud-functions-231205d1a94)
 - [Serverless vs Microservices — Which Architecture to Choose](https://www.techmagic.co/blog/serverless-vs-microservices-which-architecture-to-choose/)
 - [Difference between Microservices and serverless](https://www.geeksforgeeks.org/difference-between-microservices-and-serverless/)
 
@@ -74,6 +74,7 @@
 ## Distributed Systems
 
 - [Distributed Systems](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
+- [Top 5 distributed system design patterns](https://www.educative.io/blog/distributed-system-design-patterns)
 
 
 ## Projects     
