@@ -1,6 +1,9 @@
 # System Design
 
-## Concepts 
+## Fundamentals
+
+- [Proxy Servers](/SystemDesign/SystemDesignFundamentals/proxyServers.md)
+
 
 ### Database Sharding 
 
