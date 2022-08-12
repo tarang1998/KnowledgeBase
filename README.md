@@ -10,5 +10,7 @@ This repository is a currated collection of resources related to computer Scienc
 - [Backend](/Backend/Backend.md)
 - [Software Engineering](/SoftwareEngineering/softwareEngineering.md)
 - [CS Fundamentals](/CSFundamentals/fundamentals.md)
+- [App Development]()
+- [Web Development]()
 
  
