@@ -4,13 +4,9 @@
 
 - Interleaving Strings [[Problem Statement](https://leetcode.com/problems/interleaving-string/)]  <sub> (Dynamic Programming)</sub> 
 
+- Reverse Words in a String [[Problem Statement](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python Solution](/CompetitiveProgramming/Strings/reverseWordsInAString.py)] 
 
 
-
-### Reverse Words in a String
-
-- [Question](https://leetcode.com/problems/reverse-words-in-a-string/)
-- [Solution](/CompetitiveProgramming/Strings/reverseWordsInAString.py)
 
 ### Valid Anagrams
 
