@@ -2,8 +2,7 @@
 
 ## Problems
 
-> Dynamic Programming
-- Interleaving Strings [[Problem Statement](https://leetcode.com/problems/interleaving-string/)]
+- Interleaving Strings (Dynamic Programming) [[Problem Statement](https://leetcode.com/problems/interleaving-string/)]
 
 
 
