@@ -25,15 +25,14 @@
 
 - Course Scheduling [[Problem Statement](https://leetcode.com/problems/course-schedule/) | [Python Solution - Detecting a cycle in a directed Graph using DFS](/CompetitiveProgramming/Graph/courseScheduling-1.py)] <sub> (Diff : Medium, Topics : Depth First Search, Breadth First Search, Graph, Topological Sort )</sub> 
 
+- Topological Sorting [[Concept](https://www.geeksforgeeks.org/topological-sorting/) | [Problem Statement](https://practice.geeksforgeeks.org/problems/topological-sort/1) | [Python Solution - Topological Sort using DFS](/CompetitiveProgramming/Graph/topologicalSortUsingDFS.py) | [Python Solution - Topological Sort using BFS](/CompetitiveProgramming/Graph/topologicalSortUsingBFS.py)] <sub> (Diff : Medium)</sub><sup> Expected Time Complexity : O(V+E) , Expected Space Complexity : O(V)</sup>
 
+###  
 
-### Topological Sorting 
-
-- [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
-> Expected Time Complexity : O(V+E) , Expected Space Complexity : O(V)
-- [Topological Sorting Problem](https://practice.geeksforgeeks.org/problems/topological-sort/1)
-- [Python Solution - Topological Sort using DFS](/CompetitiveProgramming/Graph/topologicalSortUsingDFS.py)
-- [Python Solution - Topological Sort using BFS](/CompetitiveProgramming/Graph/topologicalSortUsingBFS.py)
+- [Topological Sorting]()
+> 
+- [Topological Sorting Problem]()
+- 
 
 ### No of Islands
 

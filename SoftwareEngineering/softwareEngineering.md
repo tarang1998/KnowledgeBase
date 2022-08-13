@@ -39,6 +39,9 @@
 
 - [Software Design Patterns](https://www.geeksforgeeks.org/software-design-patterns/)
 - [Design Patterns](https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm)
+    - MVC
+    - Observer
+    - Singletons
 
 
 
