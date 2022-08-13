@@ -17,31 +17,16 @@
 
 - Clone Graph [[Problem Statement](https://leetcode.com/problems/clone-graph/) | [Python Solution](/CompetitiveProgramming/Graph/cloneGraph.py)] <sub> (Diff : Medium)</sub> 
 
-- Dijkstra Algorithm [[Problem Statement](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | [Python Solution]()] <sub> (Diff : Medium)</sub> 
-
 - Detecting a cycle in an Undirected Graph using BFS [[Python Solution](/CompetitiveProgramming/Graph/undirectedGraphCycleDetectionWithBFS.py)]
 
 - Detecting a cycle in an Undirected Graph using DFS [[Python Solution](/CompetitiveProgramming/Graph/undirectedGraphCycleDetectionWithDFS.py)]
 
 - Course Scheduling [[Problem Statement](https://leetcode.com/problems/course-schedule/) | [Python Solution - Detecting a cycle in a directed Graph using DFS](/CompetitiveProgramming/Graph/courseScheduling-1.py)] <sub> (Diff : Medium, Topics : Depth First Search, Breadth First Search, Graph, Topological Sort )</sub> 
 
-- Topological Sorting [[Concept](https://www.geeksforgeeks.org/topological-sorting/) | [Problem Statement](https://practice.geeksforgeeks.org/problems/topological-sort/1) | [Python Solution - Topological Sort using DFS](/CompetitiveProgramming/Graph/topologicalSortUsingDFS.py) | [Python Solution - Topological Sort using BFS](/CompetitiveProgramming/Graph/topologicalSortUsingBFS.py)] <sub> (Diff : Medium)</sub><sup> Expected Time Complexity : O(V+E) , Expected Space Complexity : O(V)</sup>
+- Topological Sorting [[Concept](https://www.geeksforgeeks.org/topological-sorting/) | [Problem Statement](https://practice.geeksforgeeks.org/problems/topological-sort/1) | [Python Solution - Topological Sort using DFS](/CompetitiveProgramming/Graph/topologicalSortUsingDFS.py) | [Python Solution - Topological Sort using BFS](/CompetitiveProgramming/Graph/topologicalSortUsingBFS.py)] <sub> (Diff : Medium, Expected Time Complexity : O(V+E), Expected Space Complexity : O(V))</sub>
 
-###  
+- No of Islands [[Problem Statement](https://leetcode.com/problems/number-of-islands/) | [Python Solution](/CompetitiveProgramming/Graph/noOfIslands.py)] <sub> (Diff : Medium)</sub> 
 
-- [Topological Sorting]()
-> 
-- [Topological Sorting Problem]()
-- 
+- Is Graph Bipartite [[Concept](https://www.geeksforgeeks.org/bipartite-graph/) | [Problem Statement](https://leetcode.com/problems/is-graph-bipartite/) | [Python Solution using DFS](/CompetitiveProgramming/Graph/checkIfGraphIsBipartitebfs.py) | [Python Solution using BFS](/CompetitiveProgramming/Graph/checkIfGraphIsBipartiteDFS.py)] <sub> (Diff : Medium)</sub>
 
-### No of Islands
-
-- [Problem](https://leetcode.com/problems/number-of-islands/)
-- [Python Solution](/CompetitiveProgramming/Graph/noOfIslands.py)
-
-### Is Graph Bipartite
-
-- [Check Whether the given Graph is Bipartite or not ](https://www.geeksforgeeks.org/bipartite-graph/)
-- [Problem](https://leetcode.com/problems/is-graph-bipartite/)
-- [Solution using BFS approach](/CompetitiveProgramming/Graph/checkIfGraphIsBipartitebfs.py)
-- [Solution using DFS approach](/CompetitiveProgramming/Graph/checkIfGraphIsBipartiteDFS.py)
+- Dijkstra Algorithm [[Problem Statement](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | [Python Solution]()] <sub> (Diff : Medium)</sub> 
