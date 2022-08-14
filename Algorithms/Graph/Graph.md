@@ -5,6 +5,7 @@
 - [Breadth First Search](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 - [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
 - [Check Whether the given Graph is Bipartite or not ](https://www.geeksforgeeks.org/bipartite-graph/)
+- [Dijkstra’s shortest path algorithm](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)
 
 
 ## Problems 
@@ -29,4 +30,4 @@
 
 - Is Graph Bipartite [[Concept](https://www.geeksforgeeks.org/bipartite-graph/) | [Problem Statement](https://leetcode.com/problems/is-graph-bipartite/) | [Python Solution using DFS](/CompetitiveProgramming/Graph/checkIfGraphIsBipartitebfs.py) | [Python Solution using BFS](/CompetitiveProgramming/Graph/checkIfGraphIsBipartiteDFS.py)] <sub> (Diff : Medium)</sub>
 
-- Dijkstra Algorithm [[Problem Statement](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | [Python Solution]()] <sub> (Diff : Medium)</sub> 
+- Dijkstra Algorithm [[Concept](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/) | [Problem Statement](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | [Python Solution](/CompetitiveProgramming/Graph/dijkstras.py)] <sub> (Diff : Medium , Time Complexity : O(E Log V), Space Complexity : O(V))</sub> 
