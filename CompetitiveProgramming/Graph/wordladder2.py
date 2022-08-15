@@ -4,6 +4,7 @@ class Solution:
     
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
         
+        #if end word not in list return []
         if endWord not in wordList:
             return []
         
@@ -22,13 +23,18 @@ class Solution:
         
         # Creating a graph from the endWord
         graph = defaultdict(list)
+        nodelevel = defaultdict(list)
         
-        bfsqueue = [endWord]
+        bfsqueue = [(endWord,0)]
         visited[endWord] = 1
         
         while(len(bfsqueue) != 0):
             
-            ele = bfsqueue.pop(0)
+            wordNode = bfsqueue.pop(0)
+            
+            ele = wordNode[0]
+            level = wordNode[1]
+            nodelevel[level].append(ele)
             
             if(ele == beginWord):
                 break
@@ -44,50 +50,54 @@ class Solution:
                         visited[nextWord] = 1
                         graph[ele].append(nextWord)
                         graph[nextWord].append(ele)
-                        bfsqueue.append(nextWord)
+                        bfsqueue.append((nextWord,level+1))
+              
                             
         #Backtracking from the beginning Word
     
-        dfsvisited = {}
-        
-        
-        def dfs(nodeWord,result):
+    
+        def dfs(nodeWord,result,level):
             
             if(nodeWord == endWord):
                 ans.append(result)
                 return
             
-            if(nodeWord not in dfsvisited ):
-                for i in range(len(nodeWord)):
+            nodesInPreviousLevel = nodelevel[level-1]
+            possibleNodesInPreviousLevel = []
+            
+            
+            for i in range(len(nodeWord)):
 
-                    nextWordPattern = nodeWord[:i]+"*"+nodeWord[i+1:]
+                nextWordPattern = nodeWord[:i]+"*"+nodeWord[i+1:]
 
-                    nextWords = d[nextWordPattern]
-
-                    for nextWord in nextWords:
-                        if(nextWord != nodeWord):
-                            if((nextWord in graph) and (nextWord not in graph[nodeWord])):
-                                graph[nodeWord].append(nextWord)
-
+                nextWords = d[nextWordPattern]
+                possibleNodesInPreviousLevel.extend(nextWords)
                     
-            dfsvisited[nodeWord] = 1       
-            print(nodeWord,graph[nodeWord])
+                    
+
+            for i in nodesInPreviousLevel:
+                if(i in possibleNodesInPreviousLevel and i not in graph[nodeWord]):
+                    
+                    graph[nodeWord].append(i)
+                    graph[i].append(nodeWord)
+                    
+     
             
             adjNodes = graph[nodeWord]
             
             for adjNode in adjNodes:
-                if(adjNode not in dfsvisited):
+                if(adjNode in nodelevel[level-1]):
                     temp = result.copy()
                     temp.append(adjNode)
                 
-                    dfs(adjNode,temp)
+                    dfs(adjNode,temp,level-1)
                 
                 
             
         
-        dfs(beginWord,[beginWord])
+        dfs(beginWord,[beginWord],len(nodelevel)-1)
         
-        print(ans)
+        return ans
         
         
         
