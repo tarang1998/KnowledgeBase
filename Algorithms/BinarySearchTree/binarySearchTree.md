@@ -7,5 +7,9 @@
 
 - Lowest Common Ancestor of a Binary Search Tree [[Problem Statement](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Java Solution](/CompetitiveProgramming/BinarySearchTrees/LCABST.java)] <sub> (Diff : Easy, Topics : Binary Tree, Depth First Search)</sub> 
 
+---
+
+- Validate Binary Search Tree [[Problem Statement](https://leetcode.com/problems/validate-binary-search-tree/) | [Python Solution](/CompetitiveProgramming/BinarySearchTrees/validateBinarySearchTree.py)] <sub> (Diff : Medium, Topics : Binary Tree, Binary Search Tree, Depth First Search)</sub> 
+
 - Valid BST from PreOrder [[Problem Statement](https://www.interviewbit.com/problems/valid-bst-from-preorder/)]
 
