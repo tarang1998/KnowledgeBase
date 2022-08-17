@@ -2,6 +2,8 @@
 
 ## Problems
 
+-  Unique Morse Code Words[[Problem Statement](https://leetcode.com/problems/unique-morse-code-words/) | [Python Solution](/CompetitiveProgramming/Strings/uniqueMorseCodeWords.py)] <sub> (Diff : Easy, Topics : Array | Hash Table | String )</sub> 
+
 -  First Unique Character in a String [[Problem Statement](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python Solution](/CompetitiveProgramming/Strings/firstUniqueCharacterInAString.py)] <sub> (Diff : Easy)</sub> 
 
 - Valid Anagrams [[Problem Statement](https://leetcode.com/problems/valid-anagram/) | [Python Solution](/CompetitiveProgramming/Strings/validAnagrams.py)] <sub> (Diff : Easy)</sub> 
