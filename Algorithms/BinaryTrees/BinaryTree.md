@@ -11,6 +11,12 @@
 
 ## Problems
 
+---
+
+- Binary Trees with Factors [[Problem Statement](https://leetcode.com/problems/binary-trees-with-factors/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/binaryTreeWithFactors.py)] <sub> (Diff : Medium, Topics : Dynamic Programming)</sub> 
+
+---
+
 ### Inorder Traveral
 
 - [Problem](https://leetcode.com/problems/binary-tree-inorder-traversal/)
