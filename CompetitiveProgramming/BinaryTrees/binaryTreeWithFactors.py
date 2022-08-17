@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/binary-trees-with-factors/
 
 class Solution:
     
@@ -45,11 +46,28 @@ class Solution:
         
         N = len(arr)
         
-        self.quickSort(arr,0,len(arr)-1)
+        #self.quickSort(arr,0,len(arr)-1)
+        arr.sort()
         
         dp = [1] * N
         
         index = {ele : index for index,ele in enumerate(arr)}
+        
+        for i, ele in enumerate(arr):
+            
+            for j in range(i):
+                
+                if(ele % arr[j] == 0 ):
+                    rightEle = ele/arr[j]
+                    
+                    if rightEle in index:
+                        
+                        dp[i] += dp[j] * dp[index[rightEle]]
+                        
+        return sum(dp)%1000000007
+                        
+                
+                
         
         
         
