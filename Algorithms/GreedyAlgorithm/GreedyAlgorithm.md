@@ -6,6 +6,12 @@
 
 ## Problems
 
+---
+
+- Reduce Array Size to The Half [[Problem Statement](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/reduceArraySizeToHalf.py)] <sub> (Diff : Medium, Topics : Array | Hash Table | Greedy | Sorting | Heap(Priority Queue) </sub> 
+
+---
+
 ### Luck Balance
 
 - [Question](https://www.hackerrank.com/challenges/luck-balance/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)

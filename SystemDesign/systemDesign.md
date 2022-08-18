@@ -3,6 +3,7 @@
 ## Fundamentals
 
 - [Proxy Servers](/SystemDesign/SystemDesignFundamentals/proxyServers.md)
+- [CAP Theorem](/SystemDesign/SystemDesignFundamentals/capTheorem.md)
 
 
 ### Database Sharding 
@@ -45,6 +46,7 @@
 
 - [UBER System Design](https://medium.com/@narengowda/uber-system-design-8b2bc95e2cfe)
 - [UBER System design | OLA system design | uber architecture | amazon interview question](https://www.youtube.com/watch?v=umWABit-wbk)
+- [Top 10 system design interview questions for software engineers](https://www.educative.io/blog/top-10-system-design-interview-questions)
 
 ## Articles
 
