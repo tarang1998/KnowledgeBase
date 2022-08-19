@@ -8,7 +8,12 @@
 
 ---
 
-- Reduce Array Size to The Half [[Problem Statement](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/reduceArraySizeToHalf.py)] <sub> (Diff : Medium, Topics : Array | Hash Table | Greedy | Sorting | Heap(Priority Queue) </sub> 
+- Reduce Array Size to The Half [[Problem Statement](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/reduceArraySizeToHalf.py)] <sub> (Diff : Medium, Topics : Array | Hash Table | Greedy | Sorting | Heap(Priority Queue)) </sub> 
+
+- Split Array into Consecutive Subsequences [[Problem Statement](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/splitArrayIntoConsecutiveSubsequence.py)] <sub> (Diff : Medium, Topics : Array | Hash Table | Greedy | Sorting | Heap(Priority Queue)) </sub> 
+
+
+ 
 
 ---
 
