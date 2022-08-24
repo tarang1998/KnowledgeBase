@@ -3,7 +3,7 @@
 
 - [Mathematics]()
 - [Arrays]()
-- [Linked List]()
+- [Linked List](/Algorithms/LinkedList/linkedlist.md)
 - [Greedy Algorithms](/Algorithms/GreedyAlgorithm/GreedyAlgorithm.md)
 - [Recursion](/Algorithms/Recursion/Recursion.md)
 - [Recursion And Backtracking](/Algorithms/RecursionAndBacktracking/RecursionAndBacktracking.md)
