@@ -4,7 +4,9 @@
 
 - Unique Paths [[Problem Statement](https://leetcode.com/problems/unique-paths) | [Python Solution](/CompetitiveProgramming/Maths/romanToInteger.py)] <sub> (Diff : Easy , HashTables : Math, String)</sub> 
 
-- Power Of Four [[Problem Statement](https://leetcode.com/problems/power-of-four/) | [Python Solution](/CompetitiveProgramming/Maths/powerOfFour.py)] <sub> (Diff : Math, Bit Manipulation, Recursion)</sub> 
+- Power Of Three [[Problem Statement](https://leetcode.com/problems/power-of-three/) | [Python Solution](/CompetitiveProgramming/Maths/powerOfThree.py)] <sub> (Diff : Easy , Topics : Math, Bit Manipulation, Recursion)</sub> 
+
+- Power Of Four [[Problem Statement](https://leetcode.com/problems/power-of-four/) | [Python Solution](/CompetitiveProgramming/Maths/powerOfFour.py)] <sub> (Diff : Easy , Topics : Math, Bit Manipulation, Recursion)</sub> 
 
 
 ---
