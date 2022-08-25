@@ -4,6 +4,7 @@
 - [Mathematics]()
 - [Arrays]()
 - [Linked List](/Algorithms/LinkedList/linkedlist.md)
+- [Hash Maps](/Algorithms/HashMaps/HashMap.md)
 - [Greedy Algorithms](/Algorithms/GreedyAlgorithm/GreedyAlgorithm.md)
 - [Recursion](/Algorithms/Recursion/Recursion.md)
 - [Recursion And Backtracking](/Algorithms/RecursionAndBacktracking/RecursionAndBacktracking.md)
