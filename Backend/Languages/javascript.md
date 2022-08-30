@@ -30,8 +30,10 @@
 - Blocking is when the execution of additional JavaScript in the Node.js process must wait until a non-JavaScript operation completes. 
 - This happens because the event loop is unable to continue running JavaScript while a blocking operation is occurring.
 
-- Since Node.js is sihttps://www.youtube.com/watch?v=Oe421EPjeBE ngle threaded, CPU intensive is not its strong suite
-https://nodejs.dev/learn/the-nodejs-event-loop
+- Since Node.js is single threaded, CPU intensive is not its strong suite
+
+
+
 ## Questions :
 
 - List down various timing features of Node.js 
