@@ -2,7 +2,7 @@
 # Algorithms And Data Structures 
 
 - [Mathematics]()
-- [Arrays]()
+- [Arrays](/Algorithms/Arrays/arrays.md)
 - [Linked List](/Algorithms/LinkedList/linkedlist.md)
 - [Hash Maps](/Algorithms/HashMaps/HashMap.md)
 - [Greedy Algorithms](/Algorithms/GreedyAlgorithm/GreedyAlgorithm.md)
