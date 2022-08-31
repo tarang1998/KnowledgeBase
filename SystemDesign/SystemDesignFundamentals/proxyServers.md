@@ -3,13 +3,28 @@
 
 - Proxy server refers to a server that acts as an intermediary between the request made by clients, and a particular server for some services or requests for some resources.
 - The basic purpose of Proxy servers is to protect the direct connection of Internet clients and internet resources. 
-- The proxy server also prevents the identification of the client’s IP address when the client makes any request to the servers.4
-- Usecases
-    - By caching the content of the websites, Proxy helps in fast access to the data that has been accessed very often.
+ 
+- Types of Proxy Servers:
+    - Forward Proxy (Client facing proxy)
+        - The server doesnt know about the client which has made the request
+        - Benifits:
+            - Used for anonymity. Disguises the client's IP address.
+            - Used to block malicious traffic from reaching an original web server.
+            - Used to block access to certain sites.
+            - To cache the responses from the server
+            - Accessing geo-location Restricted Content
+
+    - Reverse Proxy
+        - A server side proxy
+        - Benifits:
+            - Can be used for traffic control, load balancing, logging
+            - Caching responses
+            - Mitigate DDOS attacks
+            - Canary Deployment(The practice of making staged releases)
+        - It could be a single point of failure
     
-
-
-## Resources 
+### Resources 
 
 - [What is Proxy Server?](https://www.geeksforgeeks.org/what-is-proxy-server/)
 - [What is a Proxy Server? - 2 ](https://www.educative.io/answers/what-is-a-proxy-server)
+- [Proxies | System Design Tutorials](https://www.youtube.com/watch?v=Nu-4Q3OoR4E)

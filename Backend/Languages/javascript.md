@@ -32,6 +32,10 @@
 
 - Since Node.js is single threaded, CPU intensive is not its strong suite
 
+- Event Loop
+- Async Patterns 
+- Events 
+
 
 
 ## Questions :
