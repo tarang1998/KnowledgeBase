@@ -3,6 +3,8 @@
 - Document based Databases 
     - Used when you are not sure about the structure of the data and how it is going to evolve
     - Supports heavy read and write operations
+    - ACID properties are not supported 
+    - Data may contain Null values and they have to handled in the application code
     - Eg: Firebase
 
 - Column Databases
@@ -21,5 +23,5 @@
 
 ## Resources 
 
-- [Databases types: SQL, NoSQL, Column, Search, Key Value ]()
+- [Databases types: SQL, NoSQL, Column, Search, Key Value ](https://www.youtube.com/watch?v=O_c7lzNbcKo&t=610s)
 - [Types of Databases](https://www.bitdegree.org/tutorials/types-of-databases/)
