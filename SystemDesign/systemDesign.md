@@ -3,6 +3,7 @@
 ## Fundamentals
 
 - [Proxy Servers](/SystemDesign/SystemDesignFundamentals/proxyServers.md)
+- [Caching](/SystemDesign/SystemDesignFundamentals/caching.md)
 - [CAP Theorem](/SystemDesign/SystemDesignFundamentals/capTheorem.md)
 
 

@@ -11,6 +11,8 @@
 
 ## Problems
 
+- Average Of levels In a Binary Tree [[Problem Statement](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [JavaScript Solution](/CompetitiveProgramming/BinaryTrees/averageOfLevelsInABinaryTree.js)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Breadth-First-Search)</sub> 
+
 ---
 
 - Binary Trees with Factors [[Problem Statement](https://leetcode.com/problems/binary-trees-with-factors/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/binaryTreeWithFactors.py)] <sub> (Diff : Medium, Topics : Dynamic Programming)</sub> 
