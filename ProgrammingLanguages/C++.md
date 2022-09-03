@@ -1,5 +1,6 @@
-#Concepts
+# Concepts
 
+- [Pointers in C/C++](https://www.geeksforgeeks.org/pointers-c-examples/)
 - [C++ Functions](https://www.tutorialspoint.com/cplusplus/cpp_functions.htm)
 - [C++ Functions : Call By Pointer](https://www.tutorialspoint.com/cplusplus/cpp_function_call_by_pointer.htm)
 - [C++ Functions : Call By Reference](https://www.tutorialspoint.com/cplusplus/cpp_function_call_by_reference.htm)

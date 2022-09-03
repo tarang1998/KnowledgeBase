@@ -19,6 +19,8 @@
 
 - Count Good Nodes In Binary Tree [[Problem Statement](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [JavaScript Solution](/CompetitiveProgramming/BinaryTrees/countGoodNodesInBinaryTree.js)] <sub> (Diff : Medium, Topics : Tree | Depth-First Search | Breadth-First Search | Binary Tree)</sub> 
 
+- Numbers With Same Consecutive Differences [[Problem Statement](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/numbersWithsameConsecutiveDiff.py)] <sub> (Diff : Medium, Topics : Depth-First Search | Breadth-First Search | Binary Tree)</sub> 
+
 ---
 
 ### Inorder Traveral
