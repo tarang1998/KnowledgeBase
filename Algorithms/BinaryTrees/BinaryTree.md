@@ -23,6 +23,12 @@
 
 ---
 
+- Vertical Order Traversal of the binary Tree [[Problem Statement](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/verticalOrderTraversalOfBinaryTree/verticalOrderTraversalOfBinaryTree.py) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/verticalOrderTraversalOfBinaryTree/verticalOrderTraversalOfBinaryTree.cpp)] <sub> (Diff : Hard, Topics : Depth-First Search | Breadth-First Search | Binary Tree)</sub> 
+
+
+
+
+
 ### Inorder Traveral
 
 - [Problem](https://leetcode.com/problems/binary-tree-inorder-traversal/)
@@ -63,10 +69,7 @@
 - [Problem](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1)
 - [Solution](/CompetitiveProgramming/BinaryTrees/topViewOfBinaryTree.py)
 
-### Vertical Order Traversal of the binary Tree
 
-- [Problem](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/submissions/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/verticalOrderTraversalOfBinaryTree.py)
 
 ### Construct Binary Tree From Preorder and Inorder Traversal
 
