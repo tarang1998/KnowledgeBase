@@ -23,6 +23,8 @@
 
 - N-ary Tree Level Order Traversal [[Problem Statement](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/nArrayLevelOrderTraversal.cpp)] <sub> (Diff : Medium, Topics : Depth-First Search | Breadth-First Search |  Tree)</sub> 
 
+- Binary Tree Pruning [[Problem Statement](https://leetcode.com/problems/binary-tree-pruning/) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/binaryTreePruning.cpp)] <sub> (Diff : Medium, Topics : Depth-First Search | Tree)</sub> 
+
 ---
 
 - Vertical Order Traversal of the binary Tree [[Problem Statement](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/verticalOrderTraversalOfBinaryTree/verticalOrderTraversalOfBinaryTree.py) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/verticalOrderTraversalOfBinaryTree/verticalOrderTraversalOfBinaryTree.cpp)] <sub> (Diff : Hard, Topics : Depth-First Search | Breadth-First Search | Binary Tree)</sub> 
