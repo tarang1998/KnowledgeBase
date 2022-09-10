@@ -12,6 +12,8 @@
 
 - Split Array into Consecutive Subsequences [[Problem Statement](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/splitArrayIntoConsecutiveSubsequence.py)] <sub> (Diff : Medium, Topics : Array | Hash Table | Greedy | Sorting | Heap(Priority Queue)) </sub> 
 
+-  The Number of Weak Characters in the Game [[Problem Statement](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/noOfWeekCharactersInAGame.py)] <sub> (Diff : Medium, Topics : Array | Stack | Greedy | Sorting | Monotonic Stack) </sub> 
+
 ---
 
 - Stamping the Sequence [[Problem Statement](https://leetcode.com/problems/stamping-the-sequence/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/stampingTheSequence.py)] <sub> (Diff : Hard, Topics : String | Stack | Greedy | Queue ) </sub> 
