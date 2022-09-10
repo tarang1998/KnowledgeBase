@@ -70,6 +70,9 @@
 - [Go]()
 - [Python]()
 
+## Devops
+- [Docker Simplified](https://www.freecodecamp.org/news/docker-simplified-96639a35ff36/)
+- [Difference Between Docker and Kubernetes](https://containerjournal.com/editorial-calendar/best-of-2021/whats-the-difference-between-docker-and-kubernetes/)
 
 ## Distributed Systems
 
