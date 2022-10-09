@@ -6,7 +6,9 @@
 
 ## Problems
 
-- Best Time to Buy and Sell Stock [[Problem Statement](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/bestTimeToBuyAndSellStock.py)] <sub> (Diff : Easy, Topics : Array | Dynamic Programming ) </sub> 
+- Best Time to Buy and Sell Stock [[Problem Statement](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/bestTimeToBuyAndSellStock.py)] <sub> (Diff : Easy, Topics : Array | Dynamic Programming ) </sub>
+
+- Climbing Stairs [[Problem Statement](https://leetcode.com/problems/climbing-stairs/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/climbingStairs.py)] <sub> (Diff : Easy, Topics : Math | Dynamic Programming | Memoization) </sub>
 
 ---
 
