@@ -10,7 +10,7 @@
 
 - Min Cost Climbing Stairs [[Problem Statement](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/minCostClimbingStairs.py)] <sub> (Diff : Easy, Topics : Array | Dynamic Programming) </sub>
 
-- Climbing Stairs [[Problem Statement](https://leetcode.com/problems/climbing-stairs/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/climbingStairs.py)] <sub> (Diff : Easy, Topics : Math | Dynamic Programming | Memoization) </sub>
+- Climbing Stairs [[Problem Statement](https://leetcode.com/problems/climbing-stairs/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/ClimbingStairs/climbingStairs.py) | [C++ Solution](/CompetitiveProgramming/DynamicProgramming/ClimbingStairs/climbingStairs.cpp)] <sub> (Diff : Easy, Topics : Math | Dynamic Programming | Memoization) </sub>
 
 ---
 
