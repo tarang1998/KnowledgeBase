@@ -10,6 +10,9 @@
 
 - Convert Sorted Array to Binary Search Tree [[Problem Statement](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python Solution](/CompetitiveProgramming/BinarySearchTrees/convertSortedArrayToBinaryTree.py)] <sub> (Diff : Easy, Topics : Binary Tree, Array, Divide and Conquer)</sub> 
 
+- Two Sum IV - Input is a BST [[Problem Statement](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | [Python Solution](/CompetitiveProgramming/BinarySearchTrees/twoSum4InputBST.py)] <sub> (Diff : Easy)</sub> 
+
+
 ---
 
 - Validate Binary Search Tree [[Problem Statement](https://leetcode.com/problems/validate-binary-search-tree/) | [Python Solution](/CompetitiveProgramming/BinarySearchTrees/validateBinarySearchTree.py)] <sub> (Diff : Medium, Topics : Binary Tree, Binary Search Tree, Depth First Search)</sub> 
