@@ -22,4 +22,5 @@
 ## Resources 
 
 - [Strivers SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
-- [NeetCode](https://neetcode.io/practice)
+- [Neet Code](https://neetcode.io/practice)
+- [Awesome Software Engineering Interview](https://github.com/imkgarg/Awesome-Software-Engineering-Interview)
