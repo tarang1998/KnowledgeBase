@@ -4,8 +4,14 @@
 - It is the foundation of data exchange on the web and it is a client-server protocol.It involves client making the request to the server, which then sends a response
 - It is an application layer protocol and is extensible and has evolved over time
 
-- **HTTP Request**
+> **HTTP Request**
 
+- A HTTP request contains the following components
+    - HTTP Version Type
+    - A URL
+    - HTTP Method
+    - HTTP request headers
+    - Optional HTTP Body
 
 ## Articles
 
