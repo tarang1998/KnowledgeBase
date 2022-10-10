@@ -6,6 +6,8 @@
 
 - Reverse Linked List [[Problem Statement](https://leetcode.com/problems/reverse-linked-list/) | [Python Solution](/CompetitiveProgramming/LinkedList/ReverseLinkedList/reverseLinkedList.py) | [C++ Solution](/CompetitiveProgramming/LinkedList/ReverseLinkedList/reverseLinkedList.cpp)] <sub> (Diff : Easy | Topics : Linked List , Recursion )</sub> 
 
+- Merge Two Sorted Lists [[Problem Statement](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python Solution](/CompetitiveProgramming/LinkedList/mergeTwoSortedList.py)] <sub> (Diff : Easy | Topics : Linked List , Recursion )</sub> 
+
 ---
 
 
