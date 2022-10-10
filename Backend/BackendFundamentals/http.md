@@ -4,7 +4,8 @@
 - It is the foundation of data exchange on the web and it is a client-server protocol.It involves client making the request to the server, which then sends a response
 - It is an application layer protocol and is extensible and has evolved over time
 
-> **HTTP Request**
+
+### HTTP Request
 
 - A HTTP request contains the following components : 
 
@@ -15,9 +16,9 @@
     - Optional HTTP Body
 
 
-> **HTTP Methods**
+- #### HTTP Methods
 
-- Also sometimes also refered as HTTP Verb, it indicates the action that the HTTP request expects from the server.
+    - Also sometimes also refered as HTTP Verb, it indicates the action that the HTTP request expects from the server.
 
 
 
