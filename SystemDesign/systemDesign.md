@@ -5,6 +5,7 @@
 - [Proxy Servers](/SystemDesign/SystemDesignFundamentals/proxyServers.md)
 - [Caching](/SystemDesign/SystemDesignFundamentals/caching.md)
 - [CAP Theorem](/SystemDesign/SystemDesignFundamentals/capTheorem.md)
+- [HTTP](/Backend/BackendFundamentals/http.md)
 
 
 ### Database Sharding 
@@ -54,6 +55,7 @@
 - [Difference between High Level Design and Low Level Design](https://www.geeksforgeeks.org/difference-between-high-level-design-and-low-level-design/)
 
 - [Grokking the Object Oriented Design Interview](https://github.com/tssovi/grokking-the-object-oriented-design-interview)
+- [Grokking Modern System Design Interview for Engineers & Managers](https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers)
 - [Why should I learn system design?](https://www.educative.io/blog/complete-guide-to-system-design)
 
 ## Videos 
