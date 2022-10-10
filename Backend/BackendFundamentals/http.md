@@ -6,12 +6,15 @@
 
 > **HTTP Request**
 
-- A HTTP request contains the following components
+- A HTTP request contains the following components : 
+
     - HTTP Version Type
     - A URL
     - HTTP Method
     - HTTP request headers
     - Optional HTTP Body
+
+    > **HTTP Methods**
 
 ## Articles
 
