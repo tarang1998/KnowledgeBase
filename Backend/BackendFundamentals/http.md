@@ -4,7 +4,7 @@
 - It is the foundation of data exchange on the web and it is a client-server protocol.It involves client making the request to the server, which then sends a response
 - It is an application layer protocol and is extensible and has evolved over time
 
-** HTTP Request **
+- **HTTP Request**
 
 
 ## Articles
