@@ -20,7 +20,17 @@
 
     - Also sometimes also refered as HTTP Verb, it indicates the action that the HTTP request expects from the server.
 
+- #### HTTP Request Headers
 
+    - They contain information in key-value pair and are included in every HTTP request
+
+- #### HTTP Request Body
+
+    - The body of the HTTP Request contains any information that being submitted to the web server, such as username and password.
+
+### HTTP Response 
+
+- 
 
 ## Articles
 
