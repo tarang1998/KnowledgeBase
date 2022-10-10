@@ -16,7 +16,7 @@
     - Optional HTTP Body
 
 
-> #### HTTP Methods
+- #### HTTP Methods
 
     - Also sometimes also refered as HTTP Verb, it indicates the action that the HTTP request expects from the server.
 
@@ -30,7 +30,27 @@
 
 ### HTTP Response 
 
-- 
+- A HTTP Response contains the following information
+
+    - A HTTP Status Code
+    - HTTP Response Header
+    - Optional HTTP Body
+
+- #### HTTP Status Codes
+
+    - HTTP Status codes are 3 digit codes broken into 5 groups 
+        - 1xx Information
+        - 2xx Success 
+        - 3xx Redirection
+        - 4xx Client Error
+        - 5xx Server Error
+
+    - 'xx' refers to number between 0-99
+
+- #### HTTP Response Headers
+
+ - Conveys important information like the language and the format of the data being sent in the response body.
+ 
 
 ## Articles
 
