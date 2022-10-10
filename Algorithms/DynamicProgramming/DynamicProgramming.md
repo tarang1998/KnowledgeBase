@@ -22,6 +22,8 @@
 
 - Wiggle Subsequence [[Problem Statement](https://leetcode.com/problems/wiggle-subsequence) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/WiggleSubsequence/wiggleSubsequence.py)] <sub> (Diff : Medium, Topics : Array | Dynamic Programming | Greedy ) </sub> 
 
+- House Robber [[Problem Statement](https://leetcode.com/problems/house-robber/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/houseRobber.py)] <sub> (Diff : Medium, Topics : Array | Dynamic Programming ) </sub> 
+
 ---
 
 - Minimum Number of Refueling Stops [[Problem Statement](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/minNumberOfRefuelingStops.py)] <sub> (Diff : Hard, Topics : Array | Dynamic Programming | Greedy | Heap(Priority Queue)) </sub> 
