@@ -2,8 +2,9 @@
 
 - HTTP stands for Hyper Text Transfer Protocol.
 - It is the foundation of data exchange on the web and it is a client-server protocol.It involves client making the request to the server, which then sends a response
-- It is an application layer protocol and is extensible and has evolved over time
-
+- It is an application layer protocol.It is designed to be simple,human readable and is extensible (HTTP Headers introduced in HTTP/1.0 make this protocol easy to extend and experiment with) and has evolved over time
+- HTTP is stateless (there is no link between two requests being successfully carried out on the same connection) but not sessionless (Using header extensibility HTTP cookies are added to the workflow that allow the use of stateful session.)
+- HTTP does not require the underlying transport layer protocol to be connection based, it only requires it to be reliable. HTTP relies on TCP which is reliable and connection based. The default behaviour of HTTP/1.0 is to open separate TCP connection(which requires several round trips) for each HTTP request/response pair(which is less effecient than sharing a single TCP connection when multiple requests are sent)
 
 ### HTTP Request
 
@@ -23,6 +24,9 @@
 - #### HTTP Request Headers
 
     - They contain information in key-value pair and are included in every HTTP request
+    - Some of the key-value pairs are :
+        - User Agent : It is the tool that acts on behalf of the user, primarily a web browser.
+
 
 - #### HTTP Request Body
 
@@ -49,8 +53,12 @@
 
 - #### HTTP Response Headers
 
- - Conveys important information like the language and the format of the data being sent in the response body.
+    - Conveys important information like the language and the format of the data being sent in the response body.
  
+- #### HTTP Response Body
+
+    - Successful HTTP responses to GET requests generally have a body, which contains the requested information.
+
 
 ## Articles
 
