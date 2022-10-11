@@ -15,7 +15,7 @@
 - The common features controllable by HTTP:
 
     - Caching : The server can instruct proxies and clients about what to cache and for how long. The client can instruct intermediate cache proxies to ignore the stored documents.
-    - Relaxing the origin constraint 
+    - Relaxing the origin constraint : To prevent snooping and other privacy invasions, web browsers enforce strict separation between web sites. Only pages from the same origin can access all the information of a web page.
     - Authentication
 
 
@@ -25,7 +25,7 @@
 - A HTTP request contains the following components : 
 
     - HTTP Version Type
-    - A URL
+    - A URL : The path of the resource to be fetched
     - HTTP Method
     - HTTP request headers
     - Optional HTTP Body
@@ -33,7 +33,7 @@
 
 - #### HTTP Methods
 
-    - Also sometimes also refered as HTTP Verb, it indicates the action that the HTTP request expects from the server.
+    - It is usually a verb like GET/POST or a noun like OPTIONS/HEAD, it indicates the action that the HTTP request expects from the server.
 
 - #### HTTP Request Headers
 
@@ -50,7 +50,9 @@
 
 - A HTTP Response contains the following information
 
+    - HTTP Version Code 
     - A HTTP Status Code
+    - A status message, a short description of the status code
     - HTTP Response Header
     - Optional HTTP Body
 
