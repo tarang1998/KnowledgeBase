@@ -16,6 +16,8 @@
 - Abstraction:
     - Abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user.
     - In other words, the user will have the information on what the object does instead of how it does it.
+
+## Resources
     
 - [OOP: Everything you need to know about Object Oriented Programming](https://medium.com/from-the-scratch/oop-everything-you-need-to-know-about-object-oriented-programming-aee3c18e281b)
 - [Real-world examples of OOP concepts](https://medium.com/@punitkmr/real-world-examples-for-oop-concepts-abb9475b2095)

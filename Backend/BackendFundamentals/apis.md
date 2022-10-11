@@ -1,5 +1,20 @@
 # APIs
 
+### API Rate Limiter
+
+- 429 is the error code that is used which indicated that too may request were made
+- The functional requirements of the API rate limiter:
+    - Should return a bool value if the requets can be allowed or not
+- The non functional requirements of the API rate limiter:
+    - Low latency 
+    - Accurate 
+    - Scalable 
+- The simplest algorithm to implement in the API Rate Limiter is the token bucket algorithm
+- [What are the different API rate limiting methods needed while designing large scale systems & why?](https://www.youtube.com/watch?v=YSW3UE5AFD4)
+- [Implement API rate limiting to reduce attack surfaces](https://www.techtarget.com/searchsecurity/feature/Implement-API-rate-limiting-to-reduce-attack-surfaces)
+- [System Design Interview - Rate Limiting (local and distributed)](https://www.youtube.com/watch?v=FU4WlwfS3G0)
+- [Design a Scalable Rate Limiting Algorithm — System Design](https://medium.com/@intmainco/design-a-scalable-rate-limiting-algorithm-system-design-nlogn-895abba44b77)
+
 ### API Interceptor
 
 - Interceptor is an API gateway server built for accepting API requests from the client applications and routing them to the appropriate backend services. May it be a single service or multiple services to be called in a single API call, interceptor provides you with the necessary tools to control your API request flow.
