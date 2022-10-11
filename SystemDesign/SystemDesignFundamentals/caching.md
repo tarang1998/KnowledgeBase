@@ -9,9 +9,9 @@
 
         - It is a process in which the system declares cache entries as invalid and either removes them or replaces them.
         - The basic objective of the process is to ensure that when client request the data, the latest version of the data is returned.
-        - Three main schemes are used 
-            - Write-through cache 
-                - 
+        - Three main schemes are used :
+            - Write through cache 
+            - 
 
     - **Cache Eviction**
 
