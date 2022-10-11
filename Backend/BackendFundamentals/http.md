@@ -4,7 +4,21 @@
 - It is the foundation of data exchange on the web and it is a client-server protocol.It involves client making the request to the server, which then sends a response
 - It is an application layer protocol.It is designed to be simple,human readable and is extensible (HTTP Headers introduced in HTTP/1.0 make this protocol easy to extend and experiment with) and has evolved over time
 - HTTP is stateless (there is no link between two requests being successfully carried out on the same connection) but not sessionless (Using header extensibility HTTP cookies are added to the workflow that allow the use of stateful session.)
-- HTTP does not require the underlying transport layer protocol to be connection based, it only requires it to be reliable. HTTP relies on TCP which is reliable and connection based. The default behaviour of HTTP/1.0 is to open separate TCP connection(which requires several round trips) for each HTTP request/response pair(which is less effecient than sharing a single TCP connection when multiple requests are sent)
+- HTTP does not require the underlying transport layer protocol to be connection based, it only requires it to be reliable. 
+- HTTP relies on TCP which is reliable and connection based. 
+- The default behaviour of HTTP/1.0 is to open separate TCP connection(which requires several round trips) for each HTTP request/response pair(which is less effecient than sharing a single TCP connection when multiple requests are sent in succession)
+- HTTP/1.1 introduced pipelining and persistent connection : the underlying TCP connection can be partially controlled using the connection header.
+- HTTP/2 went a step further by multiplexing messages over a single connection, helping keep the connection warm and more efficient
+
+### What can be controlled by HTTP
+
+- The common features controllable by HTTP:
+
+    - Caching : The server can instruct proxies and clients about what to cache and for how long. The client can instruct intermediate cache proxies to ignore the stored documents.
+    - Relaxing the origin constraint 
+    - Authentication
+
+
 
 ### HTTP Request
 
