@@ -10,7 +10,7 @@
 
 - Largest Perimeter Triangle [[Problem Statement](https://leetcode.com/problems/largest-perimeter-triangle/) | [Python Solution](/CompetitiveProgramming/Maths/largestPerimeterTriangle.py)] <sub> (Diff : Easy , Topics : Math | Array | Greedy | Sorting)</sub> 
 
-- Power of x to y [[Python Solution](/CompetitiveProgramming/Maths/powerofxtoy.py)]<sub> (Time Complexity : O(nlogn) | Space Complexity : O(nlogn))</sub> 
+- Power of x to y [[Python Solution](/CompetitiveProgramming/Maths/powerofxtoy.py)]<sub> (Time Complexity : O(logn) | Space Complexity : O(logn))</sub> 
 
 ---
 
