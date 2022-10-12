@@ -10,8 +10,21 @@
         - It is a process in which the system declares cache entries as invalid and either removes them or replaces them.
         - The basic objective of the process is to ensure that when client request the data, the latest version of the data is returned.
         - Three main schemes are used :
+
             - Write through cache 
-            - 
+                - The data is written in the cache and the corresponding disk simultaneously.
+                - Ensures data consistency and reliability but results in high latency for write operations as every write operation is done twice.
+
+            - Write around cache
+                - The data is written directly to permenant storage, bypassing the cache.
+                - Cache wont be flooded with write request that may not be subsequently re-read.
+                - If the read request arises for the data recently written it will lead to a cache miss resulting in higher latency
+
+            - Write back cache 
+                - Data is written in the cache alone and completion is immediately confirmed to the client.
+                - The write to permenant storage is done at a specific interval or under certain conditions.
+                - Results in low latency and high throughput for write itensive applications.
+                - There is a risk of data loss in case of a crash
 
     - **Cache Eviction**
 
