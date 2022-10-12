@@ -8,7 +8,9 @@
 
 - Power Of Four [[Problem Statement](https://leetcode.com/problems/power-of-four/) | [Python Solution](/CompetitiveProgramming/Maths/powerOfFour.py)] <sub> (Diff : Easy , Topics : Math, Bit Manipulation, Recursion)</sub> 
 
-- Largest Perimeter Triangle [[Problem Statement](https://leetcode.com/problems/largest-perimeter-triangle/) | [Python Solution](/CompetitiveProgramming/Maths/largestPerimeterTriangle.py)] <sub> (Diff : Easy , Topics : Math | Array | Greedy | Sorting)</sub> ]
+- Largest Perimeter Triangle [[Problem Statement](https://leetcode.com/problems/largest-perimeter-triangle/) | [Python Solution](/CompetitiveProgramming/Maths/largestPerimeterTriangle.py)] <sub> (Diff : Easy , Topics : Math | Array | Greedy | Sorting)</sub> 
+
+- Power of x to y [[Python Solution](/CompetitiveProgramming/Maths/powerofxtoy.py)]<sub> (Time Complexity : O(nlogn) | Space Complexity : O(nlogn))</sub> 
 
 ---
 
