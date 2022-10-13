@@ -10,7 +10,7 @@
 
 ---
 
-
+- Delete Node in a Linked Lists [[Problem Statement](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Python Solution](/CompetitiveProgramming/LinkedList/deleteNodeInLinkedList.py)] <sub> (Diff : Medium | Topics : Linked List )</sub> 
 
 ---
 
