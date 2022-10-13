@@ -21,6 +21,9 @@
     - Good supporter of distributed databases 
     - Eg: Cassandra, HBase
 
+- Relational Databases
+    - Can be challenging when we need to scale them
+
 - Search Databases 
     - The data stored in these databases is not the primary data source
     - Eg : Elastic , Solar

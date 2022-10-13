@@ -3,6 +3,7 @@
 - A cache is a hardware or a software that you use to temporarily store data so it can be accessed quickly
 - Caches take advantage of the locality of reference principle : recently requested data is likely to be requested again.
 - If the required data is found in the Cache it is called a **Cache Hit**. If the data isn't stored in the cache, a **Cache Miss** occurs.
+- Data can become stale if the primary source of data gets updated and the cache doesnt.
 - The different types of caching stratergies are : 
 
     - **Cache Invalidation**
@@ -12,19 +13,19 @@
         - Three main schemes are used :
 
             - Write through cache 
-                - The data is written in the cache and the corresponding disk simultaneously.
+                - The data is written in both the cache and the database. Data is written in the cache before being written to the DB
                 - Ensures data consistency and reliability but results in high latency for write operations as every write operation is done twice.
 
             - Write around cache
                 - The data is written directly to permenant storage, bypassing the cache.
                 - Cache wont be flooded with write request that may not be subsequently re-read.
-                - If the read request arises for the data recently written it will lead to a cache miss resulting in higher latency
+                - If the read request arises for the data recently written it will lead to a cache miss resulting in higher latency as the database needs to be queried.
 
             - Write back cache 
                 - Data is written in the cache alone and completion is immediately confirmed to the client.
                 - The write to permenant storage is done at a specific interval or under certain conditions.
                 - Results in low latency and high throughput for write itensive applications.
-                - There is a risk of data loss in case of a crash
+                - There is a risk of data loss in case of a crash of the cache system
 
     - **Cache Eviction**
     
@@ -35,6 +36,8 @@
             - Most Recently Used (MRU)
             - Least Frequently Used (LFU)
             - Random Replacement (RR)
+
+- Some example of in-memory caches : Redis, Memcached
 
 
 ## Resources
