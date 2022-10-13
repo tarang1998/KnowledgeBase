@@ -27,9 +27,18 @@
                 - There is a risk of data loss in case of a crash
 
     - **Cache Eviction**
+    
+        - Following are the most important cache eviction policies :
+            - First In First Out (FIFO) 
+            - Last In First Out (LIFO)
+            - Least Recently Used (LRU)
+            - Most Recently Used (MRU)
+            - Least Frequently Used (LFU)
+            - Random Replacement (RR)
 
 
 ## Resources
 
 - [Caching | Cache Patterns | Cache Invalidation & Eviction](https://www.youtube.com/watch?v=Ez1GK2imrsY)
+- [Caching | Cache Invalidation | Cache Eviction](https://www.educative.io/courses/grokking-the-system-design-interview/3j6NnJrpp5p#Cache-Invalidation)
 - [System Design: Why is single-threaded Redis so fast?](https://www.youtube.com/watch?v=5TRFpFBccQM&list=PLCRMIe5FDPse7NNmQP5UziLjXjkHW3gqA)
