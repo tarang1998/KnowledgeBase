@@ -26,6 +26,8 @@
 
 - House Robber 2 [[Problem Statement](https://leetcode.com/problems/house-robber-ii/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/houseRobber2.py)] <sub> (Diff : Medium, Topics : Array | Dynamic Programming ) </sub> 
 
+- Maximum Subarray [[Problem Statement](https://leetcode.com/problems/maximum-subarray/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/maximumSubArray.py)] <sub> (Diff : Medium, Topics : Array | Dynamic Programming | Divide and Conquer) </sub> 
+
 ---
 
 - Minimum Number of Refueling Stops [[Problem Statement](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/minNumberOfRefuelingStops.py)] <sub> (Diff : Hard, Topics : Array | Dynamic Programming | Greedy | Heap(Priority Queue)) </sub> 
