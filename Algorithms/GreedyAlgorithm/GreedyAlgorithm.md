@@ -6,6 +6,8 @@
 
 ## Problems
 
+- Luck Balance [[Problem Statement](https://www.hackerrank.com/challenges/luck-balance/problem) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/LuckBalance/LuckBalance.py)] <sub> (Diff : Easy) </sub> 
+
 ---
 
 - Reduce Array Size to The Half [[Problem Statement](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/reduceArraySizeToHalf.py)] <sub> (Diff : Medium, Topics : Array | Hash Table | Greedy | Sorting | Heap(Priority Queue)) </sub> 
@@ -15,6 +17,8 @@
 -  The Number of Weak Characters in the Game [[Problem Statement](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/noOfWeekCharactersInAGame.py)] <sub> (Diff : Medium, Topics : Array | Stack | Greedy | Sorting | Monotonic Stack) </sub> 
 
 - Increasing Triplet Subsequence [[Problem Statement](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/increasingTripletSubsequence.py)] <sub> (Diff : Medium, Topics : Array | Greedy) </sub> 
+
+- Greedy Flourists [[Problem Statement](https://www.hackerrank.com/challenges/greedy-florist/problem) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/GreedyFlorist/GreedyFlorist.py)] <sub> (Diff : Easy) </sub> 
 
 ---
 
@@ -30,17 +34,6 @@
 
 
 
-
-
-### Luck Balance
-
-- [Question](https://www.hackerrank.com/challenges/luck-balance/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)
-- [Solution](/CompetitiveProgramming/GreedyAlgorithms/LuckBalance/LuckBalance.py)
-
-### Greedy Flourist
-
-- [Question](https://www.hackerrank.com/challenges/greedy-florist/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)
-- [Solution](/CompetitiveProgramming/GreedyAlgorithms/GreedyFlorist/GreedyFlorist.py)
 
 ### N-Meetings In A Room
 

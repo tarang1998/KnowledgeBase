@@ -34,6 +34,6 @@
 
 - Paint House 3 [[Problem Statement](https://leetcode.com/problems/paint-house-iii/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/paintHouse3.py)] <sub> (Diff : Hard, Topics : Array | Dynamic Programming)) </sub> 
 
-
+- String Compression 2 [[Problem Statement](https://leetcode.com/problems/string-compression-ii/description/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/stringCompression2.py)] <sub> (Diff : Hard, Topics : String | Dynamic Programming)) </sub> 
 
 
