@@ -8,9 +8,21 @@
 
 - Luck Balance [[Problem Statement](https://www.hackerrank.com/challenges/luck-balance/problem) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/LuckBalance/LuckBalance.py)] <sub> (Diff : Easy) </sub> 
 
+- N meetings in a Room [[Problem Statement](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/NMeetingsInARoom/NMeetingInARoom.py)] <sub> (Diff : Easy) </sub> 
+
+- FindMinimumNoOfCoins [[Problem Statement](https://www.codingninjas.com/codestudio/problems/975277) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/FindMinimumNoOfCoins/FindMinimumNoOfCoins.py) | [Reference](https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/)] <sub> (Diff : Easy) </sub> 
+
 ---
 
-- Reduce Array Size to The Half [[Problem Statement](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/reduceArraySizeToHalf.py)] <sub> (Diff : Medium, Topics : Array | Hash Table | Greedy | Sorting | Heap(Priority Queue)) </sub> 
+- Minimum Platforms [[Problem Statement](https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1#) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/MinimumPlatforms/MinimumPlatforms.py)] <sub> (Diff : Medium) </sub> 
+
+- Job Sequencing Problem [[Problem Statement](https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/JobSequencingProblem/JobSequencingProblem.py) | [Reference](https://www.geeksforgeeks.org/job-sequencing-problem/)] <sub> (Diff : Medium) </sub> 
+
+- Fractional Knapsack [[Problem Statement](https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/FractionalKnapsack/FractionalKnapsack.py) | [Reference](https://www.geeksforgeeks.org/fractional-knapsack-problem/)] <sub> (Diff : Medium) </sub> 
+
+- Maximum Area of Piece Of Cake After Horizontal and Vertical Cuts [[Problem Statement](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/MaxAreaOfPieceOfCake/MaxAreaOfPieceOfCake.py)] <sub> (Diff : Medium, Topics : Array | Hash Table | Greedy | Sorting | Heap(Priority Queue)) </sub> 
+
+- Reduce Array Size to The Half [[Problem Statement](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/reduceArraySizeToHalf.py)] <sub> (Diff : Medium, Topics : Array | Greedy | Sorting ) </sub> 
 
 - Split Array into Consecutive Subsequences [[Problem Statement](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/splitArrayIntoConsecutiveSubsequence.py)] <sub> (Diff : Medium, Topics : Array | Hash Table | Greedy | Sorting | Heap(Priority Queue)) </sub> 
 
@@ -24,51 +36,8 @@
 
 - Stamping the Sequence [[Problem Statement](https://leetcode.com/problems/stamping-the-sequence/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/stampingTheSequence.py)] <sub> (Diff : Hard, Topics : String | Stack | Greedy | Queue ) </sub> 
 
+- Candy [[Problem Statement](https://leetcode.com/problems/candy/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/Candy/Candy.py)] <sub> (Diff : Hard, Topics : Array | Greedy) </sub> 
 
 
 
 
-
-
-
-
-
-
-
-### N-Meetings In A Room
-
-- [Question](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1)
-- [Solution](/CompetitiveProgramming/GreedyAlgorithms/NMeetingsInARoom/NMeetingInARoom.py)
-
-### Minimum Platforms
-
-- [Question](https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1#)
-- [Solution](/CompetitiveProgramming/GreedyAlgorithms/MinimumPlatforms/MinimumPlatforms.py)
-
-### Job Sequencing Problem
-
-- [Question](https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#)
-- [Solution](/CompetitiveProgramming/GreedyAlgorithms/JobSequencingProblem/JobSequencingProblem.py)
-- [Reference](https://www.geeksforgeeks.org/job-sequencing-problem/)
-
-### Fractional Knapsack
-
-- [Question](https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1)
-- [Solution](/CompetitiveProgramming/GreedyAlgorithms/FractionalKnapsack/FractionalKnapsack.py)
-- [Reference](https://www.geeksforgeeks.org/fractional-knapsack-problem/)
-
-### FindMinimumNoOfCoins
-
-- [Question](https://www.codingninjas.com/codestudio/problems/975277?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website&leftPanelTab=1)
-- [Solution](/CompetitiveProgramming/GreedyAlgorithms/FindMinimumNoOfCoins/FindMinimumNoOfCoins.py)
-- [Reference](https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/)
-
-### Maximum Area of Piece Of Cake After Horizontal and Vertical Cuts
-
-- [Question](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
-- [Answer](/CompetitiveProgramming/GreedyAlgorithms/MaxAreaOfPieceOfCake/MaxAreaOfPieceOfCake.py)
-
-## Candy
-
-- [Question](https://leetcode.com/problems/candy/)
-- [Answer](/CompetitiveProgramming/GreedyAlgorithms/Candy/Candy.py)
