@@ -33,7 +33,8 @@ class Solution:
         return totalAreaOfWater
             
 
-    
+    # Time Complexity : O(n)
+    # Space Complexity : O(1)
 
     def trapWithTwoPointers(self, height: List[int]) -> int:
 
