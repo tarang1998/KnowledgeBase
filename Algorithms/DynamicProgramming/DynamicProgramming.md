@@ -36,4 +36,6 @@
 
 - String Compression 2 [[Problem Statement](https://leetcode.com/problems/string-compression-ii/description/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/stringCompression2.py)] <sub> (Diff : Hard, Topics : String | Dynamic Programming)) </sub> 
 
+- Trapping Rain Water [[Problem Statement](https://leetcode.com/problems/string-compression-ii/description/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/trappingRainWater.py) | [Explanation](https://leetcode.com/problems/trapping-rain-water/solutions/1374608/c-java-python-maxleft-maxright-so-far-with-picture-o-1-space-clean-concise/)] <sub> (Diff : Hard, Topics : Array | Dynamic Programming | Two-pointers | Stack | Monotonic Stack)) </sub> 
+
 
