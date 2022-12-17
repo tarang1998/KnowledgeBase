@@ -28,6 +28,8 @@
 
 - Maximum Subarray [[Problem Statement](https://leetcode.com/problems/maximum-subarray/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/maximumSubArray.py)] <sub> (Diff : Medium, Topics : Array | Dynamic Programming | Divide and Conquer) </sub> 
 
+- Longest Common Subsequence [[Problem Statement](https://leetcode.com/problems/longest-common-subsequence/description/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/longestCommonSubsequence.py)] <sub> (Diff : Medium , Topics : String | Dynamic Programming)
+
 ---
 
 - Minimum Number of Refueling Stops [[Problem Statement](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/minNumberOfRefuelingStops.py)] <sub> (Diff : Hard, Topics : Array | Dynamic Programming | Greedy | Heap(Priority Queue)) </sub> 
