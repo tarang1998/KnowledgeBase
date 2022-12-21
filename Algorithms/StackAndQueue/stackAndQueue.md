@@ -8,4 +8,7 @@
 
 --- 
 
--  Evaluate Reverse Polish Notation [[Problem Statement](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python Solution](/CompetitiveProgramming/StackAndQueue/evaluateReversePolishNotation.py)] <sub> (Diff : Medium ,Topics : Array | Stack ) </sub>
+- Evaluate Reverse Polish Notation [[Problem Statement](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python Solution](/CompetitiveProgramming/StackAndQueue/evaluateReversePolishNotation.py)] <sub> (Diff : Medium ,Topics : Array | Stack ) </sub>
+
+
+- Daily Temperatures [[Problem Statement](https://leetcode.com/problems/daily-temperatures/) | [Python Solution](/CompetitiveProgramming/StackAndQueue/dailyTemperatures.py)] <sub> (Diff : Medium ,Topics : Array | Stack ) </sub>
