@@ -14,6 +14,8 @@
 
 - Breadth First Search [[Concept](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/) | [Problem Statement](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) | [Python Solution](/CompetitiveProgramming/Graph/breadthFirstSearch.py)] <sub> (Diff : Easy)</sub> 
 
+- Find If Path Exists in Graph [[Problem Statement](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) | [Python Solution](/CompetitiveProgramming/Graph/findIfPathExistInGraph.py)] <sub> (Diff : Easy)</sub> 
+
 --- 
 
 - Clone Graph [[Problem Statement](https://leetcode.com/problems/clone-graph/) | [Python Solution](/CompetitiveProgramming/Graph/cloneGraph.py)] <sub> (Diff : Medium)</sub> 
