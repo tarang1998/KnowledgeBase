@@ -2,8 +2,10 @@
 
 - [React Official Website](https://reactjs.org/)
 
-## React Hooks
+- [React Component LifeCycle](/WebDevelopment/React/ReactFundamentals/reactComponentLifeCycle.md)
 
-### useEffect()
-- [React.useEffect() Documentation](https://reactjs.org/docs/hooks-reference.html#useeffect)    
-- [A Simple Explanation of React.useEffect()](https://dmitripavlutin.com/react-useeffect-explanation/)
+- [React Hooks](/WebDevelopment/React/ReactFundamentals/reactHooks.md)
+
+## Projects
+
+- [Full-Stack Web Development with React Specialization - Project](https://github.com/tarang1998/confusion)
