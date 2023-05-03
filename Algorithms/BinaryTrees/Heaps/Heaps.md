@@ -4,6 +4,7 @@
 
 - [heapq in Python](https://www.tutorialspoint.com/heap-queue-or-heapq-in-python#:~:text=Heap%20queue%20is%20a%20special,given%20more%20priority%20in%20processing.)
 - [Difference between minHeap and maxHeap](https://www.geeksforgeeks.org/difference-between-min-heap-and-max-heap/)
+- [Min Heap in Python](https://www.geeksforgeeks.org/min-heap-in-python/)
 - [Max Heap in Python](https://www.geeksforgeeks.org/max-heap-in-python/)
 
 ## Problems

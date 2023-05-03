@@ -6,4 +6,6 @@
 
 - Rotate Image [[Problem Statement](https://leetcode.com/problems/rotate-image/) | [JavaScript Solution](/CompetitiveProgramming/Arrays/rotateImage.js)] <sub> (Diff : Medium, Topics : Array, Math, Matrix)</sub> 
 
+- Longest Consecutive Subsequence [[Problem Statement](https://leetcode.com/problems/longest-consecutive-sequence/description/) | [Python Solution](/CompetitiveProgramming/Arrays/longestConsecutiveSubsequence/longestConsecutiveSubsequence.py)] <sub> (Diff : Medium, Topics : Array, HashTable, Union Find)</sub> 
+
 ---
