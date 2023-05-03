@@ -4,6 +4,7 @@
 - [Mathematics](/Algorithms/Mathematics/Maths.md)
 - [Arrays](/Algorithms/Arrays/arrays.md)
 - [Two Pointers](/Algorithms/TwoPointers/twoPointers.md)
+- [Sliding Window](/Algorithms//SlidingWindow//slidingWindow.md)
 - [Sorting](/Algorithms/Sorting/sorting.md)
 - [Linked List](/Algorithms/LinkedList/linkedlist.md)
 - [Hash Maps](/Algorithms/HashMaps/HashMap.md)
