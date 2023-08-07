@@ -8,9 +8,9 @@
     - Forward Proxy (Client facing proxy)
         - The server doesnt know about the client which has made the request
         - Benifits:
-            - Used for anonymity. Disguises the client's IP address.
-            - Used to block malicious traffic from reaching an original web server.
-            - Used to block access to certain sites.
+            - Used for anonymity. Disguises the client's IP address - (Improved Privacy)
+            - Used to block malicious traffic from reaching an original web server - (Improved Security ).
+            - Used to block access to certain sites (Control of the internet usage of employees and children).
             - To cache the responses from the server
             - Accessing geo-location Restricted Content
 

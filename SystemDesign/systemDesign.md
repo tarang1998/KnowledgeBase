@@ -1,5 +1,7 @@
 # System Design
 
+System Design is the process of defining the architecture, interfaces and data for a system that satisfies specific requirements 
+
 ## Fundamentals
 
 - [Horizontal And Vertical Scaling](/SystemDesign/SystemDesignFundamentals/scaling.md)

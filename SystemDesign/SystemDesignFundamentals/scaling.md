@@ -1,5 +1,7 @@
 # Scaling 
 
+Scalability refers to the applications ability to handle and withstand an increased workload without sacrifing latency
+
 - Horizontal and Vertical Scaling 
     - In the vertical scaling approach the computational power of the server is increased
     - In horizontal scaling the no of servers are increased
