@@ -23,6 +23,7 @@
 
 - Add Two Numbers  [[Problem Statement](https://leetcode.com/problems/add-two-numbers) | [Python Solution](/CompetitiveProgramming/LinkedList/addTwoNos.py)] <sub> (Diff : Medium | Topics : Linked List )</sub> 
 
+- Find the Duplicate Number  [[Problem Statement](https://leetcode.com/problems/find-the-duplicate-number) | [Python Solution](/CompetitiveProgramming/LinkedList/findTheDuplicateNo.py)] <sub> (Diff : Medium | Topics : Linked List | Array | Two Pointers )</sub> 
 
 - Delete Node in a Linked Lists [[Problem Statement](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Python Solution](/CompetitiveProgramming/LinkedList/deleteNodeInLinkedList.py)] <sub> (Diff : Medium | Topics : Linked List )</sub> 
 

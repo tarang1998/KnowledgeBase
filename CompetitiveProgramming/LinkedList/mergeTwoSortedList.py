@@ -7,6 +7,28 @@ class Solution:
 
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
 
+        newHead =  pointer = ListNode()
+
+        while(list1 and list2):
+
+            if(list1.val < list2.val):
+                pointer.next = list1
+                list1 = list1.next
+
+            else:
+                pointer.next = list2
+                list2 = list2.next
+
+            pointer = pointer.next
+
+        pointer.next = list1 or list2
+
+        return newHead.next
+
+        
+
+    def mergeTwoLists2(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+
         if(list1 == None):
             return list2
 

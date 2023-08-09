@@ -5,6 +5,26 @@
 #         self.next = None
 
 class Solution:
+
+    # Time Complexity : O(n), Space Complexity : O(1)
+    # Floyds Cycle-Finding Algorithm
+    # Move slow pointer by 1 and fast pointer by 2 
+    # If the pointers meet at some node then there is a loop
+    # Else no loop present 
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+
+        slowPointer = head 
+        fastPointer = head
+        
+        while(fastPointer and fastPointer.next):
+            slowPointer = slowPointer.next
+            fastPointer = fastPointer.next.next
+
+            if(slowPointer == fastPointer):
+                return True 
+
+        return False 
+
     # Time Complexity : O(n), Space Complexity : O(n)
     def hasCycle2(self, head: Optional[ListNode]) -> bool:
 
@@ -23,7 +43,7 @@ class Solution:
         return False
 
     # Time Complexity : O(n), Space Complexity : O(1)
-    def hasCycle(self, head: Optional[ListNode]) -> bool:
+    def hasCycle3(self, head: Optional[ListNode]) -> bool:
 
 
         while(head):
