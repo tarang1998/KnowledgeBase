@@ -12,7 +12,7 @@
 
 - Koko eating Bananas  [[Problem Statement](https://leetcode.com/problems/koko-eating-bananas/description/) | [Python Solution](/CompetitiveProgramming/BinarySearch/kokoEatingBananas.py)] <sub> (Diff : Medium, Topics : Array | Binary Search)</sub> 
 
-
+- Find Minimium in Rotated Sorted Array  [[Problem Statement](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | [Python Solution](/CompetitiveProgramming/BinarySearch/findMinInRotatedSortedArray.py)] <sub> (Diff : Medium, Topics : Array | Binary Search)</sub> 
 
 ---
 
