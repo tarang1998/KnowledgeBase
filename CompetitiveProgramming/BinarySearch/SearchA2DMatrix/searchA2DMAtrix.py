@@ -5,11 +5,13 @@ class Solution:
         if(len(matrix) == 0):
             return False
 
-        #Select the target row
-
         rowCount = len(matrix)
 
         columnCount = len(matrix[0])
+
+
+
+        #Select the target row
 
         low = 0 
 
