@@ -5,7 +5,6 @@ System Design is the process of defining the architecture, interfaces and data f
 ## Fundamentals
 
 - [Horizontal And Vertical Scaling](/SystemDesign/SystemDesignFundamentals/scaling.md)
-- [Load Balancing](/SystemDesign/SystemDesignFundamentals/loadBalancing.md)
 - [Proxy Servers](/SystemDesign/SystemDesignFundamentals/proxyServers.md)
 - [Caching](/SystemDesign/SystemDesignFundamentals/caching.md)
 - [CAP Theorem](/SystemDesign/SystemDesignFundamentals/capTheorem.md)
@@ -13,6 +12,8 @@ System Design is the process of defining the architecture, interfaces and data f
 - [Consistent Hashing](/SystemDesign/SystemDesignFundamentals/consistentHashing.md)
 - [Message Queue / Task Queue](/SystemDesign/SystemDesignFundamentals/messagingQueue.md)
 - [Content Delivery Network]()
+- [Load Balancing](/SystemDesign/SystemDesignFundamentals/loadBalancing.md)
+
 
 
 
