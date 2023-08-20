@@ -11,9 +11,13 @@
 
 ## Problems
 
-- Binary Tree Inorder Traversal [[Problem Statement](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python Code](/CompetitiveProgramming/BinaryTrees/inorderTraveral.py) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/inorderTraversal/inorderTraversal.cpp)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Stack)</sub> 
+- Binary Tree Inorder Traversal [[Problem Statement](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python Code](/CompetitiveProgramming/BinaryTrees/inorderTraversal/inorderTraveral.py) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/inorderTraversal/inorderTraversal.cpp)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Stack)</sub> 
 
-- Average Of levels In a Binary Tree [[Problem Statement](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [JavaScript Solution](/CompetitiveProgramming/BinaryTrees/averageOfLevelsInABinaryTree/averageOfLevelsInABinaryTree.js) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/averageOfLevelsInABinaryTree/averageOfLevelsInABinaryTree.cpp)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Breadth-First-Search)</sub> 
+- Binary Tree Preorder Traversal [[Problem Statement](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python Code](/CompetitiveProgramming/BinaryTrees/preorderTraversal.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Stack)</sub> 
+
+- Binary Tree PostOrder Traversal [[Problem Statement](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python Code](/CompetitiveProgramming/BinaryTrees/postorderTraversal.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Stack)</sub> 
+
+- Average Of levels In a Binary Tree [[Problem Statement](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [JavaScript Solution](/CompetitiveProgramming/BinaryTrees/averageOfLevelsInABinaryTree/averageOfLevelsInABinaryTree.js) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/averageOfLevelsInABinaryTree/averageOfLevelsInABinaryTree.cpp) | [Python](/CompetitiveProgramming/BinaryTrees/averageOfLevelsInABinaryTree/averageLevelsInBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Breadth-First-Search)</sub> 
 
 - Construct String from Binary Tree [[Problem Statement](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/constructStringFromBinaryTree.cpp)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | String)</sub> 
 
@@ -38,14 +42,9 @@
 
 
 
-### Preorder Traversal
-
-- [Problem](https://leetcode.com/problems/binary-tree-preorder-traversal/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/preorderTraversal.py)
-
 ### Postorder Traversal
 
-- [Problem](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+- [Problem]()
 - [Solutio](/CompetitiveProgramming/BinaryTrees/postorderTraversal.py)
 
 ### PreOrder PostOrder Inorder in a single Traversal

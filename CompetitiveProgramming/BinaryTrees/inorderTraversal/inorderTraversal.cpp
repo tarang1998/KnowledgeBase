@@ -40,6 +40,32 @@ public:
             
         
     }
+
+
+    // Iteractive Approach
+    vector<int> inorderTraversal(TreeNode* root){
+
+        vector<int> ans;
+        stack<TreeNode*> s;
+        TreeNode *curr = root;
+
+        while(true){
+            if(curr != NULL){
+                s.push(curr);
+                curr = curr->left;
+            }
+            else if(s.empty())
+                break;
+            else{
+                ans.push_back(s.top()->val);
+                curr = s.top() -> right;
+                s.pop();
+            }
+        }
+
+        return ans;
+
+    };
     
     
 };

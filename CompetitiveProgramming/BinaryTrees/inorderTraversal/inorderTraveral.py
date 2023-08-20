@@ -20,14 +20,46 @@ class Solution:
          
         
         
-    
-    def inorderTraversal(self, root):
+    #Recursive Approach
+    def inorderTraversalRecursive(self, root):
         
         inorderTraversal = []
         
         self.parseTree(root,inorderTraversal)
         
         return inorderTraversal
+
+
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+
+        ans = []
+
+        curr = root
+
+        stack = []
+
+        while(True):
+
+            if(curr):
+
+                stack.append(curr)
+
+                curr = curr.left
+
+            elif(len(stack) == 0):
+
+                break
+
+            else:
+
+                node = stack.pop()
+
+                ans.append(node.val)
+
+                curr = node.right
+
+        return ans
+
         
         
         
