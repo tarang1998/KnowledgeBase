@@ -27,6 +27,10 @@
 
 - Diameter Of the Binary Tree [[Problem Statement](https://leetcode.com/problems/diameter-of-binary-tree/) | [Python Code](/CompetitiveProgramming/BinaryTrees/diameterOfABinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search )</sub> 
 
+- Balanced Binary Tree [[Problem Statement](https://leetcode.com/problems/balanced-binary-tree/) | [Python Code](/CompetitiveProgramming/BinaryTrees/balancedBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search )</sub> 
+
+- Same Tree [[Problem Statement](https://leetcode.com/problems/same-tree/) | [Python Code](/CompetitiveProgramming/BinaryTrees/sameTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search )</sub> 
+
 - Construct String from Binary Tree [[Problem Statement](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/constructStringFromBinaryTree.cpp)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | String)</sub> 
 
 - Invert a Binary Tree [[Problem Statement](https://leetcode.com/problems/invert-binary-tree/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/invertBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Recursion)</sub> 
@@ -87,25 +91,10 @@
 - [Question](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/flattenBinaryTreeToALinkedList.py)
 
-### Diameter of a binary Tree
-
-- [Question](https://leetcode.com/problems/diameter-of-binary-tree/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/diameterOfABinaryTree.py)
-
-### Balanced Binary Tree
-
-- [Question](https://leetcode.com/problems/balanced-binary-tree/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/balancedBinaryTree.py)
-
 ### Lowest Commom Ancestor Of a Binary Tree
 
 - [Question](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/lowestCommonAncestorOfABinaryTree.py)
-
-### Same Tree
-
-- [Question](https://leetcode.com/problems/same-tree/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/sameTree.py)
 
 ### Binary Tree Max Path Sum
 
