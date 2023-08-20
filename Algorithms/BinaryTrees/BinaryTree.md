@@ -23,17 +23,23 @@
 
 - Left View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/leftViewOfBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
 
-- Right View Of Binary Tree [[Problem Statement](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python Code](/CompetitiveProgramming/BinaryTrees/binaryTreeRightSideView.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+- Max Depth Of Binary Tree [[Problem Statement](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python Code](/CompetitiveProgramming/BinaryTrees/maxDepthOfABinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
 
-- Bottom View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/bottomViewOfABinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
-
-- Top View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/topViewOfBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+- Diameter Of the Binary Tree [[Problem Statement](https://leetcode.com/problems/diameter-of-binary-tree/) | [Python Code](/CompetitiveProgramming/BinaryTrees/diameterOfABinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search )</sub> 
 
 - Construct String from Binary Tree [[Problem Statement](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/constructStringFromBinaryTree.cpp)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | String)</sub> 
 
 - Invert a Binary Tree [[Problem Statement](https://leetcode.com/problems/invert-binary-tree/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/invertBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Recursion)</sub> 
 
 ---
+
+- Right View Of Binary Tree [[Problem Statement](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python Code](/CompetitiveProgramming/BinaryTrees/binaryTreeRightSideView.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+
+- Bottom View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/bottomViewOfABinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+
+- Top View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/topViewOfBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+
+- Max Width Of Binary Tree [[Problem Statement](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/maxWidthOfABinaryTree.py)] <sub> (Diff : Medium)</sub> 
 
 - Binary Trees with Factors [[Problem Statement](https://leetcode.com/problems/binary-trees-with-factors/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/binaryTreeWithFactors.py)] <sub> (Diff : Medium, Topics : Dynamic Programming)</sub> 
 
@@ -75,15 +81,6 @@
 - [Question](https://www.interviewbit.com/problems/path-to-given-node/)
 - [Solution](/CompetitiveProgramming/BinaryTrees/pathToGivenNode.py)
 
-### Maximum Width of a Binary Tree
-
-- [Question](https://leetcode.com/problems/maximum-width-of-binary-tree/submissions/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/maxWidthOfABinaryTree.py)
-
-### Maximum Depth of a Binary Tree
-
-- [Question](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/maxDepthOfABinaryTree.py)
 
 ### Flatten Binary Tree To A Linked List
 
