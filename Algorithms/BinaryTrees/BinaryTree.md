@@ -17,7 +17,13 @@
 
 - Binary Tree PostOrder Traversal [[Problem Statement](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python Code](/CompetitiveProgramming/BinaryTrees/postorderTraversal.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Stack)</sub> 
 
+- PreOrder PostOrder Inorder in a single Traversal [[Problem Statement](https://www.codingninjas.com/codestudio/problems/981269) | [Python Code](/CompetitiveProgramming/BinaryTrees/preOrderPostOrderInOrderInASingleTraversal.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Stack)</sub> 
+
 - Average Of levels In a Binary Tree [[Problem Statement](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [JavaScript Solution](/CompetitiveProgramming/BinaryTrees/averageOfLevelsInABinaryTree/averageOfLevelsInABinaryTree.js) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/averageOfLevelsInABinaryTree/averageOfLevelsInABinaryTree.cpp) | [Python](/CompetitiveProgramming/BinaryTrees/averageOfLevelsInABinaryTree/averageLevelsInBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Breadth-First-Search)</sub> 
+
+- Left View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/leftViewOfBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+
+- Right View Of Binary Tree [[Problem Statement](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python Code](/CompetitiveProgramming/BinaryTrees/binaryTreeRightSideView.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
 
 - Construct String from Binary Tree [[Problem Statement](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/constructStringFromBinaryTree.cpp)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | String)</sub> 
 
@@ -42,20 +48,6 @@
 
 
 
-### Postorder Traversal
-
-- [Problem]()
-- [Solutio](/CompetitiveProgramming/BinaryTrees/postorderTraversal.py)
-
-### PreOrder PostOrder Inorder in a single Traversal
-
-- [Problem](https://www.codingninjas.com/codestudio/problems/981269)
-- [Solution](/CompetitiveProgramming/BinaryTrees/preOrderPostOrderInOrderInASingleTraversal.py)
-
-### Left View of a Binary Tree
-
-- [Problem](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1)
-- [Solution](/CompetitiveProgramming/BinaryTrees/leftViewOfBinaryTree.py)
 
 ### Binary Tree Right Side View
 
