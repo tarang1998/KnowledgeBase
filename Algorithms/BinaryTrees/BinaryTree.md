@@ -39,6 +39,10 @@
 
 ---
 
+- Construct Binary Tree From Inorder and Preorder Traversal [[Problem Statement](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python Code](/CompetitiveProgramming/BinaryTrees/constructBinaryTreeFromPreorderAndInOrderTraversal.py)] <sub> (Diff : Easy, Topics : Tree | Binary Tree | Divide and Conquer)</sub> 
+
+- Construct Binary Tree from inorder and postOrder Traversal [[Problem Statement](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python Code](/CompetitiveProgramming/BinaryTrees/constructBinaryTreeFromInorderAndPostOrderTraversal.py)] <sub> (Diff : Easy, Topics : Tree | Binary Tree | Divide and Conquer)</sub> 
+
 - Right View Of Binary Tree [[Problem Statement](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python Code](/CompetitiveProgramming/BinaryTrees/binaryTreeRightSideView.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
 
 - Bottom View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/bottomViewOfABinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
@@ -67,15 +71,6 @@
 
 
 
-### Construct Binary Tree From Preorder and Inorder Traversal
-
-- [Problem](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/constructBinaryTreeFromPreorderAndInOrderTraversal.py)
-
-### Construct Binary Tree From Inorder and Postorder Travers
-
-- [Problem](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/constructBinaryTreeFromInorderAndPostOrderTraversal.py)
 
 ### Binary Tree Level Order Traversal
 
