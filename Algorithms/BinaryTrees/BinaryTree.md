@@ -33,7 +33,7 @@
 
 - Sub Tree of Another Tree [[Problem Statement](https://leetcode.com/problems/subtree-of-another-tree) | [Python Code](/CompetitiveProgramming/BinaryTrees/subTreeOfAnotherTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Binary Tree | String Matching)</sub> 
 
-- Construct String from Binary Tree [[Problem Statement](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/constructStringFromBinaryTree.cpp)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | String)</sub> 
+- Construct String from Binary Tree [[Problem Statement](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/constructStringFromBinaryTree/constructStringFromBinaryTree.cpp) | [Python Solution](/CompetitiveProgramming/BinaryTrees/constructStringFromBinaryTree/constructStringFromBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | String)</sub> 
 
 - Invert a Binary Tree [[Problem Statement](https://leetcode.com/problems/invert-binary-tree/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/invertBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Recursion)</sub> 
 
