@@ -25,6 +25,10 @@
 
 - Right View Of Binary Tree [[Problem Statement](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python Code](/CompetitiveProgramming/BinaryTrees/binaryTreeRightSideView.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
 
+- Bottom View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/bottomViewOfABinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+
+- Top View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/topViewOfBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+
 - Construct String from Binary Tree [[Problem Statement](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/constructStringFromBinaryTree.cpp)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | String)</sub> 
 
 - Invert a Binary Tree [[Problem Statement](https://leetcode.com/problems/invert-binary-tree/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/invertBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Recursion)</sub> 
@@ -48,21 +52,6 @@
 
 
 
-
-### Binary Tree Right Side View
-
-- [Problem](https://leetcode.com/problems/binary-tree-right-side-view/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/binaryTreeRightSideView.py)
-
-### Bottom View of a Binary Tree
-
-- [Problem](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
-- [Solution](/CompetitiveProgramming/BinaryTrees/bottomViewOfABinaryTree.py)
-
-### Top View of a Binary Tree
-
-- [Problem](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1)
-- [Solution](/CompetitiveProgramming/BinaryTrees/topViewOfBinaryTree.py)
 
 
 
