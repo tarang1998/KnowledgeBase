@@ -71,13 +71,7 @@
 
 
 
-
-
-
-### Binary Tree Level Order Traversal
-
-- [Question](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-- [Solution](/CompetitiveProgramming/BinaryTrees/binaryTreeLevelOrderTraversal.py)
+petitiveProgramming/BinaryTrees/binaryTreeLevelOrderTraversal.py)
 
 ### Path to given Node 
 
