@@ -1,34 +1,27 @@
-# https://leetcode.com/problems/climbing-stairs/
-
 class Solution:
 
+    record = {}
 
-    def climbStairs(self, n: int) -> int:
+    #Top Down approach  
+    def climbStairs(self,n : int ) -> int:
 
-        stepCount = {}
+        if(n == 1):
+            return 1
 
-        def recurseTopDown(steps):
+        if(n == 2):
+            return 2
 
-            if(steps in stepCount):
-                return stepCount[steps]
+        if(n in self.record):
+            return self.record[n]
 
-            if(steps < 0):
-                return 0
-
-            if(steps == 0):
-                return 1
-
-            r1 = recurse(steps - 1)
-
-            r2 = recurse(steps - 2)
-
-            stepCount[steps] = r1+r2
-
-            return r1+r2
+        self.record[n] = self.climbStairs(n - 1) + self.climbStairs(n - 2)
         
-        #recurseTopDown(n)
+        return self.record[n]
 
-        #return stepCount[n]
+
+
+    #Bottom Up Approcach
+    def climbStairsBottomUp(self, n: int) -> int:
 
         if(n==1):
             return 1
