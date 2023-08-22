@@ -32,6 +32,9 @@
 
 - Longest Palindromic Substring [[Problem Statement](https://leetcode.com/problems/longest-palindromic-substring) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/longestPalindromicSubstring.py)] <sub> (Diff : Medium , Topics : String | Dynamic Programming)
 
+- Palindromic Substring [[Problem Statement](https://leetcode.com/problems/palindromic-substrings/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/palindromicSubString.py)] <sub> (Diff : Medium , Topics : String | Dynamic Programming)
+
+
 ---
 
 - Minimum Number of Refueling Stops [[Problem Statement](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/minNumberOfRefuelingStops.py)] <sub> (Diff : Hard, Topics : Array | Dynamic Programming | Greedy | Heap(Priority Queue)) </sub> 
