@@ -34,6 +34,19 @@
 
 - Palindromic Substring [[Problem Statement](https://leetcode.com/problems/palindromic-substrings/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/palindromicSubString.py)] <sub> (Diff : Medium , Topics : String | Dynamic Programming)
 
+- Decode Ways [[Problem Statement](https://leetcode.com/problems/decode-ways) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/decodeWays.py)] <sub> (Diff : Medium , Topics : String | Dynamic Programming)
+
+- Coin Change [[Problem Statement](https://leetcode.com/problems/coin-change) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/coinChange.py)] <sub> (Diff : Medium)
+
+- Maximum Product Subarray [[Problem Statement](https://leetcode.com/problems/maximum-product-subarray) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/maximumProductSubarrays.py)] <sub> (Diff : Medium)
+
+- Word Break [[Problem Statement](https://leetcode.com/problems/word-break) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/wordBreak.py)] <sub> (Diff : Medium)
+
+- Longest Increasing Subsequence [[Problem Statement](https://leetcode.com/problems/longest-increasing-subsequence) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/longestIncreasingSubsequence.py)] <sub> (Diff : Medium)
+
+- Partition Equal Subsets Sum [[Problem Statement](https://leetcode.com/problems/partition-equal-subset-sum/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/partitionEqualSubsets.py)] <sub> (Diff : Medium)
+
+
 
 ---
 
