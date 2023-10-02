@@ -67,4 +67,4 @@
 
 - Trapping Rain Water [[Problem Statement](https://leetcode.com/problems/string-compression-ii/description/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/trappingRainWater.py) | [Explanation](https://leetcode.com/problems/trapping-rain-water/solutions/1374608/c-java-python-maxleft-maxright-so-far-with-picture-o-1-space-clean-concise/)] <sub> (Diff : Hard, Topics : Array | Dynamic Programming | Two-pointers | Stack | Monotonic Stack)) </sub> 
 
-
+- Longest Increasing Path in the Matrix[[Problem Statement](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/longestIncreasingPathInTheMatrix.pyy)] <sub> (Diff : Hard)
