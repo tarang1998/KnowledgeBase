@@ -14,7 +14,7 @@
 
 ---
 
-- Best Time to Buy and Sell Stock 2 [[Problem Statement](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/bestTimeToBuyAndSellStock2.py)] <sub> (Diff : Medium, Topics : Array | Dynamic Programming ) </sub> 
+- Best Time to Buy and Sell Stock with Cooldown [[Problem Statement](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/bestTimeToBuyAndSellStockWithCooldown.py)] <sub> (Diff : Medium ) </sub> 
 
 - Max Array Sum [[Problem Statement](https://www.hackerrank.com/challenges/max-array-sum/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dynamic-programming) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/MaxArraySum/MaxArraySum.py) | [Reference Article](https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)] <sub> (Diff : Medium) </sub>
 
@@ -38,6 +38,8 @@
 
 - Coin Change [[Problem Statement](https://leetcode.com/problems/coin-change) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/coinChange.py)] <sub> (Diff : Medium)
 
+- Coin Change 2  [[Problem Statement](https://leetcode.com/problems/coin-change-ii) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/coinChange2.py)] <sub> (Diff : Medium)
+
 - Maximum Product Subarray [[Problem Statement](https://leetcode.com/problems/maximum-product-subarray) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/maximumProductSubarrays.py)] <sub> (Diff : Medium)
 
 - Word Break [[Problem Statement](https://leetcode.com/problems/word-break) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/wordBreak.py)] <sub> (Diff : Medium)
@@ -45,6 +47,13 @@
 - Longest Increasing Subsequence [[Problem Statement](https://leetcode.com/problems/longest-increasing-subsequence) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/longestIncreasingSubsequence.py)] <sub> (Diff : Medium)
 
 - Partition Equal Subsets Sum [[Problem Statement](https://leetcode.com/problems/partition-equal-subset-sum/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/partitionEqualSubsets.py)] <sub> (Diff : Medium)
+
+- Unique Paths [[Problem Statement](https://leetcode.com/problems/unique-paths/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/uniquePaths.py)] <sub> (Diff : Medium)
+
+- Target Sum [[Problem Statement](https://leetcode.com/problems/target-sum/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/targetSum.py)] <sub> (Diff : Medium)
+
+- Interleaving Strings [[Problem Statement](https://leetcode.com/problems/interleaving-string/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/interleavingStrings.py)] <sub> (Diff : Medium)
+
 
 
 
