@@ -14,6 +14,10 @@
 
 ---
 
+- Maximum Subarray [[Problem Statement](https://leetcode.com/problems/maximum-subarray/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/maximumSubarray.py)] <sub> (Diff : Medium) </sub> 
+
+- Jump Game [[Problem Statement](https://leetcode.com/problems/jump-game/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/jumpGame.py)] <sub> (Diff : Medium) </sub> 
+
 - Minimum Platforms [[Problem Statement](https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1#) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/MinimumPlatforms/MinimumPlatforms.py)] <sub> (Diff : Medium) </sub> 
 
 - Job Sequencing Problem [[Problem Statement](https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/JobSequencingProblem/JobSequencingProblem.py) | [Reference](https://www.geeksforgeeks.org/job-sequencing-problem/)] <sub> (Diff : Medium) </sub> 

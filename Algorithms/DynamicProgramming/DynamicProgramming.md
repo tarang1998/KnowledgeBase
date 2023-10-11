@@ -54,6 +54,7 @@
 
 - Interleaving Strings [[Problem Statement](https://leetcode.com/problems/interleaving-string/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/interleavingStrings.py)] <sub> (Diff : Medium)
 
+- Edit Distance [[Problem Statement](https://leetcode.com/problems/edit-distance) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/editDistance.py)] <sub> (Diff : Medium)
 
 
 
@@ -67,4 +68,8 @@
 
 - Trapping Rain Water [[Problem Statement](https://leetcode.com/problems/string-compression-ii/description/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/trappingRainWater.py) | [Explanation](https://leetcode.com/problems/trapping-rain-water/solutions/1374608/c-java-python-maxleft-maxright-so-far-with-picture-o-1-space-clean-concise/)] <sub> (Diff : Hard, Topics : Array | Dynamic Programming | Two-pointers | Stack | Monotonic Stack)) </sub> 
 
-- Longest Increasing Path in the Matrix[[Problem Statement](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/longestIncreasingPathInTheMatrix.pyy)] <sub> (Diff : Hard)
+- Longest Increasing Path in the Matrix[[Problem Statement](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/longestIncreasingPathInTheMatrix.py)] <sub> (Diff : Hard)
+
+- Distinct Subsequences [[Problem Statement](https://leetcode.com/problems/distinct-subsequences/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/distinctSubsequences.py)] <sub> (Diff : Hard)
+
+- Burst Ballons [[Problem Statement](https://leetcode.com/problems/burst-balloons/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/burstBallons.py)] <sub> (Diff : Hard)

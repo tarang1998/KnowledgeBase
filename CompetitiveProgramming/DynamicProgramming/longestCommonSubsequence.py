@@ -1,5 +1,7 @@
-class Solution:
-    
+class Solution: 
+
+    # Time Complexity : O(m * n)
+    # Memory Optimized Solution : O(n)
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
 
         n = len(text1)
