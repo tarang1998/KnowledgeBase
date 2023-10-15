@@ -18,6 +18,16 @@
 
 - Jump Game [[Problem Statement](https://leetcode.com/problems/jump-game/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/jumpGame.py)] <sub> (Diff : Medium) </sub> 
 
+- Jump Game 2 [[Problem Statement](https://leetcode.com/problems/jump-game-ii/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/jumpGame2.py)] <sub> (Diff : Medium) </sub> 
+
+- Gas Station [[Problem Statement](https://leetcode.com/problems/gas-station/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/gasStattion.py)] <sub> (Diff : Medium) </sub> 
+
+- Hand Of Straights [[Problem Statement](https://leetcode.com/problems/hand-of-straights/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/handOfStraights.py)] <sub> (Diff : Medium) </sub> 
+
+- Merge Triplets to Form Target Triplets [[Problem Statement](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/mergeTripletsToFormTargetTriplets.py)] <sub> (Diff : Medium) </sub> 
+
+- Partition Labels [[Problem Statement](https://leetcode.com/problems/partition-labels/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/partitionLabels.py)] <sub> (Diff : Medium) </sub> 
+
 - Minimum Platforms [[Problem Statement](https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1#) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/MinimumPlatforms/MinimumPlatforms.py)] <sub> (Diff : Medium) </sub> 
 
 - Job Sequencing Problem [[Problem Statement](https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/JobSequencingProblem/JobSequencingProblem.py) | [Reference](https://www.geeksforgeeks.org/job-sequencing-problem/)] <sub> (Diff : Medium) </sub> 

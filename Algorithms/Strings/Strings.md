@@ -20,6 +20,8 @@
 
 - Word Subsets [[Problem Statement](https://leetcode.com/problems/word-subsets/) | [Python Solution](/CompetitiveProgramming/Strings/wordSubsets.py)] <sub> (Diff : Medium)</sub> 
 
+- Shortest and Lexicographically Smallest Beautiful String [[Problem Statement](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [Python Solution](/CompetitiveProgramming/Strings/Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py)] <sub> (Diff : Medium)</sub> 
+
 ---
 
 - Substring with Concatenation of All Words [[Problem Statement](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python Solution](/CompetitiveProgramming/Strings/substringWithConcatenationOfAllWords.py)] <sub> (Diff : Hard, Topics : HashTable, String, Sliding Window )</sub> 
