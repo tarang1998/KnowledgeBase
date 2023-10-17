@@ -46,6 +46,8 @@
 
 - Greedy Flourists [[Problem Statement](https://www.hackerrank.com/challenges/greedy-florist/problem) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/GreedyFlorist/GreedyFlorist.py)] <sub> (Diff : Easy) </sub> 
 
+- Prefix Scores [[Problem](https://www.hackerrank.com/test/62e9a8ejqa5/questions/94s5krce64a) | [Solution](https://takeitoutamber.medium.com/hackerrank-coding-interview-6-prefix-scores-7a28622b9841)]
+
 ---
 
 - Stamping the Sequence [[Problem Statement](https://leetcode.com/problems/stamping-the-sequence/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/stampingTheSequence.py)] <sub> (Diff : Hard, Topics : String | Stack | Greedy | Queue ) </sub> 

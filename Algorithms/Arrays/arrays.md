@@ -8,9 +8,15 @@
 
 - Two Sums [[Problem Statement](https://leetcode.com/problems/two-sum/) | [Python Solution](/CompetitiveProgramming/Arrays/twoSum.py)] <sub> (Diff : Easy)</sub> 
 
+- Pascals Triangle [[Problem Statement](https://leetcode.com/problems/pascals-triangle/) | [Python Solution](/CompetitiveProgramming/Arrays//PascalsTriangle/pascalsTriangle.py)] <sub> (Diff : Easy)</sub> 
+
 - Find Indices With Index and Value Difference I [[Problem Statement](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i) | [Python Solution](/CompetitiveProgramming/Arrays/Find%20Indices%20With%20Index%20and%20Value%20Difference%20I.py)] <sub> (Diff : Easy)</sub> 
 
 ---
+
+- Next Permutation [[Problem Statement](https://leetcode.com/problems/next-permutation/) | [Python Solution](/CompetitiveProgramming/Arrays/NextPermutation/nextPermutation.py) | [Java Solution](/CompetitiveProgramming/Arrays/NextPermutation/nextPermutation.java) | [C++ Solution](/CompetitiveProgramming/Arrays/NextPermutation/nextPermutation.cpp)] <sub> (Diff : Medium)</sub>
+
+- Set Matrix Zeros [[Problem Statement](https://leetcode.com/problems/set-matrix-zeroes/) | [Python Solution](/CompetitiveProgramming/Arrays/SetMatrixZeros/setMatrixZeros.py) | [C++ Solution](/CompetitiveProgramming//Arrays/SetMatrixZeros/setMatrixZeros.cpp)] <sub> (Diff : Medium)</sub> 
 
 - Find Indices With Index and Value Difference II [[Problem Statement](https://leetcode.com/problems/find-indices-with-index-and-value-difference-ii/description/) | [Python Solution](/CompetitiveProgramming/Arrays/Find%20Indices%20With%20Index%20and%20Value%20Difference%20II.py)] <sub> (Diff : Medium)</sub> 
 
@@ -26,5 +32,6 @@
 
 - Top K Frequent Elements [[Problem Statement](https://leetcode.com/problems/top-k-frequent-elements/) | [Python Solution](/CompetitiveProgramming/Arrays/topKFrequentElements.py)] <sub> (Diff : Medium)</sub> 
 
+- Product Of Array Self [[Problem Statement](https://leetcode.com/problems/product-of-array-except-self/) | [Python Code](/CompetitiveProgramming/Arrays/productOfArrayExceptSelf.py)]
 
 ---
