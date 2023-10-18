@@ -39,15 +39,17 @@
 
 ---
 
-- Construct Binary Tree From Inorder and Preorder Traversal [[Problem Statement](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python Code](/CompetitiveProgramming/BinaryTrees/constructBinaryTreeFromPreorderAndInOrderTraversal.py)] <sub> (Diff : Easy, Topics : Tree | Binary Tree | Divide and Conquer)</sub> 
+- Validate Binary Tree Nodes [[Problem Statement](https://leetcode.com/problems/validate-binary-tree-nodes) | [Python Solution](/CompetitiveProgramming/BinaryTrees/validateBinaryTreeNodes.py)]
 
-- Construct Binary Tree from inorder and postOrder Traversal [[Problem Statement](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python Code](/CompetitiveProgramming/BinaryTrees/constructBinaryTreeFromInorderAndPostOrderTraversal.py)] <sub> (Diff : Easy, Topics : Tree | Binary Tree | Divide and Conquer)</sub> 
+- Construct Binary Tree From Inorder and Preorder Traversal [[Problem Statement](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python Code](/CompetitiveProgramming/BinaryTrees/constructBinaryTreeFromPreorderAndInOrderTraversal.py)] <sub> (Diff : Medium, Topics : Tree | Binary Tree | Divide and Conquer)</sub> 
 
-- Right View Of Binary Tree [[Problem Statement](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python Code](/CompetitiveProgramming/BinaryTrees/binaryTreeRightSideView.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+- Construct Binary Tree from inorder and postOrder Traversal [[Problem Statement](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python Code](/CompetitiveProgramming/BinaryTrees/constructBinaryTreeFromInorderAndPostOrderTraversal.py)] <sub> (Diff : Medium, Topics : Tree | Binary Tree | Divide and Conquer)</sub> 
 
-- Bottom View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/bottomViewOfABinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+- Right View Of Binary Tree [[Problem Statement](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python Code](/CompetitiveProgramming/BinaryTrees/binaryTreeRightSideView.py)] <sub> (Diff : Medium, Topics : Tree | Depth-First-Search | Recursion)</sub> 
 
-- Top View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/topViewOfBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+- Bottom View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/bottomViewOfABinaryTree.py)] <sub> (Diff : Medium, Topics : Tree | Depth-First-Search | Recursion)</sub> 
+
+- Top View Of Binary Tree [[Problem Statement](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1) | [Python Code](/CompetitiveProgramming/BinaryTrees/topViewOfBinaryTree.py)] <sub> (Diff : Medium, Topics : Tree | Depth-First-Search | Recursion)</sub> 
 
 - Max Width Of Binary Tree [[Problem Statement](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/maxWidthOfABinaryTree.py)] <sub> (Diff : Medium)</sub> 
 
