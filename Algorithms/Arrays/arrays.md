@@ -32,6 +32,8 @@
 
 - Top K Frequent Elements [[Problem Statement](https://leetcode.com/problems/top-k-frequent-elements/) | [Python Solution](/CompetitiveProgramming/Arrays/topKFrequentElements.py)] <sub> (Diff : Medium)</sub> 
 
-- Product Of Array Self [[Problem Statement](https://leetcode.com/problems/product-of-array-except-self/) | [Python Code](/CompetitiveProgramming/Arrays/productOfArrayExceptSelf.py)]
+- Product Of Array Self [[Problem Statement](https://leetcode.com/problems/product-of-array-except-self/) | [Python Solution](/CompetitiveProgramming/Arrays/productOfArrayExceptSelf.py)]
+
+- Valid Sudoku [[Problem Statement](https://leetcode.com/problems/valid-sudoku/) | [Python Solution](/CompetitiveProgramming/Arrays/validSudoku.py)]
 
 ---
