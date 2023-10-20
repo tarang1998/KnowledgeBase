@@ -36,4 +36,8 @@
 
 - Valid Sudoku [[Problem Statement](https://leetcode.com/problems/valid-sudoku/) | [Python Solution](/CompetitiveProgramming/Arrays/validSudoku.py)]
 
+- Sort Colors [[Problem Solution](https://leetcode.com/problems/sort-colors/) | [Python Solution](/CompetitiveProgramming/Arrays/sortColors.py)]
+
+
+
 ---
