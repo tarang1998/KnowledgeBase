@@ -38,6 +38,6 @@
 
 - Sort Colors [[Problem Solution](https://leetcode.com/problems/sort-colors/) | [Python Solution](/CompetitiveProgramming/Arrays/sortColors.py)]
 
-
+- Merge Intervals [[Problem Statement](https://leetcode.com/problems/merge-intervals/) | [Python Solution](/CompetitiveProgramming/Arrays/mergeIntervals.py)]
 
 ---
