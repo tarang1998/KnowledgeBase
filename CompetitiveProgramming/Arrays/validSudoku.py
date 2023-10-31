@@ -1,5 +1,8 @@
 class Solution:
 
+    # Space Complexity : O(9^2)
+    # Time Complexity : O(9^2)
+    
     def isValidSudoku(self, board: List[List[str]]) -> bool:
 
         memRow = {}
