@@ -8,9 +8,14 @@ class Solution:
         
         bfs = []
         
+        # Dictionary to keep record of all the nodes 
+        # that have been visited previously
         visited = {}
         
+        # FIFO Data Structure
         queue = [0]
+
+        # Marking the root node as visited 
         visited[0]=1
         
         while(len(queue) != 0 ):
@@ -19,6 +24,9 @@ class Solution:
             
             bfs.append(ele)
             
+            # Visiting all the neighbours of the popped element 
+            # marking then as visited 
+            # and inserting them into the queue
             neighbors = adj[ele]
             
             for i in neighbors:
@@ -27,7 +35,6 @@ class Solution:
                     queue.append(i)
                     
 
-            
             
         return bfs
             

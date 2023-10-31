@@ -1,7 +1,42 @@
+# Dijkstras algorithm can be used for directed and undirected graphs 
+# Cant be used on graphs with negative weight cycles
+
 class Solution:
 
-    #Function to find the shortest distance of all the vertices
-    #from the source vertex S.
+    #Dijkstras Agorithms using priority Queue
+    # Time Complexity : O(ElogV)
+    # Space Complexity : O(V)
+    def dijkstra(self, V, adj, S):     
+
+        # Create the min heap 
+        pq = []
+        hq.heapify(pq)
+        
+        # Initialize the distance of the nodes from the source
+        dist = [float('inf')] * V
+        dist[S] = 0 
+
+        # Push the only known distance : (0,S)
+        hq.heappush(pq,[0,S])
+        
+        while(pq):
+            
+            distance, node = hq.heappop(pq)
+
+    
+            for neighbour in adj[node]:
+                
+                neighbourDistance = neighbour[1]
+                neighbourNode = neighbour[0]
+                
+                if(distance + neighbourDistance < dist[neighbourNode] ):
+                    
+                    dist[neighbourNode] = distance + neighbourDistance
+                    hq.heappush(pq,[distance + neighbourDistance,neighbourNode])
+
+        return dist
+
+    
     
     def findVertexWithMinDistanceFromSource(self,spt,distance):
         
@@ -15,9 +50,15 @@ class Solution:
                     
         return vertex
                 
-    
-    def dijkstra(self, V, adj, S):
+    #Function to find the shortest distance of all the vertices
+    #from the source vertex S.
+    # Time Complexity : O(V^2)
+    # Space Complexity : O(V)
+    def dijkstra1(self, V, adj, S):
         
+        # An array storing the shortest distance from the source 
+        # Source vertex index is set to zero 
+        # Rest vertices are set to infinity
         distanceFromSource = []
         
         for i in range(V):
@@ -56,9 +97,8 @@ class Solution:
             
         #code here
 
-
-#{ 
- # Driver Code Starts
+ 
+# Driver Code Starts
 #Initial Template for Python 3
 import atexit
 import io
