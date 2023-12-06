@@ -12,3 +12,11 @@
 
 
 - Daily Temperatures [[Problem Statement](https://leetcode.com/problems/daily-temperatures/) | [Python Solution](/CompetitiveProgramming/StackAndQueue/dailyTemperatures.py)] <sub> (Diff : Medium ,Topics : Array | Stack ) </sub>
+
+
+---
+
+- Largest Rectangle in Histogram [[Problem Statement](https://leetcode.com/problems/largest-rectangle-in-histogram) | [Python Solution](/CompetitiveProgramming/StackAndQueue/largestRectangleArea.py)] <sub> (Diff : Hard ,Topics : Array | Stack ) </sub>
+
+
+
