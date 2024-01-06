@@ -6,11 +6,12 @@
 
 
 class Solution:
+
+    # Time Complexity : O(n)
+    # Space Complexity : O(1)
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
         updatedHead = None
-
-
         while(head):
 
             next = head.next
