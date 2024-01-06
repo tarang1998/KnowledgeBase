@@ -1,5 +1,9 @@
+# Algorithm to find the shortest path from the source to all other vertices in a graph
 # Dijkstras algorithm can be used for directed and undirected graphs 
-# Cant be used on graphs with negative weight cycles
+# Cant be used on graphs with negative weight cycles (any negative edge)
+
+
+import heapq as hq 
 
 class Solution:
 
@@ -37,24 +41,19 @@ class Solution:
         return dist
 
     
-    
-    def findVertexWithMinDistanceFromSource(self,spt,distance):
-        
-        minDistance = float('inf')
-        vertex = None
-        
-        for i in range(len(distance)):
-            if((i not in spt) and (distance[i] < minDistance)):
-                minDistance = distance[i]
-                vertex = i
-                    
-        return vertex
-                
-    #Function to find the shortest distance of all the vertices
-    #from the source vertex S.
     # Time Complexity : O(V^2)
     # Space Complexity : O(V)
     def dijkstra1(self, V, adj, S):
+
+        def findVertexWithMinDistanceFromSource(self,spt,distance):
+            minDistance = float('inf')
+            vertex = None
+            for i in range(len(distance)):
+                if((i not in spt) and (distance[i] < minDistance)):
+                    minDistance = distance[i]
+                    vertex = i            
+            return vertex
+
         
         # An array storing the shortest distance from the source 
         # Source vertex index is set to zero 
@@ -71,6 +70,7 @@ class Solution:
         #Shortest path tree     
         spt = {}
         
+        # Need to fit every vertix in the shortest path Tree
         for count in range(V):
             
             vertex = self.findVertexWithMinDistanceFromSource(spt,distanceFromSource)
@@ -83,6 +83,7 @@ class Solution:
                 v = adjNeighbour[0]
                 weight = adjNeighbour[1]
                 
+                # Update distance if distance through the vertex node is less than the current distance
                 if(distanceFromSource[v] > distanceFromSource[vertex] + weight):
                 
                     distanceFromSource[v] = distanceFromSource[vertex] + weight
@@ -92,13 +93,9 @@ class Solution:
                 
             
                 
-                
-                
             
-        #code here
-
  
-# Driver Code Starts
+#Driver Code Starts
 #Initial Template for Python 3
 import atexit
 import io
