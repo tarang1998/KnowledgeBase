@@ -1,12 +1,13 @@
 class Solution:  
     
     #Function to get the maximum total value in the knapsack.
+    # Time Complexity : O(nlogn)
+    # Space Complexity : O(n)
     def fractionalknapsack(self, W,Items,n):
         
         # Sorting the items according to the decreasing order of the profit/weight ratio
  
         #self.mergeSortDesc(0,n-1,Items)
-        function to sort 
         Items.sort(key = lambda x: x.value/x.weight, reverse = True)
         
         availableCapacity = W
