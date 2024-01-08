@@ -75,3 +75,5 @@
 - Burst Ballons [[Problem Statement](https://leetcode.com/problems/burst-balloons/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/burstBallons.py)] <sub> (Diff : Hard)
 
 - Maximum Profit In Job Scheduling [[Problem Statement](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/maximumProfitInJobScheduling.py)] <sub> (Diff : Hard)
+
+- Arithmetic Slices II - Subsequence [[Problem Statement](https://leetcode.com/problems/arithmetic-slices-ii-subsequence) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/Arithmetic%20Slices%20II%20-%20Subsequence.py)] <sub> (Diff : Hard)
