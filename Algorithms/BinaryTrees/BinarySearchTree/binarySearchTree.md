@@ -10,6 +10,8 @@
 
 - Two Sum IV - Input is a BST [[Problem Statement](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | [Python Solution](/CompetitiveProgramming/BinarySearchTrees/twoSum4InputBST.py)] <sub> (Diff : Easy)</sub> 
 
+- Range Sum of BST [[Problem Statement](https://leetcode.com/problems/range-sum-of-bst) | [Python Solution](/CompetitiveProgramming/BinarySearchTrees/Range%20Sum%20of%20BST.py)] <sub> (Diff : Easy)</sub> 
+
 
 ---
 
