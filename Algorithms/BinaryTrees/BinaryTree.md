@@ -37,6 +37,9 @@
 
 - Invert a Binary Tree [[Problem Statement](https://leetcode.com/problems/invert-binary-tree/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/invertBinaryTree.py)] <sub> (Diff : Easy, Topics : Tree | Recursion)</sub> 
 
+
+- Leaf Similar Tree [[Problem Statement](https://leetcode.com/problems/leaf-similar-trees/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/leafSimilarTree.py)] <sub> (Diff : Easy)</sub> 
+
 ---
 
 - Validate Binary Tree Nodes [[Problem Statement](https://leetcode.com/problems/validate-binary-tree-nodes) | [Python Solution](/CompetitiveProgramming/BinaryTrees/validateBinaryTreeNodes.py)]
