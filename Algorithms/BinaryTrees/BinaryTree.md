@@ -68,6 +68,9 @@
 
 - Binary Tree Pruning [[Problem Statement](https://leetcode.com/problems/binary-tree-pruning/) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/binaryTreePruning.cpp)] <sub> (Diff : Medium, Topics : Depth-First Search | Tree)</sub> 
 
+- Amount of Time for Binary Tree to Be Infected
+ [[Problem Statement](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/binaryTreePruning.cpp)] <sub> (Diff : Medium)</sub> 
+
 ---
 
 - Vertical Order Traversal of the binary Tree [[Problem Statement](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/verticalOrderTraversalOfBinaryTree/verticalOrderTraversalOfBinaryTree.py) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/verticalOrderTraversalOfBinaryTree/verticalOrderTraversalOfBinaryTree.cpp)] <sub> (Diff : Hard, Topics : Depth-First Search | Breadth-First Search | Binary Tree)</sub> 
