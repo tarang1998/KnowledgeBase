@@ -69,7 +69,7 @@
 - Binary Tree Pruning [[Problem Statement](https://leetcode.com/problems/binary-tree-pruning/) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/binaryTreePruning.cpp)] <sub> (Diff : Medium, Topics : Depth-First Search | Tree)</sub> 
 
 - Amount of Time for Binary Tree to Be Infected
- [[Problem Statement](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/binaryTreePruning.cpp)] <sub> (Diff : Medium)</sub> 
+ [[Problem Statement](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected.py)] <sub> (Diff : Medium)</sub> 
 
 ---
 
