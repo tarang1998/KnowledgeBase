@@ -71,6 +71,10 @@
 - Amount of Time for Binary Tree to Be Infected
  [[Problem Statement](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected.py)] <sub> (Diff : Medium)</sub> 
 
+ - Maximum Difference Between Node and Ancestor
+ [[Problem Statement](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/Maximum%20Difference%20Between%20Node%20and%20Ancestor.py)] <sub> (Diff : Medium)</sub> 
+
+
 ---
 
 - Vertical Order Traversal of the binary Tree [[Problem Statement](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Python Solution](/CompetitiveProgramming/BinaryTrees/verticalOrderTraversalOfBinaryTree/verticalOrderTraversalOfBinaryTree.py) | [C++ Solution](/CompetitiveProgramming/BinaryTrees/verticalOrderTraversalOfBinaryTree/verticalOrderTraversalOfBinaryTree.cpp)] <sub> (Diff : Hard, Topics : Depth-First Search | Breadth-First Search | Binary Tree)</sub> 
