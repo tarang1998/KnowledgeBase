@@ -8,6 +8,8 @@
 
 - Valid Anagrams [[Problem Statement](https://leetcode.com/problems/valid-anagram/) | [Python Solution](/CompetitiveProgramming/Strings/validAnagrams.py)] <sub> (Diff : Easy)</sub> 
 
+- Determine If String Halves Are Alike [[Problem Statement](https://leetcode.com/problems/determine-if-string-halves-are-alike) | [Python Solution](/CompetitiveProgramming/Strings/Determine%20if%20String%20Halves%20Are%20Alike.py)] <sub> (Diff : Easy)</sub> 
+
 ---
 
 - Break a Palindrome [[Problem Statement](https://leetcode.com/problems/break-a-palindrome/) | [Python Solution](/CompetitiveProgramming/Strings/breakAPalindrome.py)] <sub> (Diff : Medium, Topics : Greedy | Strings)</sub> 
