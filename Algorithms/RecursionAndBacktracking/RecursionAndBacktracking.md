@@ -2,6 +2,14 @@
 
 ## Problems
 
+
+---
+- Subsets [[Problem Statement](https://leetcode.com/problems/subsets) | [Python Solution](/CompetitiveProgramming/RecursionAndBackTracking//subsets.py)] <sub> (Diff : Medium)</sub> 
+
+
+---
+
+
 ### Permutations
 
 - [Question](https://leetcode.com/problems/permutations/)
