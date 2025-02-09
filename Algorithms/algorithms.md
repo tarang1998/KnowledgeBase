@@ -28,6 +28,3 @@
 - [Neet Code](https://neetcode.io/practice)
 - [Awesome Software Engineering Interview](https://github.com/imkgarg/Awesome-Software-Engineering-Interview)
 
-## Technical Assessments
-
-- [TikTok AMS Intern Assessment 2024 - Practice Session](https://www.hackerrank.com/test/62e9a8ejqa5/questions/iqfbsl2pf3)
