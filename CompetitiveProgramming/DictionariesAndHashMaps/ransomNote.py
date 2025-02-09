@@ -1,47 +1,36 @@
-#!/bin/python3
+# https://leetcode.com/problems/ransom-note/
 
-#https://www.hackerrank.com/challenges/ctci-ransom-note/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
+from collections import Counter
 
-import math
-import os
-import random
-import re
-import sys
-
-from collections import defaultdict
-
-#
-# Complete the 'checkMagazine' function below.
-#
-# The function accepts following parameters:
-#  1. STRING_ARRAY magazine
-#  2. STRING_ARRAY note
-#
-
-def checkMagazine(magazine, note):
-    # Write your code here
-    
-    magazine_dict = defaultdict(int)
-    for word in magazine:
-        magazine_dict[word]+=1
-    for word in note: 
-        if magazine_dict[word]==0 : 
-            print('No') 
-            return
-        magazine_dict[word]-=1
-    print('Yes')       
+class Solution:
+    def canConstruct2(self, ransomNote: str, magazine: str) -> bool:
         
-    
-
-if __name__ == '__main__':
-    first_multiple_input = input().rstrip().split()
-
-    m = int(first_multiple_input[0])
-
-    n = int(first_multiple_input[1])
-
-    magazine = input().rstrip().split()
-
-    note = input().rstrip().split()
-
-    checkMagazine(magazine, note)
+        magazineWordCount = {}
+        
+        for letter in magazine:
+            
+            if letter not in magazineWordCount:
+                magazineWordCount[letter] = 1
+                
+            else:
+                magazineWordCount[letter] += 1
+                
+        for letter in ransomNote:
+            
+            if (letter not in magazineWordCount or magazineWordCount[letter] == 0):
+                return False
+            
+            magazineWordCount[letter] -= 1
+            
+        return True 
+        
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        
+        rn = Counter(ransomNote)
+        mg = Counter(magazine)
+        
+        for k,v in rn.items():
+            
+            if k not in mg or mg[k] < v:
+                return False
+        return True

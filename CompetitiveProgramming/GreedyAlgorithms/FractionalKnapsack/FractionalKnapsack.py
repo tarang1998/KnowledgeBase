@@ -1,13 +1,39 @@
-# https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
-
-
-#User function Template for python3
-
-
-
 class Solution:  
     
-    
+    #Function to get the maximum total value in the knapsack.
+    # Time Complexity : O(nlogn)
+    # Space Complexity : O(n)
+    def fractionalknapsack(self, W,Items,n):
+        
+        # Sorting the items according to the decreasing order of the profit/weight ratio
+ 
+        #self.mergeSortDesc(0,n-1,Items)
+        Items.sort(key = lambda x: x.value/x.weight, reverse = True)
+        
+        availableCapacity = W
+        
+        totalValue = 0
+        
+        for i in range(0,n):
+            
+            
+            if(availableCapacity >= Items[i].weight):
+                
+                totalValue += Items[i].value
+                availableCapacity -= Items[i].weight
+                
+                if(availableCapacity == 0):
+                    
+                    break
+
+            elif(availableCapacity > 0):
+                
+                totalValue +=  (Items[i].value/Items[i].weight) * availableCapacity
+                
+                break
+            
+        return totalValue
+
     def merge(self,low,m,high,arr):
         
         i = low
@@ -56,57 +82,15 @@ class Solution:
             self.mergeSortDesc(m+1,high,arr)
             
             self.merge(low,m,high,arr)
-            
-        
-        
-        
-        
-    #Function to get the maximum total value in the knapsack.
-    def fractionalknapsack(self, W,Items,n):
-        
-        # code here
-        
-        #self.mergeSortDesc(0,n-1,Items)
-    
-        
-        Items.sort(key = lambda x: x.value/x.weight, reverse = True)
-        
-        availableCapacity = W
-        
-        totalValue = 0
-        
-        for i in range(0,n):
-            
-            
-            
-            if(availableCapacity >= Items[i].weight):
-                
-                totalValue += Items[i].value
-                availableCapacity -= Items[i].weight
-                
-                if(availableCapacity == 0):
-                    
-                    break
-
-            elif(availableCapacity > 0):
-                
-                totalValue +=  ( Items[i].value/Items[i].weight) * availableCapacity
-                
-                break
-            
-        return totalValue
                 
                 
                 
 
-#{ 
-#  Driver Code Starts
-#Initial Template for Python 3
+
 import atexit
 import io
 import sys
 
-#Contributed by : Nagendra Jha
 
 class Item:
     def __init__(self,val,w):
@@ -126,4 +110,3 @@ if __name__ == '__main__':
         ob=Solution()
         print("%.2f" %ob.fractionalknapsack(W,Items,n))
 
-# } Driver Code Ends
