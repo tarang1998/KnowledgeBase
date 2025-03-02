@@ -32,6 +32,9 @@
 
 - Max Area of Island [[Problem Statement](https://leetcode.com/problems/max-area-of-island/description/) | [Python Solution](/CompetitiveProgramming/Graph/maxAreaOfIsland.py)] <sub> (Diff : Medium)</sub> 
 
+- Rotting Oranges [[Problem Statement](https://leetcode.com/problems/rotting-oranges/description/) | [Python Solution](/CompetitiveProgramming/Graph/rottingOranges.py)] <sub> (Diff : Medium)</sub> 
+
+
 - Is Graph Bipartite [[Concept](https://www.geeksforgeeks.org/bipartite-graph/) | [Problem Statement](https://leetcode.com/problems/is-graph-bipartite/) | [Python Solution using DFS](/CompetitiveProgramming/Graph/checkIfGraphIsBipartitebfs.py) | [Python Solution using BFS](/CompetitiveProgramming/Graph/checkIfGraphIsBipartiteDFS.py)] <sub> (Diff : Medium)</sub>
 
 - Dijkstra Algorithm [[Concept](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/) | [Problem Statement](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | [Python Solution](/CompetitiveProgramming/Graph/dijkstras.py)] <sub> (Diff : Medium , Time Complexity : O(E Log V), Space Complexity : O(V))</sub> 
