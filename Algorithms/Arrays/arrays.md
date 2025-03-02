@@ -4,6 +4,8 @@
 
 - Valid Anagrams [[Problem Statement](https://leetcode.com/problems/valid-anagram/) | [Python Solution](/CompetitiveProgramming/Arrays/validAnagram.py)] <sub> (Diff : Easy)</sub> 
 
+- Merge Two 2D Arrays by Summing Values [[Problem Statement](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description) | [Python Solution](/CompetitiveProgramming/Arrays/merge-two-2d-arrays-by-summing-values.py)] <sub> (Diff : Easy)</sub> 
+
 - Contains Duplicate [[Problem Statement](https://leetcode.com/problems/contains-duplicate/) | [Python Solution](/CompetitiveProgramming/Arrays/containsDuplicate.py)] <sub> (Diff : Easy)</sub> 
 
 - Two Sums [[Problem Statement](https://leetcode.com/problems/two-sum/) | [Python Solution](/CompetitiveProgramming/Arrays/twoSum.py)] <sub> (Diff : Easy)</sub> 
