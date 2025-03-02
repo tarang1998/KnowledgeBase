@@ -9,37 +9,52 @@ class Node:
 """
 
 class Solution:
-    
-    # key - value of the node 
-    # value - the Node 
-    visited = {}
-    
-    def constructGraph(self,node):
-        
-        if(node == None):
-            return None
-        
-        if(node.val in self.visited):
-            return self.visited[node.val]
-        
-        newNode = TreeNode()
-        newNode.val = node.val
-        newNode.neighbors = []
-        
-        self.visited[node.val] = newNode 
-        
-        for i in node.neighbors:
-            
-            newNode.neighbors.append(self.constructGraph(i))
-        
-        return newNode
-        
-        
+
+    # Time Complexity : O(E+V)
+    # Space Complexity : O(V)
+    def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
+
+        oldToNewNodeMapping = {}
+
+        def dfs(node):
+
+            if node in oldToNewNodeMapping:
+                return oldToNewNodeMapping[node]
+
+            copy = Node(node.val)
+            oldToNewNodeMapping[node] = copy
+
+            for neighbors in node.neighbors:
+                copy.neighbors.append(dfs(neighbors))
+
+            return copy
         
     
-    def cloneGraph(self, node: 'Node') -> 'Node':
+        def bfs(node):
+
+            q = deque()
+            q.append(node)
+
+            oldToNewNodeMapping[node] = Node(node.val)
+
+            while q:
+                cur = q.popleft()
+
+                for neighbor in cur.neighbors:
+                    if neighbor not in oldToNewNodeMapping:
+                        oldToNewNodeMapping[neighbor] = Node(neighbor.val)
+                        q.append(neighbor)
+                    oldToNewNodeMapping[cur].neighbors.append(oldToNewNodeMapping[neighbor])
+
+            return oldToNewNodeMapping[node]
+
         
-        self.visited = {}
+
+
+        #return dfs(node) if node else None
+        return bfs(node) if node else None 
         
-        return self.constructGraph(node)
+        
+    
+        
         
