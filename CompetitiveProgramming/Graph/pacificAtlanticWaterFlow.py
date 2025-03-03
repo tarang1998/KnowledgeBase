@@ -1,52 +1,82 @@
 class Solution:
+    # Time Complexity : O(n*m)
+    # Space Complexity : O(n*m)
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
-        
-        m, n = len(heights), len(heights[0])
-        
-        def dfs(i: int, j: int, prev_height: int, coords: Set[Tuple[int]]) -> None:
-            if i < 0 or i == m or j < 0 or j == n:
-                # out of bounds
-                return
+
+    
+        ROWS = len(heights)
+        COLS = len(heights[0])
+
+        directions = [(-1,0),(1,0),(0,1),(0,-1)]
+
+        atlantic = {}
+        pacific = {}
+
+        def bfs(ocean):
+
+            q = deque()
+            q.extend(ocean.keys())
+
+            while q:
+                r,c = q.popleft()
+
+                for dr,dc in directions:
+                    nr,nc = r+dr, c+dc
+                    if nr<0 or nr>=ROWS or nc<0 or nc>=COLS or (nr,nc) in ocean or heights[nr][nc]<heights[r][c]:
+                        continue
+                    q.append((nr,nc))
+                    ocean[(nr,nc)] = 1 
+
+    
+        def dfs(r,c,ocean):
+            if (r,c) in ocean:
+                return 
             
-            if (i, j) in coords:
-                # already visited
-                return
-            
-            height = heights[i][j]
-            
-            if height < prev_height:
-                # water can't flow to a higher height
-                return
-            
-            # ocean is reachable from current coordinate
-            coords.add((i, j))
-            
-            # all four directions
-            dfs(i + 1, j, height, coords)
-            dfs(i - 1, j, height, coords)
-            dfs(i, j + 1, height, coords)
-            dfs(i, j - 1, height, coords)
-            
-        pacific_coords = set()
-        
-        # top row
-        for j in range(n):
-            dfs(0, j, 0, pacific_coords)
-        
-        # left col
-        for i in range(m):
-            dfs(i, 0, 0, pacific_coords)
-            
-        atlantic_coords = set()
-            
-        # right col
-        for i in range(m):
-            dfs(i, n - 1, 0, atlantic_coords)
-            
-        # bottom row
-        for j in range(n):
-            dfs(m - 1, j, 0, atlantic_coords)
-            
-        # intersection of coords reachable from both Pacific and Atlantic
-        return list(pacific_coords & atlantic_coords)
+            #Marking the cordinates that can reach the ocean
+            ocean[(r,c)] = 1
+
+            for dr,dc in directions:
+                nr,nc = r+dr, c+dc
+                if nr<0 or nr>=ROWS or nc<0 or nc>=COLS or heights[nr][nc]<heights[r][c]:
+                    continue
+                dfs(nr,nc,ocean)
+
+        # # Starting dfs from the cells in the left and right borders
+        # for r in range(ROWS):
+        #     dfs(r,0,pacific)
+        #     dfs(r,COLS -1, atlantic)
+
+
+        # # Starting dfs from the cells in the top and bottom borders
+        # for c in range(COLS):
+        #     dfs(0,c,pacific)
+        #     dfs(ROWS-1,c,atlantic)
+           
+
+        # Using bfs
+        # Collecting all the cordinates from which 
+        # water can flow into the pacific or atlantic ocean 
+        for r in range(ROWS):
+            pacific[(r,0)]=1
+            atlantic[(r,COLS-1)]=1
+
+        for c in range(COLS):
+            pacific[(0,c)]=1
+            atlantic[(ROWS-1,c)]=1
+
+        bfs(pacific)
+        bfs(atlantic)
+
+        result = []
+
+        for r in range(ROWS):
+            for c in range(COLS):
+                if (r,c) in pacific and (r,c) in atlantic:
+                    result.append([r,c])
+
+        return result
+           
+                
+
+
         
