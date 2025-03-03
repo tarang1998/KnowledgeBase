@@ -34,6 +34,8 @@
 
 - Top K Frequent Elements [[Problem Statement](https://leetcode.com/problems/top-k-frequent-elements/) | [Python Solution](/CompetitiveProgramming/Arrays/topKFrequentElements.py)] <sub> (Diff : Medium)</sub> 
 
+- Partition Array According to Given Pivot [[Problem Statement](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | [Python Solution](/CompetitiveProgramming/Arrays/PartitionArrayAccordingtoGivenPivot.py)] <sub> (Diff : Medium)</sub> 
+
 - Product Of Array Self [[Problem Statement](https://leetcode.com/problems/product-of-array-except-self/) | [Python Solution](/CompetitiveProgramming/Arrays/productOfArrayExceptSelf.py)]
 
 - Valid Sudoku [[Problem Statement](https://leetcode.com/problems/valid-sudoku/) | [Python Solution](/CompetitiveProgramming/Arrays/validSudoku.py)]
