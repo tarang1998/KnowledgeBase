@@ -14,7 +14,10 @@
 
 ---
 
-- Roman To Integer [[Problem Statement](https://leetcode.com/problems/roman-to-integer/) | [Python Solution](/CompetitiveProgramming/Maths/uniquePaths.py)] <sub> (Diff : Medium | Topics : (Math, Dynamic Programming, Combinatorics) | Try sloving using mathematical approach )</sub> 
+- Roman To Integer [[Problem Statement](https://leetcode.com/problems/roman-to-integer/) | [Python Solution](/CompetitiveProgramming/Maths/romanToInteger.py)] <sub> (Diff : Medium | Topics : (Math, Dynamic Programming, Combinatorics) | Try sloving using mathematical approach )</sub> 
+
+- Check if Number is a Sum of Powers of Three [[Problem Statement](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description) | [Python Solution](/CompetitiveProgramming/Maths/check-if-number-is-a-sum-of-powers-of-three.py)] <sub> (Diff : Medium)</sub> 
+
 
 ---
 
