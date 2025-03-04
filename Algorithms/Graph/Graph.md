@@ -24,7 +24,7 @@
 
 - Detecting a cycle in an Undirected Graph using DFS [[Python Solution](/CompetitiveProgramming/Graph/undirectedGraphCycleDetectionWithDFS.py)]
 
-- Course Scheduling [[Problem Statement](https://leetcode.com/problems/course-schedule/) | [Python Solution - Detecting a cycle in a directed Graph using DFS](/CompetitiveProgramming/Graph/courseScheduling-1.py)] <sub> (Diff : Medium, Topics : Depth First Search, Breadth First Search, Graph, Topological Sort )</sub> 
+- Course Scheduling [[Problem Statement](https://leetcode.com/problems/course-schedule/) | [Python Solution](/CompetitiveProgramming/Graph/courseScheduling-1.py)] <sub> (Diff : Medium, Topics : Depth First Search, Breadth First Search, Graph, Topological Sort )</sub> 
 
 - Topological Sorting [[Concept](https://www.geeksforgeeks.org/topological-sorting/) | [Problem Statement](https://practice.geeksforgeeks.org/problems/topological-sort/1) | [Python Solution - Topological Sort using DFS](/CompetitiveProgramming/Graph/topologicalSortUsingDFS.py) | [Python Solution - Topological Sort using BFS](/CompetitiveProgramming/Graph/topologicalSortUsingBFS.py)] <sub> (Diff : Medium, Expected Time Complexity : O(V+E), Expected Space Complexity : O(V))</sub>
 
