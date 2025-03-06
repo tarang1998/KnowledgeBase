@@ -18,6 +18,8 @@
 
 - Check if Number is a Sum of Powers of Three [[Problem Statement](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description) | [Python Solution](/CompetitiveProgramming/Maths/check-if-number-is-a-sum-of-powers-of-three.py)] <sub> (Diff : Medium)</sub> 
 
+- Count Total Number of Colored Cells [[Problem Statement](https://leetcode.com/problems/count-total-number-of-colored-cells) | [Python Solution](/CompetitiveProgramming/Maths/count-total-number-of-colored-cells.py)] <sub> (Diff : Medium)</sub> 
+
 
 ---
 
