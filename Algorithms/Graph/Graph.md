@@ -45,6 +45,8 @@
 
 - Valid Graph Tree [[Problem Statement](https://neetcode.io/problems/valid-tree) | [Python Solution](/CompetitiveProgramming/Graph/validGraphTree.py)] <sub> (Diff : Medium)</sub> 
 
+- Number of Connected Components In An Undirected Graph [[Problem Statement](https://neetcode.io/problems/count-connected-components) | [Python Solution](/CompetitiveProgramming/Graph/connectedcomponentsinanundirectedgraph.py)] <sub> (Diff : Medium)</sub> 
+
 ---
 
 - Word Ladder 2 [[Problem Statement](https://leetcode.com/problems/word-ladder-ii/) | [Python Solution](/CompetitiveProgramming/Graph/wordladder2.py] <sub> (Diff : Hard , Topics : String, Hash Table, Backtracking, Breadth-First-Search)</sub> 
