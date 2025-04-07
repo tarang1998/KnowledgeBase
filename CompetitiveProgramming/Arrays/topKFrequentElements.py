@@ -1,14 +1,16 @@
 import heapq as hq
+from collections import defaultdict
 
 class Solution:
 
-    # Time Complexity : O(n) using Bucket Sort
+    # Bucket Sort
+    # Time Complexity : O(n) 
+    # Space Complexity : O(n)
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 
         # Calculate the frequency for each integer
         count = {}
 
-        # O(n)
         for num in nums:
             count[num] = 1 + count.get(num,0)
 
@@ -35,8 +37,9 @@ class Solution:
 
 
 
-    # Time Complexity : O(klogn) is possible using maxHeap
-    def topKFrequent2(self, nums: List[int], k: int) -> List[int]:
+    # Time Complexity : O(klogn) 
+    # Space Complexity : O(n+k)
+    def topKFrequentUsingHeap(self, nums: List[int], k: int) -> List[int]:
 
         count = {}
 
@@ -65,8 +68,9 @@ class Solution:
 
 
 
-    # Time Complexity : O(nlogn)import heapq as hq
-    def topKFrequent1(self, nums: List[int], k: int) -> List[int]:
+    # Time Complexity : O(nlogn)
+    # Space Complexity : O(n)
+    def topKFrequentSorting(self, nums: List[int], k: int) -> List[int]:
 
         count = defaultdict(int)
 
