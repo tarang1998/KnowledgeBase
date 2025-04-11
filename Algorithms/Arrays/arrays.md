@@ -36,6 +36,8 @@
 
 - Partition Array According to Given Pivot [[Problem Statement](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | [Python Solution](/CompetitiveProgramming/Arrays/PartitionArrayAccordingtoGivenPivot.py)] <sub> (Diff : Medium)</sub> 
 
+- Encode Decode String [[Problem Statement](https://neetcode.io/problems/string-encode-and-decode) | [Python Solution](/CompetitiveProgramming/Arrays/encodeDecodeString.py)] <sub> (Diff : Medium)</sub>
+
 - Product Of Array Self [[Problem Statement](https://leetcode.com/problems/product-of-array-except-self/) | [Python Solution](/CompetitiveProgramming/Arrays/productOfArrayExceptSelf.py)]
 
 - Valid Sudoku [[Problem Statement](https://leetcode.com/problems/valid-sudoku/) | [Python Solution](/CompetitiveProgramming/Arrays/validSudoku.py)]

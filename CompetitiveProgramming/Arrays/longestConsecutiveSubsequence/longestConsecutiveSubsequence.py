@@ -2,36 +2,26 @@ import heapq
 
 class Solution:
 
-    #using Hashing 
     # Time Complexity : O(n)
     # Space Complexity : O(n)
-    def longestConsecutiveWithHashing(self, nums: List[int]) -> int:
-
-
-        hashTable = {}
-
-        for num in nums:
-
-            hashTable[num] = 1
-
-        longestSequence = 0 
-
-        for num in nums:
-
-
-            #Check if num is the first element in its sequence 
-            if(num-1 not in hashTable): # num is the first element
-
-                val = num + 1
-                while(val in hashTable):
-                    val = val+1
-
-                longestSequence = max(longestSequence,val - num)
-
-        return longestSequence
-
-
     def longestConsecutive(self, nums: List[int]) -> int:
+
+        mem = set(nums)
+
+        maxLength = 0 
+
+        for num in mem:
+            # Condition is true if num is the start of a certain sequence
+            if num-1 not in mem:
+                length = 1 
+                while num + length in mem:
+                    length += 1
+                maxLength = max(maxLength, length)
+
+        return maxLength
+
+
+    def longestConsecutiveWithMinHeap(self, nums: List[int]) -> int:
 
         if(len(nums) == 0 ):
             return 0 
