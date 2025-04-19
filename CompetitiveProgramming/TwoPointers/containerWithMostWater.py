@@ -16,6 +16,7 @@ class Solution:
 
             area = h * (r-l)
 
+            # Shift the left and right pointer according to the height
             if(area > maxArea):
                 maxArea = area 
 
@@ -27,6 +28,5 @@ class Solution:
 
             else:
                 l+=1
-                r-=1
         
         return maxArea
