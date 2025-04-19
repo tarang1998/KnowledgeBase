@@ -45,7 +45,14 @@ class Solution:
 
         return True 
 
-
+    # Time Complexity : O(n)
+    # Space Complexity : O(n)
+    def isPalindromeReverseString(self, s: str) -> bool:
+        newStr = ''
+        for c in s:
+            if c.isalnum():
+                newStr += c.lower()
+        return newStr == newStr[::-1]
 
 
         
