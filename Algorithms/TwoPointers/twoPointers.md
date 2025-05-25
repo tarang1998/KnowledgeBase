@@ -12,6 +12,8 @@
 
 - 3Sum [[Problem Statement](https://leetcode.com/problems/3sum/description/) | [Python Solution](/CompetitiveProgramming/TwoPointers/3sum.py)] <sub> (Diff : Medium)</sub>
 
+- 3SumClosest [[Problem Statement](https://leetcode.com/problems/3sum/description/) | [Python Solution](/CompetitiveProgramming/TwoPointers/3sumclosed.py)] <sub> (Diff : Medium)</sub>
+
 - Container with most water [[Problem Statement](https://leetcode.com/problems/container-with-most-water/) | [Python Solution](/CompetitiveProgramming/TwoPointers/containerWithMostWater.py)] <sub> (Diff : Medium)</sub>
 
 ---
