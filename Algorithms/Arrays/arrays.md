@@ -49,3 +49,5 @@
 - Find all Duplicates in an Array [[Problem Statement](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Python Solution](/CompetitiveProgramming/Arrays/findAllDuplicatesInAnArray.py)]
 
 ---
+
+- First Missing Positive [[Problem Statement](https://leetcode.com/problems/first-missing-positive/) | [Python Solution](/CompetitiveProgramming/Arrays/firstMissingPositive.py)]
