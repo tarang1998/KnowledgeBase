@@ -1,5 +1,3 @@
-# https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
-
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -8,54 +6,30 @@
 #         self.right = None
 
 class Solution:
-    
-    ans = None
-    
-    
-    def parseTree(self, node, p, q):
-        
-        if(node == None ):
-            return 0
-        
-        leftTree = self.parseTree(node.left,p,q)
-        
-        if(leftTree == 2):
-            return 2
-        
-        curr = 1 if (node == p or node == q) else 0 
-        
-        if(leftTree + curr == 2):
-            self.ans = node
-            return 2
-        
-        rightTree = self.parseTree(node.right,p,q)
-        
-        if(rightTree == 2):
-            return 2
-          
-        if curr+leftTree+rightTree == 2:
-            self.ans = node
-            return 2
-            
-        return curr + leftTree + rightTree
-        
-      
-        
 
-        
-        
-        
-    
+    # Time Complexity : O(n)
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        
-        self.ans = None
-        
-        self.parseTree(root,p,q)
-        
-        return self.ans
-        
-        
-        
-        
-        
-        
+
+        result = None 
+
+        def traverse(node,p,q):
+            nonlocal result 
+
+            if node == None:
+                return False 
+
+            left = traverse(node.left,p,q)
+            right = traverse(node.right,p,q)
+            curr = (node.val == p.val) or (node.val == q.val)
+
+            if (left and right) or (left and curr) or (right and curr):
+                result = node
+
+            return left or right or curr
+
+        traverse(root,p,q)
+        return result
+
+
+
+           
