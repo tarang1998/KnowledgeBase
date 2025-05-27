@@ -1,5 +1,4 @@
- 
-# Algorithms And Data Structures 
+# Algorithms And Data Structures
 
 - [Mathematics](/Algorithms/Mathematics/Maths.md)
 - [Arrays](/Algorithms/Arrays/arrays.md)
@@ -15,16 +14,15 @@
 - [Stack And Queue](/Algorithms/StackAndQueue/stackAndQueue.md)
 - [String](/Algorithms/Strings/Strings.md)
 - [Binary Tree](/Algorithms/BinaryTrees/BinaryTree.md)
-    - [Binary Search Tree](/Algorithms/BinaryTrees/BinarySearchTree/binarySearchTree.md)
-    - [Heap](/Algorithms/BinaryTrees/Heaps/Heaps.md)
+  - [Binary Search Tree](/Algorithms/BinaryTrees/BinarySearchTree/binarySearchTree.md)
+  - [Heap](/Algorithms/BinaryTrees/Heaps/Heaps.md)
 - [Graph](/Algorithms/Graph/Graph.md)
 - [Dynamic Programming](/Algorithms/DynamicProgramming/DynamicProgramming.md)
-- [Trie]()
+- [Trie](/Algorithms/Trie/trie.md)
 - [Miscellaneous](/Algorithms/Miscellaneous/Miscellaneous.md)
 
-## Resources 
+## Resources
 
 - [Strivers SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 - [Neet Code](https://neetcode.io/practice)
 - [Awesome Software Engineering Interview](https://github.com/imkgarg/Awesome-Software-Engineering-Interview)
-
