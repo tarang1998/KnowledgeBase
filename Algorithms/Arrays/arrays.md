@@ -34,6 +34,8 @@
 
 - Top K Frequent Elements [[Problem Statement](https://leetcode.com/problems/top-k-frequent-elements/) | [Python Solution](/CompetitiveProgramming/Arrays/topKFrequentElements.py)] <sub> (Diff : Medium)</sub>
 
+- Top K Frequent Words [[Problem Statement](https://leetcode.com/problems/top-k-frequent-words/) | [Python Solution](/CompetitiveProgramming/Arrays/topKfrequentwords.py)] <sub> (Diff : Medium)</sub>
+
 - Partition Array According to Given Pivot [[Problem Statement](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | [Python Solution](/CompetitiveProgramming/Arrays/PartitionArrayAccordingtoGivenPivot.py)] <sub> (Diff : Medium)</sub>
 
 - Encode Decode String [[Problem Statement](https://neetcode.io/problems/string-encode-and-decode) | [Python Solution](/CompetitiveProgramming/Arrays/encodeDecodeString.py)] <sub> (Diff : Medium)</sub>
