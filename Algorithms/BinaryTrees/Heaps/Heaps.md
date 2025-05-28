@@ -20,3 +20,5 @@
 - Sliding Window Maximum [[Problem Statement](https://leetcode.com/problems/average-of-levels-in-binary-tree/)]
 
 - Top K Frequent Words[[Problem Statement](https://leetcode.com/problems/top-k-frequent-words/)| [Python Solution](/CompetitiveProgramming/Arrays/topKfrequentwords.py)]
+
+- K Closest points to origin[[Problem Statement](https://leetcode.com/problems/k-closest-points-to-origin/)| [Python Solution](/CompetitiveProgramming/Heaps/kClosestPointToOrigin.py)]
