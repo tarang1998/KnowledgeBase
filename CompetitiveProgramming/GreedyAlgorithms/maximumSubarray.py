@@ -23,6 +23,23 @@ class Solution:
         return maxSum
 
 
+    def maxSubArray1(self, nums: List[int]) -> int:
+
+        maxValue = nums[0]
+        maxValueTillNow = nums[0]
+
+        for i in range(1,len(nums)):
+            maxValueTillNow = max(nums[i], nums[i] + maxValueTillNow)
+            if maxValueTillNow>maxValue:
+                maxValue = maxValueTillNow 
+
+
+        return maxValue
+
+        
+
+        
+
 
 
 
