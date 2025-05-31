@@ -19,6 +19,7 @@
 - [Graph](/Algorithms/Graph/Graph.md)
 - [Dynamic Programming](/Algorithms/DynamicProgramming/DynamicProgramming.md)
 - [Trie](/Algorithms/Trie/trie.md)
+- [Bit Manipulation](/Algorithms/bitManipulation.md)
 - [Miscellaneous](/Algorithms/Miscellaneous/Miscellaneous.md)
 
 ## Resources
