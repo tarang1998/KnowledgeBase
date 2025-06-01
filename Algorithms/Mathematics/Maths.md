@@ -20,4 +20,6 @@
 
 - Reverse Integer [[Problem Statement](https://leetcode.com/problems/reverse-integer/description/) | [Python Solution](/CompetitiveProgramming/Maths/reverseInteger.py)] <sub> (Diff : Medium)</sub>
 
+- Distribute Candies Among Children II [[Problem Statement](https://leetcode.com/problems/distribute-candies-among-children-ii/) | [Python Solution](/CompetitiveProgramming/Maths/2929.py)]
+
 ---
