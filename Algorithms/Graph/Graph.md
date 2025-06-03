@@ -51,6 +51,8 @@
 
 ---
 
-- Word Ladder 2 [[Problem Statement](https://leetcode.com/problems/word-ladder-ii/) | [Python Solution](/CompetitiveProgramming/Graph/wordladder2.py] <sub> (Diff : Hard , Topics : String, Hash Table, Backtracking, Breadth-First-Search)</sub>
+- Word Ladder 2 [[Problem Statement](https://leetcode.com/problems/word-ladder-ii/) | [Python Solution](/CompetitiveProgramming/Graph/wordladder2.py)] <sub> (Diff : Hard , Topics : String, Hash Table, Backtracking, Breadth-First-Search)</sub>
 
-- Sum Of Distance In Trees [[Problem Statement](https://leetcode.com/problems/sum-of-distances-in-tree) | [Python Solution](/CompetitiveProgramming/Graph/wordladder2.py] <sub> (Diff : Hard , Topics : Trees | Depth-First-Search | Graph)</sub>
+- Sum Of Distance In Trees [[Problem Statement](https://leetcode.com/problems/sum-of-distances-in-tree) | [Python Solution](/CompetitiveProgramming/Graph/wordladder2.py)] <sub> (Diff : Hard , Topics : Trees | Depth-First-Search | Graph)</sub>
+
+- Maximum Candies You Can get from Boxes [[Problem Statement](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes) | [Python Solution](/CompetitiveProgramming/Graph/maximumCandiesYouCanGetFromBox.py)]
