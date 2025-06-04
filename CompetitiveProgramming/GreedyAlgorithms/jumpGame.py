@@ -1,30 +1,34 @@
-
 class Solution:
-
-
+    
     # Time Complexity : O(n)
-    def canJump(self, nums: List[int]) -> bool :
+    def canJump(self, nums: List[int]) -> bool:
 
-        dest = len(nums)-1
+        n = len(nums)
+        destination = n-1
 
-        for i in range(len(nums)-2,-1,-1):
+        for i in range(n-2,-1,-1):
+            if i + nums[i] >= destination:
+                destination = i
+        
+        if destination == 0:
+            return True
+        else:
+            return False
 
-            # Shift the dest to the index 
-            # If the dest can be reached from the ith index 
-            # given nums[i] steps
-            if(i + nums[i] >= dest):
+    # Time Complexity : O(n^2)
+    def canJump1(self, nums: List[int]) -> bool:
 
-                dest = i
+        n = len(nums)
+        canJumpFromPosition = [False]*n
+        canJumpFromPosition[n-1] = True
+        for i in range(n-2,-1,-1):
+            steps = nums[i]
 
-        return True if dest == 0 else  False
-
-                
-
-
-
-
-
-
-
-
+            for j in range(1,steps+1):
+                if i + j > n-1:
+                    break
+                if canJumpFromPosition[i+j]:
+                    canJumpFromPosition[i] = True
+                    break
+        return canJumpFromPosition[0]
         
