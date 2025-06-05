@@ -1,73 +1,38 @@
 class Solution:
-
-    mem = None
     
-    def parse(self,coins,amount):
+    def coinChange(self, coins: List[int], amount: int) -> int: 
 
-        if amount in self.mem:
-            return self.mem[amount]
-
-        minValue = float('inf')
-
-        for coin in coins:
-
-            if(amount - coin >= 0 ):
-                
-                minValue = min(minValue , 1 + self.parse(coins,amount-coin))
-
-        self.mem[amount] = minValue
-        print(amount,minValue)
-
-        return self.mem[amount]
-
-
-    
-    def coinChange2(self, coins: List[int], amount: int) -> int:
-        
-        self.mem = {}
-
-        self.mem[0] = 0
-
-        self.parse(coins,amount)
-
-        if(self.mem[amount] == float('inf')):
-            return -1
-        else:
-            return self.mem[amount]
-
-    def coinChange(self, coins: List[int], amount: int) -> int:
-        
-        dp = {}
-
+        dp = [amount + 1] * (amount+1)
         dp[0] = 0
 
-        for t in range(1,amount+1):
-
-            dp[t] = float('inf')
-
+        for i in range(1,amount+1):
+            currAmount = i 
             for coin in coins:
-
-                if(t - coin >= 0 ):
-
-                    dp[t] = min(dp[t], 1+ dp[t-coin])
-
+                if currAmount - coin >= 0:
+                    dp[i] = min(dp[i],1+dp[currAmount-coin])
         
-        if dp[amount] == float('inf'):
-            return -1
-        else:
-            return dp[amount]
+        return dp[amount] if dp[amount]!= amount+1 else -1 
 
-                    
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+    
+    def coinChange1(self, coins: List[int], amount: int) -> int: 
+        mem = {}
+        def recurse(amount):
+            if amount < 0:
+                return -1 
+            if amount == 0:
+                return 0 
+            if amount in mem:
+                return mem[amount]
+            minVal = -1 
+            for coin in coins:
+                res = recurse(amount - coin)
+                if res != -1:
+                    if minVal == -1:
+                        minVal = 1 + res
+                    else:
+                        minVal = min(minVal,1 + res)
+            mem[(amount)] = minVal
+            return minVal
+        return recurse(amount)
         

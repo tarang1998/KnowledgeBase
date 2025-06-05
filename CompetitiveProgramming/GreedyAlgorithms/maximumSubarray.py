@@ -6,35 +6,27 @@ class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
 
         maxSum = nums[0]
-
         currSum = 0 
 
         for n in nums:
-
-            # If the sum results to negative discard the caluculates sum
+            # If the sum results to negative discard the calculated sum
             if(currSum < 0):
                 currSum = 0 
-
             currSum += n
-
             # Keep capturing the maxSum regularly
             maxSum = max(maxSum,currSum)
-
         return maxSum
 
 
     def maxSubArray1(self, nums: List[int]) -> int:
-
-        maxValue = nums[0]
-        maxValueTillNow = nums[0]
+        result = nums[0]
+        currentSum = nums[0]
 
         for i in range(1,len(nums)):
-            maxValueTillNow = max(nums[i], nums[i] + maxValueTillNow)
-            if maxValueTillNow>maxValue:
-                maxValue = maxValueTillNow 
+            currentSum = max(nums[i], nums[i]+currentSum)
+            result = max(currentMax,result)
 
-
-        return maxValue
+        return result
 
         
 
