@@ -56,3 +56,5 @@
 - Sum Of Distance In Trees [[Problem Statement](https://leetcode.com/problems/sum-of-distances-in-tree) | [Python Solution](/CompetitiveProgramming/Graph/wordladder2.py)] <sub> (Diff : Hard , Topics : Trees | Depth-First-Search | Graph)</sub>
 
 - Maximum Candies You Can get from Boxes [[Problem Statement](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes) | [Python Solution](/CompetitiveProgramming/Graph/maximumCandiesYouCanGetFromBox.py)]
+
+- Alien Dictionary [[Problem Statement](https://www.geeksforgeeks.org/problems/alien-dictionary/1) | [Python Solution](/CompetitiveProgramming/Graph/alienDictionary.py)]
