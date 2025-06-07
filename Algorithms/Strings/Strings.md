@@ -28,6 +28,8 @@
 
 - Lexicographically Smallest Equivalent String [[Problem Statement](https://leetcode.com/problems/lexicographically-smallest-equivalent-string) | [Python Solution](/CompetitiveProgramming/Strings/1061.py)]
 
+- Using a Robot to Print the Lexicographically Smallest String [[Problem Statement](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string) | [Python Solution](/CompetitiveProgramming/Strings/2434.py)]
+
 ---
 
 - Substring with Concatenation of All Words [[Problem Statement](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python Solution](/CompetitiveProgramming/Strings/substringWithConcatenationOfAllWords.py)] <sub> (Diff : Hard, Topics : HashTable, String, Sliding Window )</sub>
