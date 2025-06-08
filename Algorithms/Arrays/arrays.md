@@ -54,6 +54,8 @@
 
 - Minimum Time Difference [[Problem Statement](https://leetcode.com/problems/minimum-time-difference/) | [Python Solution](/CompetitiveProgramming/Arrays/minimumTimeDifference.py)]
 
+- Subarray Sum Equals K [[Problem Statement](https://leetcode.com/problems/subarray-sum-equals-k/description/) | [Python Solution](/CompetitiveProgramming/Arrays/minimumTimeDifference.py)]
+
 ---
 
 - First Missing Positive [[Problem Statement](https://leetcode.com/problems/first-missing-positive/) | [Python Solution](/CompetitiveProgramming/Arrays/firstMissingPositive.py)]
