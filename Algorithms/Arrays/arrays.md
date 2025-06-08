@@ -10,6 +10,8 @@
 
 - Two Sums [[Problem Statement](https://leetcode.com/problems/two-sum/) | [Python Solution](/CompetitiveProgramming/Arrays/twoSum.py)] <sub> (Diff : Easy)</sub>
 
+- Two Sums-3 [[Problem Statement](https://www.geeksforgeeks.org/data-structure-design-for-two-sum-iii/) | [Python Solution](/CompetitiveProgramming/Arrays/2Sum3.py)]
+
 - Pascals Triangle [[Problem Statement](https://leetcode.com/problems/pascals-triangle/) | [Python Solution](/CompetitiveProgramming/Arrays//PascalsTriangle/pascalsTriangle.py)] <sub> (Diff : Easy)</sub>
 
 - Find Indices With Index and Value Difference I [[Problem Statement](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i) | [Python Solution](/CompetitiveProgramming/Arrays/Find%20Indices%20With%20Index%20and%20Value%20Difference%20I.py)] <sub> (Diff : Easy)</sub>
