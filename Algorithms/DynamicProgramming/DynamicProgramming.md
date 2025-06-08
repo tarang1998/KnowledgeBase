@@ -14,6 +14,8 @@
 
 ---
 
+- Best Time to Buy and Sell Stock 2[[Problem Statement](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/bestTimeToBuyAndSellStock2.py)]
+
 - Best Time to Buy and Sell Stock with Cooldown [[Problem Statement](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/bestTimeToBuyAndSellStockWithCooldown.py)] <sub> (Diff : Medium ) </sub>
 
 - Max Array Sum [[Problem Statement](https://www.hackerrank.com/challenges/max-array-sum/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dynamic-programming) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/MaxArraySum/MaxArraySum.py) | [Reference Article](https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)] <sub> (Diff : Medium) </sub>
@@ -59,6 +61,8 @@
 - Edit Distance [[Problem Statement](https://leetcode.com/problems/edit-distance) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/editDistance.py)] <sub> (Diff : Medium)
 
 ---
+
+- Best Time to Buy and Sell Stock 3[[Problem Statement](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) | [Python Solution](/CompetitiveProgramming/DynamicProgramming/bestTimeToBuyAndSellStock-3.py)]
 
 - Minimum Number of Refueling Stops [[Problem Statement](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Python Solution](/CompetitiveProgramming/GreedyAlgorithms/minNumberOfRefuelingStops.py)] <sub> (Diff : Hard, Topics : Array | Dynamic Programming | Greedy | Heap(Priority Queue)) </sub>
 
