@@ -22,9 +22,3 @@
 - [Trie](/Algorithms/Trie/trie.md)
 - [Bit Manipulation](/Algorithms/bitManipulation.md)
 - [Miscellaneous](/Algorithms/Miscellaneous/Miscellaneous.md)
-
-## Resources
-
-- [Strivers SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
-- [Neet Code](https://neetcode.io/practice)
-- [Awesome Software Engineering Interview](https://github.com/imkgarg/Awesome-Software-Engineering-Interview)
