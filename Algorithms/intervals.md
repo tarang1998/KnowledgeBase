@@ -2,7 +2,7 @@
 
 ## Problems
 
-- Insert Intervlas [[Problem Statement](https://leetcode.com/problems/insert-interval/) | [Python Solution](/CompetitiveProgramming/Intervals/insertIntervals.py)]
+- Insert Intervals [[Problem Statement](https://leetcode.com/problems/insert-interval/) | [Python Solution](/CompetitiveProgramming/Intervals/insertIntervals.py)]
 
 - Meeting Rooms [[Problem Statement](https://neetcode.io/problems/meeting-schedule) | [Python Solution](/CompetitiveProgramming/Intervals/meetingRoom.py)]
 

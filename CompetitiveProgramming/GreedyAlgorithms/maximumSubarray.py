@@ -1,41 +1,24 @@
+from typing import List
+
 class Solution:
 
-    # Time Complexity : O(n)
-    # Discard all the previous elements that result in a negative sum
-
     def maxSubArray(self, nums: List[int]) -> int:
+        # Kadane's Algorithm     
+        # Time Complexity : O(n)
 
-        maxSum = nums[0]
-        currSum = 0 
+        # Initialize two variables:
+        # - current_sum to track the maximum subarray sum ending at the current position
+        # - max_sum to track the overall maximum subarray sum found so far
+        current_sum = max_sum = nums[0]
 
-        for n in nums:
-            # If the sum results to negative discard the calculated sum
-            if(currSum < 0):
-                currSum = 0 
-            currSum += n
-            # Keep capturing the maxSum regularly
-            maxSum = max(maxSum,currSum)
-        return maxSum
+        for i in range(1, len(nums)):
+            num = nums[i]
 
+            # If current_sum + num is less than num itself,
+            # it means starting a new subarray at num gives a better sum
+            current_sum = max(num, current_sum + num)
 
-    def maxSubArray1(self, nums: List[int]) -> int:
-        result = nums[0]
-        currentSum = nums[0]
+            # Update max_sum if current_sum is greater than max_sum
+            max_sum = max(max_sum, current_sum)
 
-        for i in range(1,len(nums)):
-            currentSum = max(nums[i], nums[i]+currentSum)
-            result = max(currentMax,result)
-
-        return result
-
-        
-
-        
-
-
-
-
-
-
-
-
+        return max_sum
