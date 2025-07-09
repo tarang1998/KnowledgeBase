@@ -1,75 +1,39 @@
+from collections import Counter
 import heapq
+from typing import List
+
 
 class Solution:
+    def isNStraightHand(self,hand: List[int], groupSize: int) -> bool:
+        # Time Complexity : O(nlogn)
+        # If total cards aren't divisible by groupSize, we can't form groups
+        if len(hand) % groupSize != 0:
+            return False
 
-    # Time Complexity : O(logn*n)
-    # The idea is that whenever a set has to be created 
-    # the minimum value is taken from the list and then other consecutive elements are searched 
-    # If Consecutive elements are not found then the development of the set is not possible 
-    def isNStraightHand(self, hand: List[int], groupSize: int) -> bool: 
-
-        # Check if is possible to form groups with the given size 
-        if(len(hand) % groupSize):
-            return False 
-
-        #Count the occurence of each card 
-        count = {}
-
-        for card in hand:
-            if card in count:
-                count[card] += 1
-            else:
-                count[card] = 1
-
-
+        # Count the frequency of each card value
+        count = Counter(hand)
         
-        #Create a min heap from the given elements 
-        minHeap = list(count.keys())
-        heapq.heapify(minHeap)
+        # Use a min-heap to process cards in increasing order
+        min_heap = list(count.keys())
+        heapq.heapify(min_heap)
 
-        while(len(minHeap) != 0 ):
+        while min_heap:
+            first = min_heap[0]  # Get the smallest available card to start a group
 
-
-            # Retrieve the min element from the heap
-            minEle = minHeap[0]
-
-            # Loop through the elements to create the set of group size
-            for i in range(minEle , minEle + groupSize):
-
-                if i not in count:
+            # Try to build a group of size 'groupSize' starting from 'first'
+            for i in range(groupSize):
+                curr = first + i
+                if count[curr] == 0:
+                    # Cannot form a group if any required card is missing
                     return False
-
-                count[i] -= 1
-
-                if (count[i] == 0):
-                    # If the count of an element goes to zero which is not the minimum card
-                    # Then the set cannot be formed 
-                    # As there would be an element before it and hence a consecutive sequence cannot be formed
-                    if(i != minHeap[0]):
+                count[curr] -= 1
+                if count[curr] == 0:
+                    # If card count reaches zero, remove it from the heap
+                    if curr != min_heap[0]:
+                        # If the card count reaches zero and it is not the minimum card
+                        # Then the set cannot be formed 
+                        # As there would be an element before it and hence a consecutive sequence cannot be formed
                         return False
+                    heapq.heappop(min_heap)
 
-                    heapq.heappop(minHeap)
-                
-
-        return True 
-
-
-
-            
-
-        
-
-        
-
-
-
-
-
-        
-
-
-
-
-
-
-        
+        return True
