@@ -1,34 +1,27 @@
+from typing import List
+
+
 class Solution:
-    
-    # Time Complexity : O(n)
+
     def canJump(self, nums: List[int]) -> bool:
+        # We use a greedy approach.
+        # Time Complexity : O(n)
+        # 'max_reach' represents the farthest index we can reach at any point.
+        max_reach = 0
 
-        n = len(nums)
-        destination = n-1
+        for i in range(len(nums)):
+            # If our current index is beyond the farthest reachable point,
+            # it means we are stuck and can't proceed further.
+            if i > max_reach:
+                return False
+            
+            # Update max_reach with the farthest we can reach from current position
+            max_reach = max(max_reach, i + nums[i])
 
-        for i in range(n-2,-1,-1):
-            if i + nums[i] >= destination:
-                destination = i
-        
-        if destination == 0:
-            return True
-        else:
-            return False
+            # If we can already reach or go beyond the last index, return True early
+            if max_reach >= len(nums) - 1:
+                return True
 
-    # Time Complexity : O(n^2)
-    def canJump1(self, nums: List[int]) -> bool:
+        # If loop completes, we have verified all positions are reachable
+        return True
 
-        n = len(nums)
-        canJumpFromPosition = [False]*n
-        canJumpFromPosition[n-1] = True
-        for i in range(n-2,-1,-1):
-            steps = nums[i]
-
-            for j in range(1,steps+1):
-                if i + j > n-1:
-                    break
-                if canJumpFromPosition[i+j]:
-                    canJumpFromPosition[i] = True
-                    break
-        return canJumpFromPosition[0]
-        
