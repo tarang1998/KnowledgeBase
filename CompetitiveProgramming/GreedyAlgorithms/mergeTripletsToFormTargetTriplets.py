@@ -1,35 +1,25 @@
+from typing import List
+
 class Solution:
-
-    # Time Complexity : O(n)
-    
     def mergeTriplets(self, triplets: List[List[int]], target: List[int]) -> bool:
+        # Time Complexity : O(n)
+        # We want to form a triplet exactly equal to target = [x, y, z]
+        # The merging operation takes the max of each index
+        # So we only care about triplets that are <= target in all positions
+        # And we want to find at least one triplet with each component equal to target[i]
 
-        a = target[0]
-        b = target[1]
-        c = target[2]
-
-        a_p = False
-        b_p = False
-        c_p = False
+        # Initialize three flags to track whether we found the required values
+        found = [False, False, False]  # found[i] means we've found a triplet with value target[i] at index i
 
         for triplet in triplets:
+            # Skip any triplet that has a value greater than target in any position
+            if triplet[0] > target[0] or triplet[1] > target[1] or triplet[2] > target[2]:
+                continue
 
-            # Check for the first element 
-            if (triplet[0] == a and triplet[1]<= b and triplet[2] <= c):
-                a_p = True
+            # If a triplet matches target[i] in some position, mark it
+            for i in range(3):
+                if triplet[i] == target[i]:
+                    found[i] = found[i] or True
 
-            # Check for the middle element
-            if (triplet[1] == b and triplet[0] <= a and triplet[2] <= c):
-                b_p = True
-
-            # Check for the last element 
-            if (triplet[2] == c and triplet[0] <= a and triplet[1] <= b):
-                c_p = True 
-
-            if(a_p and b_p and c_p):
-                return True 
-
-        
-        return False
-
-        
+        # If all three positions are satisfied, return True
+        return all(found)        
