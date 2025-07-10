@@ -1,16 +1,20 @@
+from typing import List
+
 class Solution:
-    # Time Complexity : O(n)
-    # Space Complexity : O(n)
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        # Time Complexity : O(n)
+        # Use a hash map to store {number: index}
+        num_to_index = {}
 
-        mem = {}
+        for i, num in enumerate(nums):
+            # Calculate the complement that would sum up to the target
+            complement = target - num
 
-        for index,num in enumerate(nums):
+            # If the complement is already in the hash map, we found a solution
+            if complement in num_to_index:
+                return [num_to_index[complement], i]
 
-            leftOver = target - num 
+            # Otherwise, store the current number with its index
+            num_to_index[num] = i        
 
-            if(leftOver in mem):
-                return [index,mem[leftOver]]
 
-            mem[num] = index
-        

@@ -1,22 +1,26 @@
 from collections import defaultdict
+from typing import List
+
+
 class Solution:
-    def subarraySum(self, nums: List[int], k: int) -> int:
-        res = 0 
-        currSum = 0 
-        prefixSum = defaultdict(int)
-        prefixSum[0] = 1
+   
+    def subarraySum(self,nums: List[int], k: int) -> int:
+        # Initialize variables
+        count = 0               # Number of subarrays that sum to k
+        curr_sum = 0            # Current prefix sum
+        prefix_sums = defaultdict(int)  # Map to store frequencies of prefix sums
+        prefix_sums[0] = 1      # Base case: a subarray that starts at index 0
+
         for num in nums:
-            currSum += num
-            #Value that needs to be subtracted from the current sum to get a value of k
-            val = currSum - k 
-            # Check if such a prefix is present 
-            # Eg 1 -1 1 1 1 , currSum = 3, k = 3
-            # Prefix sum(1 -1) is 0 
-            # Possible subsets : 1 1 1, 1 -1 1 1 1  
-            if val in prefixSum:
-                res += prefixSum[val]
-            prefixSum[currSum] += 1
-        return res
+            curr_sum += num  # Update the current prefix sum
+
+            # If (curr_sum - k) exists in the map, it means there's a subarray ending here with sum = k
+            count += prefix_sums[curr_sum - k]
+
+            # Update the map with the current prefix sum
+            prefix_sums[curr_sum] += 1
+
+        return count
 
 
 

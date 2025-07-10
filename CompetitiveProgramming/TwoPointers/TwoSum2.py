@@ -1,25 +1,22 @@
 class Solution:
 
     # Time Complexity : O(n)
-    # Space Complexity : O(1)
-    def twoSum(self, numbers: List[int], target: int) -> List[int]:
-
-        left = 0 
-
+    def twoSum(self,numbers: List[int], target: int) -> List[int]:
+        # Initialize two pointers: one at the start, one at the end
+        left = 0
         right = len(numbers) - 1
 
-        while(left < right):
+        while left < right:
+            current_sum = numbers[left] + numbers[right]
 
-            t = numbers[left] + numbers[right] 
-
-            if(t < target):
-                left += 1
-                continue 
-
-            elif(t == target):
+            # If we found the correct sum, return 1-based indices
+            if current_sum == target:
                 return [left + 1, right + 1]
-
+            elif current_sum < target:
+                # Move left pointer to increase the sum
+                left += 1
             else:
-                right-=1
+                # Move right pointer to decrease the sum
+                right -= 1
 
-       
+            
