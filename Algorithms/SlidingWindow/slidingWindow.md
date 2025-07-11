@@ -12,4 +12,5 @@
 
 - Sliding Window Maximum [[Problem Statement](https://leetcode.com/problems/sliding-window-maximum/description/) | [Python Solution](/CompetitiveProgramming/SlidingWindow/slidingWindowMaximum/slidingWindowMaximum.py)] <sub> (Diff : Hard, Topics : Array, Queue, Sliding Window, Heap(Priority Queue))</sub> 
 
+- Minimum Window Substring [[Problem Statement](https://leetcode.com/problems/minimum-window-substring/description/) | [Python Solution](/CompetitiveProgramming/SlidingWindow/minimumWindowSubstrings.py)]
 

@@ -3,7 +3,7 @@ from typing import List
 
 
 class Solution:
-   
+    # Time Complexity : O(n)
     def subarraySum(self,nums: List[int], k: int) -> int:
         # Initialize variables
         count = 0               # Number of subarrays that sum to k
