@@ -1,63 +1,47 @@
+
 class Solution:
-
+    # Time complexity : O(n) : Each state is defined by (index, isBuying) → 2 choices per day × n days = 2n states.
+    # Space Complexity : O(n)
     def maxProfit(self, prices: List[int]) -> int:
+        n = len(prices)  # total number of days
+        dp = {}  # dictionary to memoize (store) the result of subproblems
 
-        # The user can be in one of the three states :
-        # Buying, Selling, Cooldown
-
-        # Buying Status : True
-        # Selling Status : False
-
-        # key : (index, isBuying boolean status)
-        # value : Profit obtained
-        dp = {}
-
-
-
+        # Define a recursive function that returns the max profit starting from a given day
+        # 'index' tells which day we're at
+        # 'isBuying' tells if we are allowed to buy on this day (True) or must sell (False)
         def dfs(index, isBuying):
-
-            if(index >= len(prices)):
+            # Base case: if index goes beyond the last day, we can't make any profit
+            if index > n - 1:
                 return 0
 
-            if (index,isBuying) in dp:
-                return dp[(index,isBuying)]
+            # If we've already computed the result for this (index, isBuying) pair, return it
+            if (index, isBuying) in dp:
+                return dp[(index, isBuying)]
 
-            #Check the state the user is in currently
-            #If he is in the state where he has to buy a stock
-            if(isBuying):
+            # If we are allowed to buy on this day
+            if isBuying:
+                # Option 1: Buy today, so we subtract today's price and change state to "not allowed to buy"
+                buy = dfs(index + 1, False) - prices[index]
 
-                #The user has two options 
-                #Either buy the stock 
-                #Or dont do anything -> cooldown
+                # Option 2: Skip (cooldown), stay in the "buying" state and move to the next day
+                cooldown = dfs(index + 1, True)
 
-                #If the user buys the stock subtract by the cost of the stock
-                buy = dfs(index+1, not isBuying) - prices[index]
-                cooldown = dfs(index+1 , isBuying)
-                dp[(index,isBuying)] = max(buy,cooldown)
-                return dp[(index,isBuying)]
+                # Store the best of the two options
+                dp[(index, isBuying)] = max(buy, cooldown)
+                return dp[(index, isBuying)]
 
-            #If the user is in the state where he has to sell the stock
             else:
+                # If we are in "selling" mode (we already bought earlier)
 
-                #The user has two options 
-                #The user sells the stock
-                #The user doesnt do anything 
+                # Option 1: Sell today. Add today's price to profit and skip one day (cooldown)
+                sell = dfs(index + 2, True) + prices[index]
 
-                #If the user has sold the stock add the price of the stock
-                sell = dfs(index+2, not isBuying) + prices[index]
-                cooldown = dfs(index+1, isBuying)
-                dp[(index,isBuying)] = max(sell,cooldown)
-                return dp[(index,isBuying)]
+                # Option 2: Skip selling today (just cooldown without selling), stay in "not allowed to buy"
+                cooldown = dfs(index + 1, False)
 
-        return dfs(0,True)
+                # Store the best of the two options
+                dp[(index, isBuying)] = max(sell, cooldown)
+                return dp[(index, isBuying)]
 
-
-
-
-
-
-
-
-
-        
-        
+        # Start recursion from day 0, and we're initially allowed to buy
+        return dfs(0, True)
