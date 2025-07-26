@@ -1,82 +1,50 @@
+
+from collections import deque
+from typing import List
+
 class Solution:
     # Time Complexity : O(n*m)
     # Space Complexity : O(n*m)
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
+        # Grid dimensions
+        m = len(heights)
+        n = len(heights[0]) if m > 0 else 0
 
-    
-        ROWS = len(heights)
-        COLS = len(heights[0])
+        # Sets to track cells that can reach each ocean
+        pacific = [[False] * n for _ in range(m)]
+        atlantic = [[False] * n for _ in range(m)]
 
-        directions = [(-1,0),(1,0),(0,1),(0,-1)]
+        # Directions for visiting neighbors (up, down, left, right)
+        dirs = [(1,0), (-1,0), (0,1), (0,-1)]
 
-        atlantic = {}
-        pacific = {}
-
-        def bfs(ocean):
-
-            q = deque()
-            q.extend(ocean.keys())
-
+        # BFS starting from the ocean borders
+        def bfs(starts, visited):
+            q = deque(starts)
             while q:
-                r,c = q.popleft()
+                x, y = q.popleft()
+                visited[x][y] = True
+                for dx, dy in dirs:
+                    nx, ny = x + dx, y + dy
+                    # If neighbor is inside bounds, not visited, and higher or equal height
+                    if (0 <= nx < m and 0 <= ny < n and
+                        not visited[nx][ny] and
+                        heights[nx][ny] >= heights[x][y]):
+                        visited[nx][ny] = True
+                        q.append((nx, ny))
 
-                for dr,dc in directions:
-                    nr,nc = r+dr, c+dc
-                    if nr<0 or nr>=ROWS or nc<0 or nc>=COLS or (nr,nc) in ocean or heights[nr][nc]<heights[r][c]:
-                        continue
-                    q.append((nr,nc))
-                    ocean[(nr,nc)] = 1 
+        # Initialize BFS starting positions for Pacific (top row & left column)
+        pac_starts = [(0, j) for j in range(n)] + [(i, 0) for i in range(m)]
+        bfs(pac_starts, pacific)
 
-    
-        def dfs(r,c,ocean):
-            if (r,c) in ocean:
-                return 
-            
-            #Marking the cordinates that can reach the ocean
-            ocean[(r,c)] = 1
+        # Initialize BFS for Atlantic (bottom row & right column)
+        atl_starts = [(m-1, j) for j in range(n)] + [(i, n-1) for i in range(m)]
+        bfs(atl_starts, atlantic)
 
-            for dr,dc in directions:
-                nr,nc = r+dr, c+dc
-                if nr<0 or nr>=ROWS or nc<0 or nc>=COLS or heights[nr][nc]<heights[r][c]:
-                    continue
-                dfs(nr,nc,ocean)
-
-        # # Starting dfs from the cells in the left and right borders
-        # for r in range(ROWS):
-        #     dfs(r,0,pacific)
-        #     dfs(r,COLS -1, atlantic)
-
-
-        # # Starting dfs from the cells in the top and bottom borders
-        # for c in range(COLS):
-        #     dfs(0,c,pacific)
-        #     dfs(ROWS-1,c,atlantic)
-           
-
-        # Using bfs
-        # Collecting all the cordinates from which 
-        # water can flow into the pacific or atlantic ocean 
-        for r in range(ROWS):
-            pacific[(r,0)]=1
-            atlantic[(r,COLS-1)]=1
-
-        for c in range(COLS):
-            pacific[(0,c)]=1
-            atlantic[(ROWS-1,c)]=1
-
-        bfs(pacific)
-        bfs(atlantic)
-
+        # Collect cells reachable by both oceans
         result = []
-
-        for r in range(ROWS):
-            for c in range(COLS):
-                if (r,c) in pacific and (r,c) in atlantic:
-                    result.append([r,c])
+        for i in range(m):
+            for j in range(n):
+                if pacific[i][j] and atlantic[i][j]:
+                    result.append([i, j])
 
         return result
-           
-                
-
-
-        

@@ -1,55 +1,38 @@
+from typing import List
 
-# Time Complexity : O(n*m)
-# Space Complexity : O(n*m)
 class Solution:
-
+    # Time Complexity : O(n*m)
+    # space Complexity : O(n*m) 
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+        # Get number of rows (m) and columns (n)
+        m = len(grid)
+        n = len(grid[0]) if m > 0 else 0
 
-        ROWS = len(grid)
-        COLS = len(grid[0])
+        # Track the maximum island area found
+        max_area = 0
 
-        directions = [[-1,0],[0,1],[1,0],[0,-1]]
-
-        maxArea = 0 
-
-        def bfs(r,c):
-            q = deque()
-            q.append((r,c))
-            grid[r][c] = 0 
-
-            area = 1
-
-            while q:
-                r,c = q.popleft()
-                for dr,dc in directions:
-                    nr = r + dr
-                    nc = c + dc
-                    if (nr<0 or nr>=ROWS or nc<0 or nc>=COLS or grid[nr][nc] == 0):
-                        continue
-                    grid[nr][nc] = 0 
-                    area += 1
-                    q.append((nr,nc))
-            return area 
-    
-
-        def dfs(r,c):
-            if(r<0 or r>=ROWS or c<0 or c>=COLS or grid[r][c] == 0):
+        # Helper function: DFS to compute area of island starting at (x, y)
+        def dfs(x: int, y: int) -> int:
+            # If out of bounds or water (0), this cell contributes 0 area
+            if x < 0 or x >= m or y < 0 or y >= n or grid[x][y] != 1:
                 return 0
-            
-            grid[r][c] = 0 
-            area = 1
-            for dr,dc in directions:
-                area += dfs(r+dr,c+dc)
-            return area 
+            # Mark this cell as visited by setting it to 0
+            grid[x][y] = 0
+            # 1 for this cell + explore all 4 directions
+            return (1 + dfs(x+1, y)
+                      + dfs(x-1, y)
+                      + dfs(x, y+1)
+                      + dfs(x, y-1))
 
+        # Iterate over every cell in the grid
+        for i in range(m):
+            for j in range(n):
+                # If we found an unvisited land cell (1), start a DFS
+                if grid[i][j] == 1:
+                    # Get the full island's area
+                    area = dfs(i, j)
+                    # Update max_area if this island is larger
+                    if area > max_area:
+                        max_area = area
 
-        for r in range(ROWS):
-            for c in range(COLS):
-                if grid[r][c] == 1:
-                    #area = dfs(r,c)
-                    area = bfs(r,c)
-                    if area > maxArea:
-                        maxArea = area 
-
-        return maxArea
-        
+        return max_area

@@ -25,6 +25,8 @@
 
 - Course Scheduling [[Problem Statement](https://leetcode.com/problems/course-schedule/) | [Python Solution](/CompetitiveProgramming/Graph/courseScheduling-1.py)] <sub> (Diff : Medium, Topics : Depth First Search, Breadth First Search, Graph, Topological Sort )</sub>
 
+- Course Scheduling-2 [[Problem Statement](https://leetcode.com/problems/course-schedule-ii/) | [Python Solution](/CompetitiveProgramming/Graph/courseScheduling-2.py)]
+
 - Topological Sorting [[Concept](https://www.geeksforgeeks.org/topological-sorting/) | [Problem Statement](https://practice.geeksforgeeks.org/problems/topological-sort/1) | [Python Solution - Topological Sort using DFS](/CompetitiveProgramming/Graph/topologicalSortUsingDFS.py) | [Python Solution - Topological Sort using BFS](/CompetitiveProgramming/Graph/topologicalSortUsingBFS.py)] <sub> (Diff : Medium, Expected Time Complexity : O(V+E), Expected Space Complexity : O(V))</sub>
 
 - No of Islands [[Problem Statement](https://leetcode.com/problems/number-of-islands/) | [Python Solution](/CompetitiveProgramming/Graph/noOfIslands.py)] <sub> (Diff : Medium)</sub>
@@ -34,6 +36,10 @@
 - Max Area of Island [[Problem Statement](https://leetcode.com/problems/max-area-of-island/description/) | [Python Solution](/CompetitiveProgramming/Graph/maxAreaOfIsland.py)] <sub> (Diff : Medium)</sub>
 
 - Rotting Oranges [[Problem Statement](https://leetcode.com/problems/rotting-oranges/description/) | [Python Solution](/CompetitiveProgramming/Graph/rottingOranges.py)] <sub> (Diff : Medium)</sub>
+
+- Islands and Treasure [[Problem Statement](https://neetcode.io/problems/islands-and-treasure?list=neetcode150) | [Python Solution](/CompetitiveProgramming/Graph/islandsAndTreasures.py)] <sub> (Diff : Medium)</sub>
+
+- Surrounded Regions [[Problem Statement](https://leetcode.com/problems/surrounded-regions/) | [Python Solution](/CompetitiveProgramming/Graph/surroundedRegions.py)] <sub> (Diff : Medium)</sub>
 
 - Is Graph Bipartite [[Concept](https://www.geeksforgeeks.org/bipartite-graph/) | [Problem Statement](https://leetcode.com/problems/is-graph-bipartite/) | [Python Solution using DFS](/CompetitiveProgramming/Graph/checkIfGraphIsBipartitebfs.py) | [Python Solution using BFS](/CompetitiveProgramming/Graph/checkIfGraphIsBipartiteDFS.py)] <sub> (Diff : Medium)</sub>
 

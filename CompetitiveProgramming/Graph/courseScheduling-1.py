@@ -1,81 +1,37 @@
-from collections import defaultdict
+from collections import defaultdict, deque
 
 class Solution:
 
-    # Using DFS
-    # Time Complexity : O(E+V)
-    # Space Complexity : O(E+V)
-    def canFinishDFS(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+    # Time Complexity: O(V+E)
+    # Space Complexity : O(V+E)
+    def canFinish(numCourses, prerequisites):
+        # Build a graph of all the courses and their prerequisites
+        graph = defaultdict(list)  # This will store which courses depend on each course
+        in_degree = [0] * numCourses  # This keeps track of how many prereqs each course has
 
-        preRequisiteMapping = defaultdict(list)
+        # Go through each prereq pair and fill out the graph
+        for course, prereq in prerequisites:
+            graph[prereq].append(course)  # Add an arrow from prereq -> course
+            in_degree[course] += 1        # course has one more thing it needs before it can be taken
 
-        visitedPathNodes = {}
+        # Start with courses that don't need any prerequisites
+        queue = deque()
+        for i in range(numCourses):
+            if in_degree[i] == 0:  # This course can be taken right away
+                queue.append(i)
 
-        for course,prerequisite in prerequisites:
-            preRequisiteMapping[course].append(prerequisite)
+        # Count how many courses we were able to "finish"
+        finished_courses = 0
 
-        def dfs(course):
+        while queue:
+            current = queue.popleft()  # Take a course that can be done now
+            finished_courses += 1      # Yay, one more course done!
 
-            if course in visitedPathNodes:
-                return False
-            
-            if preRequisiteMapping[course] == []:
-                return True
+            # Go through every course that depends on the current course
+            for neighbor in graph[current]:
+                in_degree[neighbor] -= 1  # One less prereq to wait for
+                if in_degree[neighbor] == 0:
+                    queue.append(neighbor)  # Now we can take this course too!
 
-            visitedPathNodes[course] = 1 
-            for prerequisite in preRequisiteMapping[course]:
-                if not dfs(prerequisite):
-                    return False
-            del visitedPathNodes[course]
-            preRequisiteMapping[course] = []
-            return True 
-
-
-        for n in range(numCourses):
-            if not dfs(n):
-                return False
-        return True 
-
-    # Using Topological Sort / Kahn's algorithm
-    # Time Complexity : O(E+V)
-    # Space Complexity : O(E+V)
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-
-        indegrees = [0] * numCourses
-        prerequisitesMapping = defaultdict(list)
-
-        # Calculate the indegree for each vertex(course)
-        for course,prerequisite in prerequisites:
-            indegrees[prerequisite] += 1
-            prerequisitesMapping[course].append(prerequisite)
-
-        q = deque()
-
-        # Collect all courses with indegrees as zero
-        for c in range(numCourses):
-            if indegrees[c] == 0:
-                q.append(c)
-
-        result = []
-    
-        while q:
-            course = q.popleft()
-            result.append(course) 
-            # Reducing the indegrees of each neighbor 
-            # and determining if the neighbor has no indegrees
-            for prerequisite in prerequisitesMapping[course]:
-                indegrees[prerequisite]-=1
-                if indegrees[prerequisite] == 0:
-                    q.append(prerequisite)
-
-        # result variable hold the topological sort
-        # If the no of vertices in result is less than the total vertices 
-        # Then there is a cycle in the graph
-        return True if len(result) == numCourses else False
-            
-        
-
-
-
-
-        
+        # If we finished all the courses, return True
+        return finished_courses == numCourses

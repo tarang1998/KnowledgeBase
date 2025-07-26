@@ -1,66 +1,36 @@
-# Using Depth First Search
-# 1. Iterate through each element of the grid 
-# 2. If the element is "1", perform DFS to recursively visit every 1 that is reachable (signifying a single island)
-# 3. Mark the visited grid cell : "1" -> "0"
-# 4. The no of groups of 1 correspond to the no of island 
-# Time Complexity : O(n * m)
-# Space Complexity : O(n * m)
-
-
-# Using Breadth First Search
-# 1. Iterate through each element of the grid 
-# 2. If the cell is marked "1" perform BFS
-# 3. Mark the visited grid cell : "1" -> "0"
-# Time Complexity : O(n * m)
-# Space Complexity : O(n * m)
-
+from typing import List
 
 class Solution:
-    
-    
+    # Time Complexity : O(n*m)
+    # space Complexity : O(n*m) 
     def numIslands(self, grid: List[List[str]]) -> int:
+        # Number of rows (m) and columns (n)
+        m = len(grid)
+        n = len(grid[0]) if m > 0 else 0
 
-        ROWS = len(grid)
-        COLS = len(grid[1])
+        # Count of islands found
+        island_count = 0
 
-        islandCount = 0 
-
-        directions = [[-1,0],[0,1],[1,0],[0,-1]]
-
-
-        def dfs(r,c):
-            if(r<0 or r>=ROWS or c<0 or c>=COLS or grid[r][c] == "0"):
+        # DFS helper function to mark all connected land as visited
+        def dfs(x: int, y: int):
+            # Check boundary conditions and only proceed if cell is land ('1')
+            if x < 0 or x >= m or y < 0 or y >= n or grid[x][y] != '1':
                 return
-            
-            grid[r][c] = "0"
-            for dr,dc in directions:
-                dfs(r+dr,c+dc)
+            # Mark this cell as visited by changing '1' to '0'
+            grid[x][y] = '0'
 
+            # Recursively explore four directions: up, down, left, right
+            dfs(x - 1, y)  # up
+            dfs(x + 1, y)  # down
+            dfs(x, y - 1)  # left
+            dfs(x, y + 1)  # right
 
-        def bfs(r,c):
-            q = deque()
-            q.append((r,c))
-            grid[r][c] = "0"
+        # Iterate through every cell in the grid
+        for i in range(m):
+            for j in range(n):
+                # If we find unvisited land ('1'), we found a new island
+                if grid[i][j] == '1':
+                    island_count += 1  # Increment island counter
+                    dfs(i, j)           # Use DFS to mark the whole island
 
-            while q:
-                r,c = q.popleft()
-                for dr,dc in directions:
-                    nr,nc = r + dr,c + dc
-                    if(nr<0 or nr>=ROWS or nc<0 or nc>=COLS or grid[nr][nc] == "0"):
-                        continue
-                    q.append((nr,nc))
-                    grid[nr][nc] = "0"
-                    
-            
-        
-        for r in range(ROWS):
-            for c in range(COLS):
-                if(grid[r][c] == "1"):
-                    islandCount += 1
-                    dfs(r,c)
-                            
-        return islandCount
-    
-
-
-    
+        return island_count

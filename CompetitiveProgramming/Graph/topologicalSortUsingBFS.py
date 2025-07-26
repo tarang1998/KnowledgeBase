@@ -1,96 +1,38 @@
-#https://practice.geeksforgeeks.org/problems/topological-sort/1
+
+    
+from collections import deque
+from typing import List
 
 class Solution:
+    # Time Complexity : O(V + E) : We visit each vertex once and traverse each edge once
+    # Space Complexity : O(V + E) : Storing adjacency lists and in-degree counts 
+
+    def topoSort(self, V: int, edges: List[List[int]]) -> List[int]:
+        # Step 1: Build adjacency list and compute in-degrees
+        adj = [[] for _ in range(V)]
+        indegree = [0] * V        # in-degree count for each node
+        for u, v in edges:
+            adj[u].append(v)      # edge u → v
+            indegree[v] += 1      # v has one more incoming edge
     
-    #Function to return list containing vertices in Topological order.
+        # Step 2: Initialize queue with all nodes having in-degree = 0
+        queue = deque([i for i in range(V) if indegree[i] == 0])
+        topo_order = []           # stores our topological ordering
     
-    visited = {}
+        # Step 3: Process nodes with zero in-degree
+        while queue:
+            node = queue.popleft()
+            topo_order.append(node)
+            # Decrease in-degree of all neighbors
+            for nei in adj[node]:
+                indegree[nei] -= 1
+                # If a neighbor's in-degree becomes 0, it's ready to add
+                if indegree[nei] == 0:
+                    queue.append(nei)
     
-    stack = []
-                
-  
-    def topoSort(self, V, adj):
-        
-        indegree = {}
-        
-        stack = []
-        
-        topo = []
-         
-        for vertex in range(V):
-            
-            if vertex not in indegree:
-                    indegree[vertex] = 0
-            
-            for adjVertex in adj[vertex]:
-            
-                if adjVertex in indegree:
-                    indegree[adjVertex] += 1
-                else:
-                    indegree[adjVertex] = 1
-                    
-
-      
-        
-        for vertex,indegreeCount in indegree.items():
-        
-            if(indegreeCount == 0 ):
-                
-                stack.append(vertex)
-                
-        while(len(stack) != 0 ):
-            
-            firstvertex = stack.pop(0)
-            topo.append(firstvertex)
-
-            
-            adjNodes = adj[firstvertex]
-            
-            for adjNode in adjNodes:
-                indegree[adjNode] -= 1
-                if(indegree[adjNode] == 0 ):
-                    stack.append(adjNode)
-                    
-        return topo
-
-
-
-#{ 
- # Driver Code Starts
-# Driver Program
-
-import sys
-sys.setrecursionlimit(10**6)
-        
-def check(graph, N, res):
-    if N!=len(res):
-        return False
-    map=[0]*N
-    for i in range(N):
-        map[res[i]]=i
-    for i in range(N):
-        for v in graph[i]:
-            if map[i] > map[v]:
-                return False
-    return True
-
-if __name__=='__main__':
-    t = int(input())
-    for i in range(t):
-        e,N = list(map(int, input().strip().split()))
-        adj = [[] for i in range(N)]
-        
-        for i in range(e):
-            u,v=map(int,input().split())
-            adj[u].append(v)
-            
-        ob = Solution()
-        
-        res = ob.topoSort(N, adj)
-        
-        if check(adj, N, res):
-            print(1)
-        else:
-            print(0)
-
-# } Driver Code Ends
+        # Step 4: Check if graph had a cycle
+        if len(topo_order) != V:
+            # Not a DAG: cycle detected
+            return []  # Or raise an error based on problem requirement
+    
+        return topo_order

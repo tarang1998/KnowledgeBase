@@ -3,119 +3,42 @@
 # Cant be used on graphs with negative weight cycles (any negative edge)
 
 
-import heapq as hq 
+
+import heapq  # Python library for heap operations (priority queue)
 
 class Solution:
-
-    #Dijkstras Agorithms using priority Queue
-    # Time Complexity : O(ElogV)
-    # Space Complexity : O(V)
-    def dijkstra(self, V, adj, S):     
-
-        # Create the min heap 
-        pq = []
-        hq.heapify(pq)
-        
-        # Initialize the distance of the nodes from the source
+    # Time Complexity is O((V + E) log V) where V is the number of vertices and E is the number of edges
+    # Space Complexity is O(V) for the distance array and O(V + E) for the adjacency list
+    def dijkstra(self, V, edges, src):
+        # Step 1: Build adjacency list from edge list
+        # adj[u] = [(neighbor, weight), ...]
+        adj = [[] for _ in range(V)]
+        for u, v, w in edges:
+            adj[u].append((v, w))
+            adj[v].append((u, w))  # because graph is undirected
+    
+        # Step 2: Initialize distances array with "infinity"
         dist = [float('inf')] * V
-        dist[S] = 0 
-
-        # Push the only known distance : (0,S)
-        hq.heappush(pq,[0,S])
-        
-        while(pq):
-            
-            distance, node = hq.heappop(pq)
-
+        dist[src] = 0  # Distance to source is 0
     
-            for neighbour in adj[node]:
-                
-                neighbourDistance = neighbour[1]
-                neighbourNode = neighbour[0]
-                
-                if(distance + neighbourDistance < dist[neighbourNode] ):
-                    
-                    dist[neighbourNode] = distance + neighbourDistance
-                    hq.heappush(pq,[distance + neighbourDistance,neighbourNode])
-
+        # Step 3: Min-heap to pick the node with smallest distance so far
+        min_heap = [(0, src)]  # (distance, node)
+    
+        # Step 4: While there are nodes to process
+        while min_heap:
+            d_u, u = heapq.heappop(min_heap)
+            # If we've already found a better path before, skip
+            if d_u > dist[u]:
+                continue
+    
+            # Step 5: Explore all neighbors of current node
+            for v, weight in adj[u]:
+                new_dist = d_u + weight
+                # If going via u gives a shorter path to v, update it
+                if new_dist < dist[v]:
+                    dist[v] = new_dist
+                    heapq.heappush(min_heap, (new_dist, v))
+    
+        # Step 6: Return distances array
         return dist
-
-    
-    # Time Complexity : O(V^2)
-    # Space Complexity : O(V)
-    def dijkstra1(self, V, adj, S):
-
-        def findVertexWithMinDistanceFromSource(self,spt,distance):
-            minDistance = float('inf')
-            vertex = None
-            for i in range(len(distance)):
-                if((i not in spt) and (distance[i] < minDistance)):
-                    minDistance = distance[i]
-                    vertex = i            
-            return vertex
-
-        
-        # An array storing the shortest distance from the source 
-        # Source vertex index is set to zero 
-        # Rest vertices are set to infinity
-        distanceFromSource = []
-        
-        for i in range(V):
             
-            if (i == S):
-                distanceFromSource.append(0)
-            else:
-                distanceFromSource.append(float('inf'))
-           
-        #Shortest path tree     
-        spt = {}
-        
-        # Need to fit every vertix in the shortest path Tree
-        for count in range(V):
-            
-            vertex = self.findVertexWithMinDistanceFromSource(spt,distanceFromSource)
-            spt[vertex] = 1
-                
-            adjNeighbours = adj[vertex]
-            
-            for adjNeighbour in adjNeighbours:
-                
-                v = adjNeighbour[0]
-                weight = adjNeighbour[1]
-                
-                # Update distance if distance through the vertex node is less than the current distance
-                if(distanceFromSource[v] > distanceFromSource[vertex] + weight):
-                
-                    distanceFromSource[v] = distanceFromSource[vertex] + weight
-                
-                
-        return distanceFromSource
-                
-            
-                
-            
- 
-#Driver Code Starts
-#Initial Template for Python 3
-import atexit
-import io
-import sys
-
-
-if __name__ == '__main__':
-    test_cases = int(input())
-    for cases in range(test_cases):
-        V,E = map(int,input().strip().split())
-        adj = [[] for i in range(V)]
-        for i in range(E):
-            u,v,w = map(int,input().strip().split())
-            adj[u].append([v,w])
-            adj[v].append([u,w])
-        S=int(input())
-        ob = Solution()
-        
-        res = ob.dijkstra(V,adj,S)
-        for i in res:
-            print(i,end=" ")
-        print()
-# } Driver Code Ends
