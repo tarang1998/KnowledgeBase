@@ -53,6 +53,8 @@
 
 - Number of Connected Components In An Undirected Graph [[Problem Statement](https://neetcode.io/problems/count-connected-components) | [Python Solution](/CompetitiveProgramming/Graph/connectedcomponentsinanundirectedgraph.py)] <sub> (Diff : Medium)</sub>
 
+- Redundant Connections [[Problem Statement](https://leetcode.com/problems/redundant-connection/) | [Python Solution](/CompetitiveProgramming/Graph/redundantConnections.py)]
+
 - Find Closest Node to Given Two Nodes [[Problem Statement](https://leetcode.com/problems/find-closest-node-to-given-two-nodes) | [Python Solution](/CompetitiveProgramming/Graph/2359.py)]
 
 ---

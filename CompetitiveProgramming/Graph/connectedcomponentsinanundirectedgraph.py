@@ -1,99 +1,86 @@
 from collections import defaultdict
 
 class Solution:
+    def countComponents(self, n, edges):
+        """
+        Time Complexity: O(n + e) where n = number of nodes, e = number of edges
+        Space Complexity: O(n + e) for the graph and visited set
+        """
 
-    # Using Union - Find
-    def countComponents(self, n: int, edges: List[List[int]]) -> int:
-        # Keeping a record of parents of each node 
-        # Initially each node is its own parent 
-        parent = [node for node in range(n)]
+        # Step 1: Build the graph using adjacency list
+        graph = defaultdict(list)
+        for u, v in edges:
+            graph[u].append(v)
+            graph[v].append(u)  # because the graph is undirected
 
-        # No of nodes in the connected component
-        # The root of a graph would have a rank equal to no of connected nodes  
-        rank = [1 for node in range(n)]
+        visited = set()  # Keeps track of visited nodes
+        components = 0   # This will count the connected groups
 
-        # Finding the parent of the node 
-        def find(node):
-
-            # Looping till the root node is found 
-            while parent[node]!=node:
-                parent[node] = parent[parent[node]] # Path compression to reach the root faster
-                node = parent[node]
-            
-            return node 
-        
-        def union(node1,node2):
-
-            # Finding the root of each parent 
-            root1 = find(node1)
-            root2 = find(node2)
-
-            # if the roots are the same , they belong to the same connected graph
-            # no new graph component is found , returning 0 
-            if root1 == root2:
-                return 0 
-            
-            # Increasing the rank and assigning as parent based on the root with the larger rank 
-            # New graph component found, returning 1
-            if rank[root2] > rank[root1]:
-                parent[root1] = root2
-                rank[root2] += rank[root1]
-            else:
-                parent[root2] = root1
-                rank[root1] += root2
-            return 1 
-        
-        result = n 
-
-        for node1,node2 in edges:
-            res -= union(node1, node2)
-
-        return result 
-
-
-            
-
-
-
-
-
-    # Time Complexity : O(E+V)
-    # Space Complexity : O(E+V)
-    def countComponentsDFS(self, n: int, edges: List[List[int]]) -> int:
-
-        neighbors = defaultdict(list)
-        visited = {}
-
-        count = 0 
-
-        for edge in edges:
-            node1 = edge[0]
-            node2 = edge[1]
-        
-            neighbors[node1].append(node2)
-            neighbors[node2].append(node1)
-
-
+        # Step 2: DFS function to explore one component
         def dfs(node):
+            visited.add(node)  # Mark the node as visited
+            for neighbor in graph[node]:
+                if neighbor not in visited:
+                    dfs(neighbor)  # Visit all neighbors recursively
 
-            if node in visited:
-                return 
-            
-            visited[node] = 1
+        # Step 3: Loop through all nodes
+        for i in range(n):
+            if i not in visited:
+                dfs(i)           # New component found, start DFS
+                components += 1  # Increase component count
 
-            for neighbor in neighbors[node]:
-                dfs(neighbor)
+        return components  # Total number of connected components
+    
 
 
-        for node in range(n):
-            if node in visited:
-                continue 
+
+    def countComponentsUnionFind(self, n, edges):
+        """
+        Time Complexity: O(α(n)) ≈ O(1) per operation, total ~ O(n + e)
+        Space Complexity: O(n) for parent and rank arrays
+        """
+
+        # Step 1: Initialize each node to be its own parent
+        parent = [i for i in range(n)]
+        rank = [1] * n  # Used to keep tree flat
+
+        # Step 2: Define the find function with path compression
+        def find(x):
+            if parent[x] != x:
+                parent[x] = find(parent[x])  # Path compression
+            return parent[x]
+
+        # Step 3: Define the union function with union by rank
+        def union(x, y):
+            rootX = find(x)
+            rootY = find(y)
+
+            if rootX == rootY:
+                return False  # Already in the same group
+
+            # Union by rank (attach smaller tree under bigger one)
+            if rank[rootX] < rank[rootY]:
+                parent[rootX] = rootY
+            elif rank[rootX] > rank[rootY]:
+                parent[rootY] = rootX
             else:
-                count += 1 
-                dfs(node)
-                
+                parent[rootY] = rootX
+                rank[rootX] += 1
 
-        return count 
+            return True  # Union successful
+
+        # Step 4: Process all edges
+        components = n  # Start with all nodes as separate components
+        for u, v in edges:
+            if union(u, v):     # If union is successful, reduce component count
+                components -= 1
+
+        return components  # Final number of connected components
 
 
-        
+
+            
+
+
+
+

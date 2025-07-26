@@ -1,40 +1,39 @@
 from collections import defaultdict
 
 class Solution:
-    visited = None
-    neighbors = None
+    def validTree(self, n, edges):
+        """
+        Time Complexity: O(n + e) where n = number of nodes, e = number of edges
+        Space Complexity: O(n + e) for graph and visited set
+        """
 
-    def dfs(self, parent, node):
-        if node in self.visited:
-                return False
-        self.visited[node] = 1
-        for neighbor in self.neighbors[node]:
-            if neighbor == parent:
-                continue            
-            if not self.dfs(node, neighbor):
-                return False
-        return True 
-            
-    # Time Complexity : O(E+V)
-    # Space Complexity : O(E+V)
-    
-    def validTree(self, n: int, edges: List[List[int]]) -> bool:
-        if len(edges) > (n - 1):
-            return False
+        # Step 1: A tree must have exactly n - 1 edges
+        if len(edges) != n - 1:
+            return False  # Not enough or too many edges to form a tree
 
-        self.visited = {}
-        self.neighbors = defaultdict(list)
+        # Step 2: Build the undirected graph
+        graph = defaultdict(list)
+        for u, v in edges:
+            graph[u].append(v)
+            graph[v].append(u)
 
-        for edge in edges:
-            node1 = edge[0]
-            node2 = edge[1]
-            self.neighbors[node1].append(node2)
-            self.neighbors[node2].append(node1)
+        visited = set()  # Keeps track of visited nodes
 
-        # To be a valid tree, 
-        # The graph should not have any cycles and must be connected
-        return self.dfs(None,0) and len(self.visited) == n 
-          
+        # Step 3: DFS to check for cycles
+        def dfs(node, parent):
+            visited.add(node)  # Mark current node as visited
+            for neighbor in graph[node]:
+                if neighbor == parent:
+                    continue  # Don't go back to the parent
+                if neighbor in visited:
+                    return False  # Cycle detected
+                if not dfs(neighbor, node):
+                    return False
+            return True  # All neighbors are okay
 
-            
+        # Start DFS from node 0
+        if not dfs(0, -1):
+            return False  # Cycle found
 
+        # Step 4: After DFS, check if all nodes were visited (connected)
+        return len(visited) == n  # True if connected, False if some nodes left out
