@@ -1,7 +1,7 @@
 class Solution:
     def findRedundantConnection(self, edges):
         """
-        Time Complexity: O(n * α(n)), where α(n) is the inverse Ackermann function ~ O(1)
+        Time Complexity: O(n)
         Space Complexity: O(n) for parent and rank arrays
         """
 
