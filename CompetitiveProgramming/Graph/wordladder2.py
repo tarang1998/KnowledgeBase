@@ -1,125 +1,64 @@
-from collections import deque, defaultdict 
+from collections import defaultdict, deque
+from typing import List
 
 class Solution:
-    
+    # Time Complexity: O(N * L^2), where N = number of words, L = word length
+    # Space Complexity: O(N * L)
+  
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
-        
-        #if end word not in list return []
+        # If the endWord is not in the word list, there's no way to reach it
         if endWord not in wordList:
             return []
-        
-        d = defaultdict(list)
-        visited = {}
-        
-        wordList.append(beginWord)
-        
+
+        wordList.append(beginWord)  # Ensure beginWord is also in wordList
+
+        # Step 1: Build a pattern map
+        # Each pattern like h*t maps to all words that match it like "hot", "hat"
+        patterns = defaultdict(list)
         for word in wordList:
-            visited[word] = 0
             for i in range(len(word)):
-                d[word[:i]+"*"+word[i+1:]].append(word)
-                
-        
-        ans = []
-        
-        # Creating a graph from the endWord
-        graph = defaultdict(list)
-        nodelevel = defaultdict(list)
-        
-        bfsqueue = [(endWord,0)]
-        visited[endWord] = 1
-        
-        while(len(bfsqueue) != 0):
-            
-            wordNode = bfsqueue.pop(0)
-            
-            ele = wordNode[0]
-            level = wordNode[1]
-            nodelevel[level].append(ele)
-            
-            if(ele == beginWord):
-                break
-            
-            for i in range(len(ele)):
-                
-                nextElePattern = ele[:i] + '*' + ele[i+1:]
-                
-                nextWords = d[nextElePattern]
-                
-                for nextWord in nextWords:
-                    if(visited[nextWord] == 0):
-                        visited[nextWord] = 1
-                        graph[ele].append(nextWord)
-                        graph[nextWord].append(ele)
-                        bfsqueue.append((nextWord,level+1))
-              
-                            
-        #Backtracking from the beginning Word
-    
-    
-        def dfs(nodeWord,result,level):
-            
-            if(nodeWord == endWord):
-                ans.append(result)
+                pattern = word[:i] + "*" + word[i+1:]
+                patterns[pattern].append(word)
+
+        # Step 2: Breadth-First Search (BFS) to build graph
+        q = deque([beginWord])           # Queue for BFS
+        visited = set([beginWord])       # Set to avoid revisiting
+        parents = defaultdict(list)      # Store all parents that lead to a word
+
+        found = False                    # Flag to stop when endWord is reached
+
+        while q and not found:
+            local_visited = set()        # Words visited at current level
+            for _ in range(len(q)):
+                word = q.popleft()
+                for i in range(len(word)):
+                    pattern = word[:i] + "*" + word[i+1:]
+                    for neigh in patterns[pattern]:
+                        if neigh not in visited:
+                            if neigh not in local_visited:
+                                local_visited.add(neigh)
+                                q.append(neigh)
+                            # Add this word as a parent for backtracking later
+                            parents[neigh].append(word)
+                            if neigh == endWord:
+                                found = True
+            visited.update(local_visited)  # Mark this level's words as visited
+
+        # If we never found the endWord
+        if not found:
+            return []
+
+        # Step 3: Backtrack from endWord to beginWord using parent links
+        res = []
+
+        def backtrack(word, path):
+            # Base case: we reached the beginWord
+            if word == beginWord:
+                res.append([beginWord] + path[::-1])
                 return
-            
-            nodesInPreviousLevel = nodelevel[level-1]
-            possibleNodesInPreviousLevel = []
-            
-            
-            for i in range(len(nodeWord)):
+            # Recursively backtrack all parents
+            for parent in parents[word]:
+                backtrack(parent, path + [word])
 
-                nextWordPattern = nodeWord[:i]+"*"+nodeWord[i+1:]
-
-                nextWords = d[nextWordPattern]
-                possibleNodesInPreviousLevel.extend(nextWords)
-                    
-                    
-
-            for i in nodesInPreviousLevel:
-                if(i in possibleNodesInPreviousLevel and i not in graph[nodeWord]):
-                    
-                    graph[nodeWord].append(i)
-                    graph[i].append(nodeWord)
-                    
-     
-            
-            adjNodes = graph[nodeWord]
-            
-            for adjNode in adjNodes:
-                if(adjNode in nodelevel[level-1]):
-                    temp = result.copy()
-                    temp.append(adjNode)
-                
-                    dfs(adjNode,temp,level-1)
-                
-                
-            
-        
-        dfs(beginWord,[beginWord],len(nodelevel)-1)
-        
-        return ans
-        
-        
-        
-        
-            
-                    
-                    
-                
-                
-                
-            
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-			
-        
-        
-        
+        backtrack(endWord, [])  # Start backtracking from the end
+        return res
