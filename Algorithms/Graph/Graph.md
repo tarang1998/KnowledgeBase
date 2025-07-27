@@ -59,7 +59,7 @@
 
 ---
 
-- Word Ladder [[Problem Statement](https://leetcode.com/problems/word-ladder/) | [Python Solution](/CompetitiveProgramming/Graph/wordladder.py)]
+- Word Ladder [[Problem Statement](https://leetcode.com/problems/word-ladder/) | [Python Solution](/CompetitiveProgramming/Graph/wordLadder.py)]
 
 - Word Ladder 2 [[Problem Statement](https://leetcode.com/problems/word-ladder-ii/) | [Python Solution](/CompetitiveProgramming/Graph/wordladder2.py)] <sub> (Diff : Hard , Topics : String, Hash Table, Backtracking, Breadth-First-Search)</sub>
 
