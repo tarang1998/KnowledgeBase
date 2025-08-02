@@ -1,66 +1,30 @@
-"""
-Definition of Interval:
-class Interval(object):
-    def __init__(self, start, end):
-        self.start = start
-        self.end = end
-"""
-
-import heapq
-
 class Solution:
+    # Time Complexity: O(n log n) — because we sort both start and end arrays
+    # Space Complexity: O(1) — no extra space (ignoring sorting)
 
-    def minMeetingRooms(self, intervals: List[Interval]) -> int:
+    def minMeetingRooms(self, start: List[int], end: List[int]) -> int:
+        # Step 1: Sort start and end times
+        start.sort()
+        end.sort()
         
-        n = len(intervals)
+        n = len(start)
+        rooms = 0        # Current rooms in use
+        max_rooms = 0    # Max rooms ever used
+        i = 0            # Pointer for start[]
+        j = 0            # Pointer for end[]
 
-        if n == 0:
-            return 0 
-
-        intervals = sorted(intervals, key = lambda x : x.end)
-
-        minHeap = []
-
-        maxRooms = 0 
-
-        for interval in intervals:
-            if minHeap and minHeap[0] <= interval.start:
-                heapq.heappop(minHeap)
-            heapq.heappush(minHeap, interval.end)
-            maxRooms = max(maxRooms,len(minHeap))
-        return maxRooms
-
-
-    def minMeetingRooms1(self, intervals: List[Interval]) -> int:
-
-        n = len(intervals)
-
-        if n == 0:
-            return 0 
-
-        start = [interval.start for interval in intervals]
-        end = [interval.end for interval in intervals]
-
-        start = sorted(start)
-        end = sorted(end)
-
-        startPointer = 1 
-        endPointer = 0
-
-
-        maxResult = 1 
-        count = 1 
-
-        while startPointer <= n-1 and endPointer <= n-1:
-            
-            if (start[startPointer] < end[endPointer]):
-                startPointer += 1
+        # Step 2: Traverse all start times
+        while i < n:
+            if start[i] < end[j]:
+                # A meeting starts before the earliest one ends → need new room
+                rooms += 1
+                i += 1
             else:
-                endPointer += 1
+                # A meeting has ended → free up a room
+                rooms -= 1
+                j += 1
 
-            count = startPointer - endPointer
-            maxResult = max(maxResult, count) 
+            # Track max rooms used at any point
+            max_rooms = max(max_rooms, rooms)
 
-        return maxResult
-        
-        
+        return max_rooms

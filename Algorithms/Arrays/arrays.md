@@ -48,8 +48,6 @@
 
 - Sort Colors [[Problem Solution](https://leetcode.com/problems/sort-colors/) | [Python Solution](/CompetitiveProgramming/Arrays/sortColors.py)]
 
-- Merge Intervals [[Problem Statement](https://leetcode.com/problems/merge-intervals/) | [Python Solution](/CompetitiveProgramming/Arrays/mergeIntervals.py)]
-
 - Find all Duplicates in an Array [[Problem Statement](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Python Solution](/CompetitiveProgramming/Arrays/findAllDuplicatesInAnArray.py)]
 
 - Minimum Time Difference [[Problem Statement](https://leetcode.com/problems/minimum-time-difference/) | [Python Solution](/CompetitiveProgramming/Arrays/minimumTimeDifference.py)]

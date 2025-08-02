@@ -1,29 +1,16 @@
-"""
-Definition of Interval:
-class Interval(object):
-    def __init__(self, start, end):
-        self.start = start
-        self.end = end
-"""
-
 class Solution:
+    # Time Complexity: O(n log n) — because we sort the intervals
+    # Space Complexity: O(1) — no extra space used (ignoring the sort)
 
-    # Time Complexity : O(nlogn)
-    def canAttendMeetings(self, intervals: List[Interval]) -> bool:
+    def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
+        # Step 1: Sort meetings by start time
+        intervals.sort(key=lambda x: x[0])
 
-        if len(intervals) == 0:
-            return True
+        # Step 2: Check if any two meetings overlap
+        for i in range(1, len(intervals)):
+            # If the current meeting starts before the previous one ends — conflict!
+            if intervals[i][0] < intervals[i-1][1]:
+                return False  # Cannot attend both meetings
 
-        intervals = sorted(intervals, key = lambda x: x.start)
-
-        startTime = intervals[0].start
-        endTime = intervals[0].end
-
-        for i in range(1,len(intervals)):
-
-            if endTime > intervals[i].start:
-                return False
-
-            endTime = intervals[i].end
-
+        # If we get here, all meetings are non-overlapping
         return True
