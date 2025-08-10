@@ -19,7 +19,7 @@ class Solution:
             # If a triplet matches target[i] in some position, mark it
             for i in range(3):
                 if triplet[i] == target[i]:
-                    found[i] = found[i] or True
+                    found[i] = True
 
         # If all three positions are satisfied, return True
         return all(found)        
